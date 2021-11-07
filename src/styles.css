@@ -1907,7 +1907,7 @@ body {
         height: 40vh;
         width: 100%;
         margin-top: 5vh;
-        background-image: url("/assets/img/ABOUTUS01.jpg");
+        background-image: url("/assets/img/ABOUTUS01.jpeg");
         background-size: cover;
         background-position: 0% 31%;
         margin-bottom: -9vh;
@@ -2033,7 +2033,7 @@ body {
         height: 60vh;
         width: 85vh;
         margin-right: 3%;
-        background-image: url("/assets/img/ABOUTUS01.jpg");
+        background-image: url("/assets/img/ABOUTUS01.jpeg");
         background-size: cover;
         background-position: 0% 31%;
     }
@@ -2603,7 +2603,7 @@ body {
 }
 
 .our-nests .place-photo-22 {
-    background-image: url("/assets/img/CanaryIslandsApartments2.jpg");
+    background-image: url("/assets/img/CanaryIslandsApartments2.jpeg");
     background-size: cover;
 }
 
@@ -2743,7 +2743,7 @@ body {
 }
 
 .our-nests .place-photo-50 {
-    background-image: url("/assets/img/TaoyoSuites6.jpg");
+    background-image: url("/assets/img/TaoyoSuites6.jpeg");
     background-size: cover;
 }
 
@@ -2751,44 +2751,44 @@ body {
 
 @media (max-width: 700px) {
     .islands {
-        background-image: url("/assets/img/Islas-general-Cabecero-scaled.jpg");
+        background-image: url("/assets/img/Islas-general-Cabecero-scaled.jpeg");
         background-size: 400%;
     }
 }
 
 @media (min-width: 700px) {
     .islands {
-        background-image: url("/assets/img/ISLANDS_EXPERIENCES.jpg");
+        background-image: url("/assets/img/ISLANDS_EXPERIENCES.jpeg");
         background-size: cover;
     }
 }
 
 .islands .module5 .photo {
-    background-image: url("/assets/img/LA-GRACIOSA01.jpg");
+    background-image: url("/assets/img/LA-GRACIOSA01.jpeg");
 }
 
 .islands .module-islands-1 .bottom-left .photo {
-    background-image: url("/assets/img/ISLANDS_LANZAROTE.jpg");
+    background-image: url("/assets/img/ISLANDS_LANZAROTE.jpeg");
 }
 
 .islands .module-islands-1 .bottom-right .photo {
-    background-image: url("/assets/img/ISLANDS_LA-GRACIOSA.jpg");
+    background-image: url("/assets/img/ISLANDS_LA-GRACIOSA.jpeg");
 }
 
 .islands .module-islands-2 .bottom-left .photo {
-    background-image: url("/assets/img/ISLANDS_LAGOMERA.jpg");
+    background-image: url("/assets/img/ISLANDS_LAGOMERA.jpeg");
 }
 
 .islands .module-islands-2 .bottom-right .photo {
-    background-image: url("/assets/img/ISLANDS_GRANCANARIA.jpg");
+    background-image: url("/assets/img/ISLANDS_GRANCANARIA.jpeg");
 }
 
 .islands .module-islands-3 .bottom-left .photo {
-    background-image: url("/assets/img/ISLANDS_TENERIFE.jpg");
+    background-image: url("/assets/img/ISLANDS_TENERIFE.jpeg");
 }
 
 .islands .module-islands-3 .bottom-right .photo {
-    background-image: url("/assets/img/ISLANDS_LAPALMA.jpg");
+    background-image: url("/assets/img/ISLANDS_LAPALMA.jpeg");
 }
 
 .islands .module-islands-4 .bottom-left .photo {
@@ -2796,7 +2796,7 @@ body {
 }
 
 .islands .module-islands-4 .bottom-right .photo {
-    background-image: url("/assets/img/ISLANDS_FUERTEVENTURA.jpg");
+    background-image: url("/assets/img/ISLANDS_FUERTEVENTURA.jpeg");
 }
 
 /* PLANTILLA */
@@ -3008,7 +3008,7 @@ body {
 
 @media (min-width: 700px) {
     .teletrabajo {
-        background-image: url("/assets/img/FAMARA_BEACH2-2.jpg");
+        background-image: url("/assets/img/FAMARA_BEACH2-2.jpeg");
         background-size: cover;
         background-position: 0% 100%;
     }
@@ -3019,7 +3019,7 @@ body {
 
 @media (max-width: 700px) {
     .teletrabajo {
-        background-image: url("/assets/img/REMOTE06.jpg");
+        background-image: url("/assets/img/REMOTE06.jpeg");
     }
     .teletrabajo .module3 {
         height: auto;
@@ -3071,11 +3071,11 @@ body {
 }
 
 .teletrabajo .module3-1 .bottom-right .photo {
-    background-image: url("/assets/img/REMOTE01.jpg");
+    background-image: url("/assets/img/REMOTE01.jpeg");
 }
 
 .teletrabajo .module-islands-3 .bottom-right .photo {
-    background-image: url("/assets/img/REMOTE03.jpg");
+    background-image: url("/assets/img/REMOTE03.jpeg");
     height: 60vh;
     width: 50vh;
     margin-left: 30px;
@@ -3086,7 +3086,7 @@ body {
 }
 
 .teletrabajo .module4 {
-    background-image: url("/assets/img/ferran-feixas-yMsx7gWEnNU-unsplash-scaled.jpg");
+    background-image: url("/assets/img/ferran-feixas-yMsx7gWEnNU-unsplash-scaled.jpeg");
     background-size: cover;
     background-position: 70% 0%;
     display: none;
@@ -3100,7 +3100,7 @@ body {
 
 @media (max-width: 700px) {
     .about {
-        background-image: url("/assets/img/ABOUTUS02.jpg");
+        background-image: url("/assets/img/ABOUTUS02.jpeg");
         background-size: cover;
         background-position: center;
     }
@@ -3121,7 +3121,7 @@ body {
 }
 
 .about .module5 {
-    background-image: url("/assets/img/Casa-Playa-de-Las-Nieves-Agaete-11142018_112138-scaled.jpg");
+    background-image: url("/assets/img/Casa-Playa-de-Las-Nieves-Agaete-11142018_112138-scaled.jpeg");
     background-size: cover;
 }
 
@@ -3990,134 +3990,134 @@ body {
 }
 
 .discover .grancanaria {
-    background-image: url("/assets/img/ISLANDS_GRANCANARIA-1.jpg");
+    background-image: url("/assets/img/ISLANDS_GRANCANARIA-1.jpeg");
 }
 
 .discover .tenerife {
-    background-image: url("/assets/img/ISLANDS_TENERIFE-1.jpg");
+    background-image: url("/assets/img/ISLANDS_TENERIFE-1.jpeg");
 }
 
 .discover .graciosa {
-    background-image: url("/assets/img/LA-GRACIOSA01-1.jpg");
+    background-image: url("/assets/img/LA-GRACIOSA01-1.jpeg");
 }
 
 .discover .palma {
-    background-image: url("/assets/img/ISLANDS_LAPALMA-1.jpg");
+    background-image: url("/assets/img/ISLANDS_LAPALMA-1.jpeg");
 }
 
 .discover .lanzarote {
-    background-image: url("/assets/img/ISLANDS_LANZAROTE-1.jpg");
+    background-image: url("/assets/img/ISLANDS_LANZAROTE-1.jpeg");
 }
 
 .discover .gomera {
-    background-image: url("/assets/img/ISLANDS_LAGOMERA-1.jpg");
+    background-image: url("/assets/img/ISLANDS_LAGOMERA-1.jpeg");
 }
 
 .discover .fuerteventura {
-    background-image: url("/assets/img/ISLANDS_FUERTEVENTURA-1.jpg");
+    background-image: url("/assets/img/ISLANDS_FUERTEVENTURA-1.jpeg");
 }
 
 .discover .hierro {
-    background-image: url("/assets/img/ISLANDS_ELHIERRO-1.jpg");
+    background-image: url("/assets/img/ISLANDS_ELHIERRO-1.jpeg");
 }
 
 /* LANZAROTE */
 
 .lanzarote .home-page {
-    background-image: url("/assets/img/LANZAROTE01.jpg")
+    background-image: url("/assets/img/LANZAROTE01.jpeg")
 }
 
 .lanzarote .module3 .bottom-left .photo {
-    background-image: url("/assets/img/LANZAROTE02.jpg");
+    background-image: url("/assets/img/LANZAROTE02.jpeg");
 }
 
 .lanzarote .module3 .bottom-right .photo {
-    background-image: url("/assets/img/LANZAROTE03.jpg");
+    background-image: url("/assets/img/LANZAROTE03.jpeg");
 }
 
 .lanzarote .module4 {
-    background-image: url("/assets/img/BloqueLanzarote4_V2.jpg");
+    background-image: url("/assets/img/BloqueLanzarote4_V2.jpeg");
 }
 
 .lanzarote .module2 .photo1 {
-    background-image: url("/assets/img/LANZAROTE05.jpg") !important;
+    background-image: url("/assets/img/LANZAROTE05.jpeg") !important;
 }
 
 /* LA GRACIOSA */
 
 .graciosa .home-page {
-    background-image: url("/assets/img/HeaderLaGraciosaV2.jpg");
+    background-image: url("/assets/img/HeaderLaGraciosaV2.jpeg");
 }
 
 .graciosa .module3 .bottom-left .photo {
-    background-image: url("/assets/img/LA-GRACIOSA02.jpg");
+    background-image: url("/assets/img/LA-GRACIOSA02.jpeg");
 }
 
 .graciosa .module3 .bottom-right .photo {
-    background-image: url("/assets/img/LA-GRACIOSA03.jpg");
+    background-image: url("/assets/img/LA-GRACIOSA03.jpeg");
 }
 
 .graciosa .module4 {
-    background-image: url("/assets/img/LA-GRACIOSA04.jpg");
+    background-image: url("/assets/img/LA-GRACIOSA04.jpeg");
 }
 
 .graciosa .module2 .photo1 {
-    background-image: url("/assets/img/5_LaGraciosa_Island.jpg") !important;
+    background-image: url("/assets/img/5_LaGraciosa_Island.jpeg") !important;
 }
 
 /* LA Gomera */
 
 .gomera .home-page {
-    background-image: url("/assets/img/LaGomera1_V2.jpg");
+    background-image: url("/assets/img/LaGomera1_V2.jpeg");
 }
 
 .gomera .module3 .bottom-left .photo {
-    background-image: url("/assets/img/LAGOMERA02.jpg");
+    background-image: url("/assets/img/LAGOMERA02.jpeg");
 }
 
 .gomera .module3 .bottom-right .photo {
-    background-image: url("/assets/img/LAGOMERA03.jpg");
+    background-image: url("/assets/img/LAGOMERA03.jpeg");
 }
 
 .gomera .module4 {
-    background-image: url("/assets/img/LaGomera4_V2.jpg");
+    background-image: url("/assets/img/LaGomera4_V2.jpeg");
 }
 
 /* Gran Canaria */
 
 .grancanaria .home-page {
-    background-image: url("/assets/img/GRANCANARIA01.jpg");
+    background-image: url("/assets/img/GRANCANARIA01.jpeg");
 }
 
 .grancanaria .module3 .bottom-left .photo {
-    background-image: url("/assets/img/GRANCANARIA02.jpg");
+    background-image: url("/assets/img/GRANCANARIA02.jpeg");
 }
 
 .grancanaria .module3 .bottom-right .photo {
-    background-image: url("/assets/img/GRANCANARIA03.jpg");
+    background-image: url("/assets/img/GRANCANARIA03.jpeg");
 }
 
 .grancanaria .module4 {
-    background-image: url("/assets/img/GRANCANARIA04.jpg");
+    background-image: url("/assets/img/GRANCANARIA04.jpeg");
 }
 
 /* La Palma */
 
 .palma .home-page {
-    background-image: url("/assets/img/LaPalma1_V2.jpg");
+    background-image: url("/assets/img/LaPalma1_V2.jpeg");
     background-position: 100% 100%;
 }
 
 .palma .module3 .bottom-left .photo {
-    background-image: url("/assets/img/LAPALMA02.jpg");
+    background-image: url("/assets/img/LAPALMA02.jpeg");
 }
 
 .palma .module3 .bottom-right .photo {
-    background-image: url("/assets/img/LAPALMA03.jpg");
+    background-image: url("/assets/img/LAPALMA03.jpeg");
 }
 
 .palma .module4 {
-    background-image: url("/assets/img/LaPalma4_v2.jpg");
+    background-image: url("/assets/img/LaPalma4_v2.jpeg");
     background-size: cover;
     background-position: 100% 100%;
 }
@@ -4125,55 +4125,55 @@ body {
 /* Tenerife */
 
 .tenerife .home-page {
-    background-image: url("/assets/img/Tenerife1_v2.jpg");
+    background-image: url("/assets/img/Tenerife1_v2.jpeg");
 }
 
 .tenerife .module3 .bottom-left .photo {
-    background-image: url("/assets/img/TENERIFE02.jpg");
+    background-image: url("/assets/img/TENERIFE02.jpeg");
 }
 
 .tenerife .module3 .bottom-right .photo {
-    background-image: url("/assets/img/TENERIFE03.jpg");
+    background-image: url("/assets/img/TENERIFE03.jpeg");
 }
 
 .tenerife .module4 {
-    background-image: url("/assets/img/TENERIFE07.jpg");
+    background-image: url("/assets/img/TENERIFE07.jpeg");
 }
 
 /* Fuerteventura */
 
 .fuerteventura .home-page {
-    background-image: url("/assets/img/FUERTEVENTURA01.jpg");
+    background-image: url("/assets/img/FUERTEVENTURA01.jpeg");
 }
 
 .fuerteventura .module3 .bottom-left .photo {
-    background-image: url("/assets/img/FUERTEVENTURA02.jpg");
+    background-image: url("/assets/img/FUERTEVENTURA02.jpeg");
 }
 
 .fuerteventura .module3 .bottom-right .photo {
-    background-image: url("/assets/img/FUERTEVENTURA03.jpg");
+    background-image: url("/assets/img/FUERTEVENTURA03.jpeg");
 }
 
 .fuerteventura .module4 {
-    background-image: url("/assets/img/FUERTEVENTURA04.jpg");
+    background-image: url("/assets/img/FUERTEVENTURA04.jpeg");
 }
 
 /* El Hierro */
 
 .hierro .home-page {
-    background-image: url("/assets/img/ELHIERRO01.jpg");
+    background-image: url("/assets/img/ELHIERRO01.jpeg");
 }
 
 .hierro .module3 .bottom-left .photo {
-    background-image: url("/assets/img/ELHIERRO02.jpg");
+    background-image: url("/assets/img/ELHIERRO02.jpeg");
 }
 
 .hierro .module3 .bottom-right .photo {
-    background-image: url("/assets/img/ELHIERRO03.jpg");
+    background-image: url("/assets/img/ELHIERRO03.jpeg");
 }
 
 .hierro .module4 {
-    background-image: url("/assets/img/ElHierro4_v2.jpg");
+    background-image: url("/assets/img/ElHierro4_v2.jpeg");
 }
 
 .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper].has-value:before {
