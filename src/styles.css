@@ -1,1 +1,4248 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #606263 !important;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.home1 .pin-spacer {
+    z-index: -1 !important;
+}
+
+.lightpick--2-columns {
+    z-index: 100 !important;
+}
+
+.om1 .carrousel p {
+    display: none;
+}
+
+a {
+    outline: 0 transparent !important;
+    text-decoration: none;
+}
+
+@media (min-width: 600px) {
+    #search-widget_IO312PWQ {
+        border-radius: 4px;
+        padding: 15px 15px !important;
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    #search-widget_IO312PWQ {
+        padding: 10px 15px !important;
+    }
+    .guests-dropdown .selectr-container {
+        margin-bottom: 7px;
+    }
+}
+
+a:active .header-content {
+    z-index: 1;
+}
+
+/* SWITCHING INTO NAVS*/
+
+@media (max-width: 600px) {
+    #nav {
+        display: none;
+    }
+    #nav2 {
+        display: inherit;
+    }
+    .live {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .nav-left>p {
+        margin-top: -10px;
+    }
+    .hamburguer-nav {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    #nav {
+        display: inherit;
+    }
+    #nav2 {
+        display: none;
+    }
+}
+
+/* FOOTER */
+
+@media (max-width: 600px) {
+    .footer-airnest {
+        font-family: 'Playfair Display' !important;
+        font-size: 0.69em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 60px 60px 30px 60px;
+        height: auto !important;
+        background-color: #ECE7E1;
+    }
+    .pad {
+        display: flex !important;
+        flex-direction: column;
+        width: 80vw;
+        justify-content: space-between;
+        height: auto;
+    }
+    .f-left {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 30px
+    }
+    .f-left .links-box {
+        display: flex;
+        width: 100%;
+    }
+    .links {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .links a {
+        display: flex;
+        margin-bottom: 5px !important;
+        margin-right: 0px;
+    }
+    .rrss {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: space-between;
+        flex-wrap: wrap;
+    }
+    .rrss .email {
+        min-width: 100%;
+        text-align: center;
+    }
+    .rrss i {
+        font-size: 30px;
+        height: 20px;
+        width: 20px;
+        color: black;
+    }
+    .rrss a {
+        margin: 0px 20px 10px 20px;
+    }
+    .rrss .fa-facebook {
+        margin-left: -5px;
+    }
+    .f-right {
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        height: auto;
+    }
+    .f-right form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%
+    }
+    .newsletter-text {
+        text-align: center;
+    }
+    .f-right form .email {
+        border: 0;
+        height: 40px !important;
+        padding-left: 14px;
+        width: 100%;
+    }
+    .f-right form .submit {
+        width: 100%;
+        margin-left: 2px;
+        margin-top: 10px;
+        background-color: transparent !important;
+        border: 2px solid black;
+        height: 40px !important;
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: 'Playfair Display' !important;
+        color: black !important;
+        font-style: italic;
+    }
+    .f-right form .email:focus {
+        outline: 0px solid transparent !important;
+    }
+    .f-right form .submit:focus {
+        outline: 0px solid transparent !important;
+    }
+    .right-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative !important;
+        margin-top: 30px;
+    }
+    .right-links a {
+        margin-right: 0px !important;
+    }
+    .right-links a:last-child {
+        margin-top: 10px !important;
+    }
+    .copyrith {
+        margin-top: 20px !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .footer-airnest {
+        font-family: 'Playfair Display' !important;
+        font-size: 0.69em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 60px;
+        height: auto !important;
+        background-color: #ECE7E1;
+    }
+    .pad {
+        display: flex !important;
+        flex-direction: row;
+        width: 80vw;
+        justify-content: space-between;
+        height: 200px;
+    }
+    .f-left {
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .f-left .links-box {
+        display: flex;
+        width: 100%;
+    }
+    .links {
+        margin-bottom: 30px
+    }
+    .links a {
+        display: flex;
+        margin-bottom: 5px !important;
+        margin-right: 60px;
+    }
+    .rrss {
+        display: flex;
+        align-items: end;
+        width: 260px;
+        justify-content: space-between;
+    }
+    .rrss i {
+        font-size: 30px;
+        height: 20px;
+        width: 20px;
+        color: black;
+    }
+    .rrss .email {
+        margin-bottom: 0px;
+    }
+    .rrss .fa-facebook {
+        margin-left: -5px;
+    }
+    .f-right {
+        width: 45%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+    .f-right form {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 90%
+    }
+    .f-right form .email {
+        border: 0;
+        height: 40px !important;
+        padding-left: 14px;
+        width: 72%;
+    }
+    .f-right form .submit {
+        width: 25%;
+        background-color: transparent !important;
+        border: 2px solid black;
+        height: 40px !important;
+        display: flex;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        font-family: 'Playfair Display' !important;
+        color: black !important;
+        font-style: italic;
+    }
+    .f-right form .email:focus {
+        outline: 0px solid transparent !important;
+    }
+    .f-right form .submit:hover {
+        background-color: black !important;
+        color: #ECE7E1 !important;
+    }
+    .f-right form .submit:focus {
+        outline: 0px solid transparent !important;
+    }
+    .right-links {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+    }
+    .right-links a {
+        margin-right: 60px;
+    }
+}
+
+#_3dnostwjw {
+    margin-left: 0px !important;
+}
+
+.guesty-root-element #guesty-search-widget__datepicker .__super-input {
+    color: black !important;
+}
+
+.guesty-root-element .lightpick__day.is-in-range {
+    background: lightgrey !important;
+    border: 0px !important;
+}
+
+/* WIDGET SEARCH BAR */
+
+@media (max-width: 600px) {
+    #search-widget_IO312PWQ div {
+        font-family: 'Playfair Display' !important;
+    }
+    .guesty-root-element .selectr-options li {
+        font-family: 'Playfair Display' !important;
+        font-size: 110%;
+        text-align: center;
+    }
+    c .guesty-search-submit-btn {
+        background-color: #E5E2E0 !important;
+        color: rgba(0, 0, 0, 0.7) !important;
+        font-family: 'Playfair Display' !important;
+    }
+    #search-widget_IO312PWQ {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Playfair Display' !important;
+    }
+    #guesty-search-widget__datepicker {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #guesty-search-widget__datepicker>div {
+        min-width: 100% !important;
+        margin: 20px 0 !important;
+        border-radius: 2px !important;
+    }
+    #guesty-search-widget__datepicker>div:after {
+        left: 90% !important;
+    }
+    .selectr-container {
+        top: -10px !important;
+    }
+    .guesty-search-submit-btn {
+        background-color: transparent !important;
+    }
+    .guesty-root-element.small-size.guesty-widget__container .guesty-widget__item .guesty-search-submit-btn {
+        margin: 0px !important
+    }
+    .selectr-selected {
+        display: flex;
+        align-items: center;
+    }
+    .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper] input {
+        font-family: 'Playfair Display' !important;
+    }
+    .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper] input:hover {
+        cursor: pointer;
+    }
+    .guesty-root-element .selectr-selected:before {
+        right: 22px !important;
+    }
+    .guesty-widget__item:last-child {
+        background-color: #E5E2E0;
+        padding: 6px 20px;
+        margin-left: 10px;
+    }
+    #_t6ld86b08 {
+        font-family: 'Playfair Display' !important;
+    }
+    .lightpick__previous-action {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        border-radius: 100% !important;
+        padding: 0 !important;
+        color: rgba(0, 0, 0, 0.8) !important;
+        border: 0px !important;
+        margin-top: 10px;
+    }
+    .lightpick__next-action {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        border-radius: 100% !important;
+        padding: 0 !important;
+        color: rgba(0, 0, 0, 0.8) !important;
+        border: 0px !important;
+        margin-top: 10px;
+    }
+    .lightpick__month:last-child header {
+        margin-left: -50px !important;
+    }
+    .lightpick__months select {
+        border: 0px;
+        margin-left: 15px;
+    }
+    .guesty-root-element .lightpick__month .lightpick__month-title:hover {
+        background-color: transparent !important;
+    }
+    .lightpick__months select:hover {
+        cursor: pointer
+    }
+    iframe {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+}
+
+#guesty-search-widget__datepicker input {
+    font-family: 'Playfair Display' !important;
+}
+
+.guesty-search-submit-btn {
+    color: black !important;
+    font-family: 'Playfair Display' !important;
+}
+
+.cities-dropdown {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .guesty-search-submit-btn {
+        margin-left: 0px !important;
+    }
+    .guesty-root-element.small-size.guesty-widget__container .guesty-widget__item {
+        margin: 0;
+    }
+    .lightpick {
+        margin-top: 20px;
+        z-index: 100;
+    }
+    .guesty-root-element.small-size.guesty-widget__container .guesty-widget__item.guests-dropdown {
+        width: 30% !important;
+    }
+    #search-widget_IO312PWQ div {
+        font-family: 'Playfair Display' !important;
+    }
+    #search-widget_IO312PWQ {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row !important;
+        font-family: 'Playfair Display' !important;
+        transform: scale(0.8);
+    }
+    .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper] input {
+        font-family: 'Playfair Display' !important;
+    }
+    .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper] input:hover {
+        cursor: pointer;
+    }
+    .guesty-root-element .selectr-selected:before {
+        right: 22px !important;
+        top: 45% !important;
+    }
+    .guesty-root-element .selectr-options li {
+        font-family: 'Playfair Display' !important;
+        font-size: 110%;
+        text-align: center;
+    }
+    .guesty-root-element #guesty-search-widget__datepicker .__super-input {
+        border-right: 0px solid lightgrey !important;
+        margin-right: 2px !important;
+    }
+    #date-picker-wrapper_pkjtjui7u {
+        border-right: 1px solid red !important;
+    }
+    #date-picker-wrapper_xwxddu326 {
+        border-right: 1px solid red !important;
+    }
+    .guesty-root-element .guests-dropdown {
+        margin-right: 10px !important;
+        width: 30% !important;
+    }
+    .guesty-widget__item:last-child {
+        background-color: #E5E2E0;
+        padding: 6px 20px;
+        margin-left: 10px;
+    }
+    .guesty-search-submit-btn {
+        background-color: #E5E2E0 !important;
+        color: rgba(0, 0, 0, 0.7) !important;
+        font-family: 'Playfair Display' !important;
+    }
+    .lightpick__previous-action {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        border-radius: 100% !important;
+        padding: 0 !important;
+        color: rgba(0, 0, 0, 0.8) !important;
+        border: 0px !important;
+        margin-top: 10px;
+    }
+    .lightpick__next-action {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        border-radius: 100% !important;
+        padding: 0 !important;
+        color: rgba(0, 0, 0, 0.8) !important;
+        border: 0px !important;
+        margin-top: 10px;
+    }
+    .lightpick__month:last-child header {
+        margin-left: -50px !important;
+    }
+    .lightpick__months select {
+        border: 0px;
+        margin-left: 15px;
+    }
+    .guesty-root-element .lightpick__month .lightpick__month-title:hover {
+        background-color: transparent !important;
+    }
+    .lightpick__months select:hover {
+        cursor: pointer
+    }
+    iframe {
+        margin-top: 80px;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .owners-become-text {
+        position: fixed;
+        bottom: 40px;
+        left: 40px;
+        z-index: 10;
+        background-color: white;
+        padding: 10px 20px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+        font-size: 2vh;
+    }
+}
+
+.navbar-light {
+    display: none;
+}
+
+.entry-footer, .entry-header, #masthead, #colophon, .widget-area {
+    display: none;
+}
+
+a:active {
+    outline: 0 !important;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* visited link */
+
+a:visited {
+    background-color: transparent !important;
+    border: 0px solid transparent;
+}
+
+/* mouse over link */
+
+a:hover {
+    background-color: transparent !important;
+    border: 0px solid transparent;
+    color: grey;
+    text-decoration-style: solid;
+}
+
+nav .nav-button:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: underline;
+}
+
+nav .live:hover {
+    text-decoration: none !important;
+    cursor: none !important;
+    z-index: 100;
+}
+
+/* selected link */
+
+a:active {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+
+a:focus {
+    background-color: transparent !important;
+    border: 0px solid transparent;
+    text-decoration: none !important;
+}
+
+/* Dropdown Live the Experience */
+
+.live {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 11;
+    text-underline-offset: 3px;
+}
+
+.live .nav-button {
+    margin: 10px 0px 0px 0px !important;
+}
+
+.live .livebox {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 0 0 0;
+    opacity: 0;
+    z-index: 10;
+    height: 10px;
+    z-index: 10;
+    width: 130%;
+    padding-bottom: 20px;
+}
+
+.livetext {
+    margin-top: 2px !important;
+    pointer-events: none;
+}
+
+.live .livebox a {
+    pointer-events: none;
+}
+
+.livebox:hover {
+    opacity: 1;
+    height: auto;
+    cursor: auto;
+    z-index: -1;
+}
+
+.livebox:hover a {
+    pointer-events: inherit;
+}
+
+.live .livebox a {
+    margin: 5px 0;
+    text-align: center;
+}
+
+main {
+    padding: 0 !important;
+}
+
+.entry-content {
+    margin: 0px !important;
+}
+
+.airnest-content {
+    margin: 0px !important;
+    height: 100vh;
+}
+
+@media (max-width: 700px) {
+    .box-resizing {
+        height: 100%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-size: 100%;
+        padding: 47px 0px !important;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 700px) {
+    .box-resizing {
+        height: 100%;
+        width: 140vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-size: 100%;
+        padding: 40px 0;
+    }
+    .module3 .box-resizing {
+        width: 150vh;
+    }
+}
+
+article {
+    border: 0px solid black;
+}
+
+body {
+    background-color: white;
+}
+
+.header {
+    height: 100% !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Playfair Display' !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    background-position: center;
+    background-size: cover;
+}
+
+.home-page {
+    background-image: url("/assets/img/AIRNEST_A1.jpeg");
+}
+
+@media (max-width: 700px) {
+    #nav2 {
+        background-color: white;
+    }
+    #nav2>a {
+        z-index: 100;
+    }
+    #nav2 #ham-open {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color: transparent;
+    }
+    #nav2 #ham-close {
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background-color: transparent;
+        pointer-events: none;
+    }
+    .header #nav2 .hamburguer-nav {
+        display: flex !important;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        height: auto !important;
+        background-color: white;
+        padding-top: 80px;
+        color: black !important;
+    }
+    .header #nav2 .hamburguer-nav div {
+        border: 1px solid transparent;
+        color: black;
+    }
+    .header #nav2 .hamburguer-nav a {
+        border: 1px solid transparent;
+        color: black;
+    }
+    #nav2 .nav-left .nav-button {
+        margin: 5px 0px 5px 30px !important;
+        text-align: left !important;
+        color: black !important;
+    }
+    #nav2 .nav-right .nav-button {
+        margin: 30px 0px 35px 30px !important;
+        text-align: left !important;
+        color: black !important;
+        border: 2px solid black !important;
+        padding: 5px 16px
+    }
+    #nav2 .live .livebox {
+        padding-bottom: 0px;
+        position: inherit;
+        margin-top: -30px;
+    }
+    #nav2 .livetext:after {
+        content: '\2303';
+        position: absolute;
+        right: -20px;
+        top: 0px;
+        transform: rotate(180deg);
+    }
+    #nav2 .live:hover .livetext:after {
+        transform: rotate(0deg);
+        right: -20px;
+        top: 5px;
+    }
+    #nav2 .live .livebox .nav-button {
+        margin: 0 0 0 10px !important;
+    }
+    #nav2 .live {
+        display: flex;
+        flex-direction: column;
+    }
+    .header #nav2 .hamburger-buttons {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+    }
+    .header #nav2 .nav-left {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+    .header #nav2 .nav-right {
+        display: flex !important;
+        flex-direction: column;
+        align-items: flex-start !important;
+        height: auto !important;
+    }
+    .header #nav2 .hamburger-buttons-line-nav {
+        display: flex;
+        height: 3px;
+        width: 30px;
+        background-color: black;
+        margin: 2.5px 0px;
+        border-radius: 1px;
+    }
+    .airnest-logo {
+        max-width: 200px !important;
+    }
+}
+
+@media (min-width: 700px) {
+    .header nav .hamburger-buttons {
+        display: none !important;
+    }
+    .airnest-logo {
+        max-width: 400px !important;
+    }
+}
+
+.header nav {
+    width: 100vw !important;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+}
+
+.header nav .hamburguer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav .nav-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header nav .nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 55vh;
+}
+
+.header nav img {
+    width: 80px;
+    margin-right: 17px;
+    margin-bottom: 4px;
+}
+
+.airnest-logo-changing {
+    height: 20px;
+    width: 88px;
+    background-size: 100% 100%;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.airnest-logo-black {
+    position: absolute;
+}
+
+.airnest-logo-white {
+    position: absolute;
+}
+
+.airnest-logo-black-nav {
+    position: absolute;
+    top: 0;
+}
+
+.airnest-logo-white-nav {
+    position: absolute;
+    top: 0;
+}
+
+.nav-button {
+    margin: 20px !important;
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+.login {
+    border: 2px solid white;
+    padding: .1vh 3vh .5vh 3vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login:hover {
+    background-color: white !important;
+    border: 2px solid white;
+    opacity: 1;
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.header-content {
+    min-height: calc(100vh - 100px);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.airnest-subtitle {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 29px;
+    text-align: center;
+}
+
+.airnest-subtitle span {
+    font-style: italic !important;
+}
+
+.module1 {
+    overflow: hidden !important;
+}
+
+@media (min-width: 700px) {
+    .guesty-root-element .selectr-selected {
+        padding: 9px 26px 9px 58px !important;
+    }
+    .header-content .title {
+        color: white;
+        font-size: 65px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .about .header-content .title {
+        color: white;
+        font-size: 65px;
+        text-align: center;
+        width: 80vw;
+        line-height: 6.5vw
+    }
+}
+
+@media (max-width: 700px) {
+    .header-content .title {
+        text-align: center;
+        color: white;
+        font-size: 10vw;
+    }
+    .airnest-subtitle {
+        font-size: 4vw
+    }
+}
+
+.header .cta {
+    color: white;
+    border: 2px solid white;
+    padding: 9px 24px;
+    font-style: italic !important;
+}
+
+.header .cta:hover {
+    color: black;
+    border: 2px solid white;
+    padding: 9px 24px;
+    font-style: italic !important;
+    background-color: white !important;
+}
+
+@media (max-width: 600px) {
+    .om1 {
+        min-height: auto !important;
+        height: auto !important;
+        overflow-y: hidden;
+    }
+    .oc1 {
+        display: flex;
+        max-height: 100%;
+        min-height: 25vh;
+        justify-content: center;
+        ;
+        max-width: 90vw;
+        flex-wrap: wrap;
+        padding-bottom: 29px;
+    }
+    .pp {
+        opacity: 0;
+    }
+    .carrousel {
+        display: flex;
+        max-height: 100%;
+        min-height: 25vh;
+        justify-content: center;
+        ;
+        width: 90vw;
+        padding-bottom: 29px;
+    }
+    .oc1 .place-info {
+        display: flex;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+    .oc1 .place-name {
+        font-size: 18px;
+    }
+    .oc1 .place-description {
+        font-size: 14px;
+    }
+    .oc1 .place-info-left {
+        width: 85%;
+    }
+    .oc1 .place-info-right {
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .oc1 .place-info-right i {
+        margin-left: 4px;
+        font-size: 13px;
+    }
+    .oc1 .place {
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .oc1 .place:hover {
+        cursor: pointer;
+    }
+    .oc1 .place-photo {
+        width: 100%;
+        height: 32vh;
+        margin-right: 0px !important;
+    }
+    .oc1 .place-info {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    .module1 .title {
+        display: flex;
+        margin-left: 19.5%;
+        font-size: 5vh;
+    }
+    .module1 .title span {
+        font-style: italic;
+        margin: 0px 13px;
+    }
+    .module1 .text {
+        display: flex;
+        margin-left: 33%;
+        font-size: 1.6vh;
+        width: 33.25%;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+        font-style: italic;
+        text-align: justify;
+    }
+    .our-nests .module1 .text {
+        margin-bottom: 50px;
+    }
+    .experiencias .header {
+        background-image: url("/assets/img/Experiencias_header.png");
+        background-size: cover;
+    }
+    .experiencias .module1 .text {
+        margin-bottom: 10vh;
+    }
+    .experiencias .module1 {
+        overflow: hidden;
+    }
+    .om1 {
+        min-height: auto !important;
+        height: auto !important;
+        overflow-y: hidden;
+    }
+    .oc1 {
+        display: flex;
+        max-height: 100%;
+        min-height: 25vh;
+        justify-content: center;
+        ;
+        width: 90vw;
+        flex-wrap: wrap;
+        padding-bottom: 29px;
+    }
+    .pp {
+        opacity: 0;
+    }
+    .carrousel {
+        display: flex;
+        max-height: 100%;
+        min-height: 25vh;
+        justify-content: center;
+        ;
+        width: 90vw;
+        padding-bottom: 29px;
+    }
+    .oc1 .place-info {
+        display: flex;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+    .oc1 .place-name {
+        font-size: 18px;
+    }
+    .oc1 .place-description {
+        font-size: 14px;
+    }
+    .oc1 .place-info-left {
+        width: 85%;
+    }
+    .oc1 .place-info-right {
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .oc1 .place-info-right i {
+        margin-left: 4px;
+        font-size: 13px;
+    }
+    .oc1 .place {
+        padding: 20px;
+        width: 33%;
+    }
+    .oc1 .place:hover {
+        cursor: pointer;
+    }
+    .oc1 .place-photo {
+        width: 100%;
+        height: 32vh;
+        margin-right: 0px !important;
+    }
+    .oc1 .place-info {
+        margin-top: 20px;
+    }
+    .our-nests .module1 .cta {
+        margin: 20px 0px 70px 130px !important;
+    }
+    .module1 .cta {
+        color: black;
+        border: 2px solid black;
+        font-style: italic !important;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        margin-right: 40.4%;
+    }
+    .module5 .cta {
+        position: absolute;
+        width: 140px;
+        color: black;
+        border: 2px solid black;
+        font-style: italic !important;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        margin-right: 40.4%;
+    }
+    .module5 .cta:hover {
+        background-color: black;
+        cursor: pointer;
+    }
+    .module5 .cta:hover a {
+        color: white;
+    }
+    .home1 .module3 .cta {
+        color: black;
+        border: 2px solid black;
+        font-style: italic !important;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        align-self: flex-start;
+    }
+    .home1 .module3 .cta:hover {
+        color: white;
+        border: 2px solid black;
+        font-style: italic !important;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: black;
+        cursor: pointer;
+    }
+    .home1 .module3 .cta:hover a {
+        color: white;
+    }
+    .module4 .cta a {
+        color: white;
+    }
+    .module4 .cta {
+        color: white;
+        border: 2px solid white;
+        font-style: italic !important;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        margin-left: 33%;
+    }
+    .module4 .cta:hover {
+        color: white;
+        border: 2px solid white;
+        font-style: italic !important;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: white;
+        cursor: pointer;
+    }
+    .module4 .cta:hover a {
+        color: #AABBC6;
+    }
+    .module1 .cta:hover {
+        color: white;
+        border: 2px solid black;
+        font-style: italic !important;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        text-decoration: none;
+        background-color: black !important;
+    }
+    .module1 .cta:hover a {
+        color: white;
+    }
+    .module1 .cta:hover {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 700px) {
+    .module4 .cta {
+        color: white;
+        border: 2px solid white;
+        font-style: italic !important;
+        margin-top: -80px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        align-self: start;
+        margin-left: 10vw;
+    }
+    .module4 .cta a {
+        color: white;
+    }
+    .module1 .title {
+        margin-left: -20vw;
+        font-size: 4vh;
+        width: 60%;
+        line-height: 5.4vh;
+    }
+    .module1 .title span {
+        font-style: italic;
+        margin: 0px 0.5vh 0px 0px;
+    }
+    .module1 .text {
+        display: flex;
+        margin-left: 10vw;
+        font-size: 1.7vh;
+        padding-right: 6vw;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+        font-style: italic;
+    }
+    .carrousel {
+        display: flex;
+        max-height: 100%;
+        min-height: 25vh;
+        padding-left: 10vw;
+        width: auto;
+        align-self: flex-start;
+    }
+    .module1 .cta {
+        color: black;
+        border: 2px solid black;
+        font-style: italic !important;
+        margin-top: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 6vh !important;
+        text-decoration: none;
+        margin-left: 10%;
+    }
+    .module1 .ctaBox {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+}
+
+.module1 {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    padding: 100px 0;
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Playfair Display' !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+}
+
+.place-photo {
+    width: 45vh;
+    height: 32vh;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.place-title {
+    margin-top: 10px;
+    font-size: 2.8vh;
+    line-height: 4vh;
+}
+
+.place-title span {
+    font-style: italic;
+    font-size: 85%;
+}
+
+.home1 .place-photo-1 {
+    background-image: url("/assets/img/GRAN-CANARIA.jpeg");
+}
+
+.home1 .place-photo-2 {
+    background-image: url("/assets/img/TENERIFE-photo.jpeg");
+}
+
+.home1 .place-photo-3 {
+    background-image: url("/assets/img/FUERTEVENTURA-photo.jpeg");
+}
+
+.home1 .place-photo-4 {
+    background-image: url("/assets/img/LANZAROTE-photo-1.jpeg");
+}
+
+.home1 .place-photo-5 {
+    background-image: url("/assets/img/LA-PALMA.jpeg");
+}
+
+.home1 .place-photo-6 {
+    background-image: url("/assets/img/LA-GOMERA.jpeg");
+}
+
+.home1 .place-photo-7 {
+    background-image: url("/assets/img/EL-HIERRO.jpeg");
+}
+
+.home1 .place-photo-8 {
+    background-image: url("/assets/img/LA-GRACIOSA.jpeg");
+}
+
+.home1 .module4 {
+    background-image: url("/assets/img/VISIT_TENERIFE.jpeg");
+    background-size: cover;
+    background-position: 70% 0%;
+}
+
+.ctaBox {
+    margin-bottom: 1vw !important;
+}
+
+@media (min-width: 700px) {
+    .module1 .ctaBox {
+        display: flex;
+        justify-content: flex-start;
+        width: 33.35%;
+        margin-left: 33%;
+        margin-bottom: 20px !important;
+    }
+    .module2 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #EBEBEB;
+    }
+    .module2 .top {
+        position: static;
+        width: 100%;
+        display: flex;
+    }
+    .module2 .top img {
+        width: 12.28%;
+        margin-left: 10.71%;
+    }
+    .module2 .top .title {
+        font-size: 5vh;
+        width: 41.25%;
+        margin-left: 7.67%;
+        line-height: 60px;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: 50px;
+    }
+    .module2 .top .title span {
+        font-style: italic;
+    }
+    .module2 .bottom {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .module2 .bottom .left {
+        display: flex;
+        flex-direction: column;
+        width: 62.5%;
+    }
+    .module2 .bottom .left .text {
+        font-size: 1.6vh;
+        margin-left: 40%;
+        width: 56%;
+        font-style: italic;
+        margin-top: 4vh;
+        margin-bottom: 6vh;
+        text-align: justify;
+    }
+    .module2 .media1 {
+        margin-left: 15%;
+    }
+    .module2 .media1 .photo1 {
+        width: 55.5vh;
+        height: 38vh;
+        background-position: center;
+        background-size: cover;
+        margin-top: 2vh;
+    }
+    .module2 .cta {
+        font-size: 2.8vh;
+    }
+    .module2 .media2 {
+        margin-left: 15%;
+    }
+    .module2 .media2 .photo2 {
+        width: 40vh;
+        height: 58vh;
+        background-position: 85% 20%;
+        background-size: 230%;
+    }
+    .module2 .right {
+        display: flex;
+        justify-content: flex-start;
+        width: 37.5%;
+        align-items: flex;
+    }
+}
+
+@media (max-width: 700px) {
+    .module2 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #EBEBEB;
+    }
+    .module2 .top {
+        position: static;
+        width: 100vw;
+        display: flex;
+        margin-bottom: 8vh;
+    }
+    .module2 .top img {
+        position: absolute;
+        width: 13vh;
+        z-index: 4;
+        top: 25vh;
+        right: 50vw;
+    }
+    .module2 .top .title {
+        font-size: 4vh;
+        width: 70vw;
+        margin-left: 10vw;
+        line-height: 5.4vh;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .module2 .top .title span {
+        font-style: italic;
+    }
+    .module2 .bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vw;
+        max-width: 100%;
+    }
+    .module2 .bottom .left {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .module2 .bottom .left .text {
+        font-size: 1.4vh;
+        width: 80%;
+        font-style: italic;
+        margin-left: 10vw;
+    }
+    .our-nests .module2 .bottom .left .text {
+        margin-top: 20px;
+    }
+    .home1 .module2 .bottom .left .text {
+        margin-top: -4vh;
+    }
+    .module2 .media1 {
+        margin-left: 22%;
+    }
+    .module2 .media1 .photo1 {
+        width: 50.5vh;
+        height: 35vh;
+        background-position: center;
+        background-size: cover;
+        margin-top: 2vh;
+        display: none;
+    }
+    .module2 .cta {
+        font-size: 2vh;
+    }
+    .module2 .media1 .cta {
+        display: none;
+    }
+    .module2 .media2 .photo2 {
+        width: 29vh;
+        height: 40vh;
+        background-position: 85% 20%;
+        background-size: 230%;
+        margin-right: 11vw;
+    }
+    .module2 .right {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+
+.home1 .module2 .media1 .photo1 {
+    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Módulo-2-Foto-1.jpeg");
+}
+
+.home1 .module2 .media2 .photo2 {
+    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Módulo-2-Foto-2.jpeg");
+}
+
+@media (min-width: 700px) {
+    .module3 {
+        height: 120vh;
+        width: 100vw !important;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #E4E2DB;
+    }
+    .module3 .top {
+        width: 100%;
+    }
+    .module3 .title {
+        margin-left: 23.5%;
+        font-size: 5vh;
+        margin-bottom: 7vh;
+        line-height: 50px;
+        width: 44%;
+        margin-top: -4vh;
+    }
+    .teletrabajo .header-content .title {
+        margin-top: 120px
+    }
+    .teletrabajo .module3 .title {
+        margin-left: 37.5%;
+        font-size: 5vh;
+        margin-bottom: 7vh;
+        line-height: 60px;
+        width: 60%;
+        margin-top: 2vh;
+    }
+    .module3 .title span {
+        font-style: italic;
+        margin: 0px 3px 0px 4px;
+    }
+    .module3 .bottom {
+        width: 100%;
+        display: flex;
+    }
+    .module3 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+    }
+    .module3 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+    }
+    .module3 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 35vh;
+        margin-left: 26%;
+        margin-bottom: 7vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module3 .bottom-left .photo {
+        width: 46vh;
+        height: 60vh;
+        background-position: center;
+        background-size: cover;
+        margin-left: 18%;
+    }
+    .module3-2 .box-resizing {
+        padding-top: 0vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .module3 {
+        height: 100vh;
+        width: 100vw !important;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #E4E2DB;
+    }
+    .module3 .top {
+        width: 100%;
+    }
+    .module3 .title {
+        margin-left: 14vw;
+        font-size: 4vh;
+        margin-top: 7vh;
+        margin-bottom: 4vh;
+        line-height: 60px;
+        width: 80vw;
+        line-height: 6.4vh
+    }
+    .module3 .title span {
+        font-style: italic;
+        margin: 0px 3px 0px 4px;
+    }
+    .module3 .bottom {
+        width: 100%;
+        display: flex;
+    }
+    .module3 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        margin-bottom: 8vh;
+    }
+    .module3 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 50%;
+        display: none;
+    }
+    .module3 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.5vh;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+    }
+    .module3 .bottom-left .photo {
+        width: 34vh;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+        margin-left: 10vw;
+    }
+}
+
+.home1 .module3 .bottom-left .photo {
+    background-image: url("/assets/img/VISIT_FUERTEVENTURA.jpeg");
+}
+
+.module3 .bottom-right .photo {
+    width: 70vh;
+    height: 51vh;
+    background-position: center;
+    background-size: cover;
+    margin-right: 15%;
+    margin-bottom: 9vh;
+}
+
+@media (max-width: 700px) {
+    .inverse-module3-photo-right {
+        width: 34v !important;
+        height: 50vh !important;
+    }
+    .inverse-module3-photo-left {
+        width: 43vh !important;
+        height: 34vh !important;
+    }
+    .module3-2 .title {
+        margin-top: -9vh;
+    }
+}
+
+@media (min-width: 700px) {
+    .inverse-module3-photo-right {
+        width: 34vh !important;
+        height: 50vh !important;
+    }
+    .inverse-module3-photo-left {
+        width: 50vh !important;
+        height: 34vh !important;
+    }
+    .module3 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 43vh;
+        margin-right: 39%;
+        text-align: justify;
+        line-height: 20px;
+        align-self: flex-start;
+    }
+}
+
+.home1 .module3 .bottom-right .photo {
+    background-image: url("/assets/img/VISIT_FUERTEVENTURA02.jpeg");
+}
+
+/*
+.module3-long div {
+	border: 1px solid black;
+}
+*/
+
+.module3-long .title span {
+    font-style: italic;
+}
+
+@media(max-width: 600px) {
+    .module3 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 43vh;
+        margin-right: 39%;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module3-long {
+        height: auto;
+        width: 100vw !important;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #E4E2DB;
+        position: relative;
+    }
+    .module3-long .title {
+        margin-left: 0vw;
+        font-size: 4vh;
+        margin-top: 3vh;
+        margin-bottom: 4vh;
+        line-height: 50px;
+        width: 80vw !important;
+    }
+    .side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+    .side .body-copy {
+        margin: 3vh 0px
+    }
+    .side .body-copy strong {
+        font-size: 3vh;
+        font-weight: normal;
+    }
+    .side .body-copy .copy {
+        font-size: 1.6vh;
+        line-height: 2vh !important;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .module3-long .body-copy-1a {
+        width: 50%;
+        justify-self: flex-start;
+        margin-right: 30%;
+        margin-bottom: 1.5vh;
+        font-style: italic;
+        font-size: 2vh;
+        position: relative;
+        left: 0;
+    }
+    .module3-long .body-copy-1b {
+        width: 50%;
+        justify-self: flex-start;
+        margin-right: 30%;
+        margin-bottom: 7vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+    .module3-long .body-copy-2 {
+        width: 35%;
+        justify-self: flex-start;
+        margin-left: 46%;
+        margin-bottom: 7vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+    .module3-long .photo2 {
+        height: 40vh;
+        width: 100%;
+        margin-top: 5vh;
+        background-image: url("/assets/img/ABOUTUS01.jpg");
+        background-size: cover;
+        background-position: 0% 31%;
+        margin-bottom: -9vh;
+    }
+    .module3-long .body-copy-3 {
+        width: 30%;
+        justify-self: flex-start;
+        margin-right: 45%;
+        margin-bottom: 7vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+    .module3-long .photo3 {
+        height: 40vh;
+        width: 100%;
+        background-image: url("/assets/img/About-Airnest_módulo-1_foto-3.jpeg");
+        background-size: cover !important;
+        background-position: center;
+        background-position: 70% 60%;
+        margin-top: 5vh;
+    }
+    .module3-long-complex {
+        display: flex;
+        justify-content: space-between;
+        width: 80vw;
+        flex-direction: column-reverse !important;
+        align-items: center;
+        position: relative;
+        margin-bottom: 13vh;
+    }
+    .module3-long-complex:nth-child(2) {
+        flex-direction: column !important;
+    }
+    .module3-long-complex .side {
+        width: 25%;
+    }
+    .module3-long .body-copy-4 {
+        width: 40%;
+        justify-self: flex-start;
+        margin-left: 53%;
+        margin-bottom: 14vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 600px) {
+    .module3-long {
+        height: auto;
+        width: 100vw !important;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #E4E2DB;
+        position: relative;
+    }
+    .module3-long .title {
+        margin-left: 7vw;
+        font-size: 5vh;
+        margin-top: 10vh;
+        margin-bottom: 13vh;
+        line-height: 50px;
+        max-width: 40% !important;
+    }
+    .side {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+    .side .body-copy {
+        margin: 3vh 0px
+    }
+    .side .body-copy strong {
+        font-size: 5vh;
+        font-weight: normal;
+    }
+    .side .body-copy .copy {
+        font-size: 1.6vh;
+        line-height: 2vh !important;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .module3-long .body-copy-1a {
+        width: 50%;
+        justify-self: flex-start;
+        margin-right: 30%;
+        margin-bottom: 1.5vh;
+        font-style: italic;
+        font-size: 2vh;
+        position: relative;
+        left: 0;
+    }
+    .module3-long .body-copy-1b {
+        width: 50%;
+        justify-self: flex-start;
+        margin-right: 30%;
+        margin-bottom: 7vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+    .module3-long .photo1 {
+        height: 38vh;
+        width: 55vh;
+        background-image: url("/assets/img/About-Airnest_módulo-1_foto-1.jpeg");
+        background-size: cover;
+        background-position: center;
+    }
+    .module3-long .body-copy-2 {
+        width: 35%;
+        justify-self: flex-start;
+        margin-left: 46%;
+        margin-bottom: 7vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+    .module3-long .photo2 {
+        height: 60vh;
+        width: 85vh;
+        margin-right: 3%;
+        background-image: url("/assets/img/ABOUTUS01.jpg");
+        background-size: cover;
+        background-position: 0% 31%;
+    }
+    .module3-long .body-copy-3 {
+        width: 30%;
+        justify-self: flex-start;
+        margin-right: 45%;
+        margin-bottom: 7vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+    .module3-long .photo3 {
+        height: 60vh;
+        width: 90vh;
+        background-image: url("/assets/img/About-Airnest_módulo-1_foto-3.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-position: 0% 60%;
+    }
+    .module3-long-complex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        margin-bottom: 13vh;
+    }
+    .module3-long-complex .side {
+        width: 25%;
+    }
+    .module3-long .body-copy-4 {
+        width: 40%;
+        justify-self: flex-start;
+        margin-left: 53%;
+        margin-bottom: 14vh;
+        font-style: italic;
+        font-size: 2vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .module4 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #424242;
+        color: white;
+        background-size: 100%;
+    }
+    .module4 .title {
+        font-size: 4vh;
+        width: 80vw;
+        margin-top: 50px;
+        line-height: 60px;
+        justify-self: flex-start;
+        position: absolute;
+        top: 0.5vh;
+        left: 10vw;
+        line-height: 11vw;
+    }
+    .module4 .title span {
+        font-style: italic;
+    }
+    .module4 .body-copy {
+        font-style: italic;
+        font-size: 1.6vh;
+        position: absolute;
+        width: 82%;
+        left: 10vw;
+        top: 23vh;
+    }
+}
+
+@media (min-width: 700px) {
+    .module4 .box-resizing {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .module4 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #424242;
+        color: white;
+        background-size: 100%;
+    }
+    .module4 .title {
+        font-size: 5vh;
+        width: 31.25%;
+        line-height: 50px;
+        justify-self: flex-start;
+        margin-left: 20%;
+        left: 24%;
+        margin-top: 50px;
+    }
+    .module4 .title span {
+        font-style: italic;
+    }
+    .module4 .body-copy {
+        font-style: italic;
+        font-size: 1.6vh;
+        margin-left: 33%;
+        width: 31.25vw;
+        margin-top: 40px;
+        text-align: justify;
+    }
+}
+
+@media (min-width: 700px) {
+    .module5 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #F4F4F4;
+        color: black;
+    }
+    .module5 .title {
+        margin-left: 20%;
+        font-size: 5vh;
+        width: 36%;
+        margin-top: 3vh;
+        line-height: 50px;
+    }
+    .islands .module5 .title {
+        width: 45.69%;
+    }
+    .module5 .title span {
+        font-style: italic;
+        margin: 0px 0px 0px 4px;
+    }
+    .islands .module5 .title span {
+        font-style: italic;
+        margin: 0px 10px 0px 4px;
+    }
+    .module5 .body-copy {
+        font-style: italic;
+        font-size: 1.6vh;
+        margin-left: 57%;
+        width: 35.25%;
+        margin-top: 4.6vh;
+        text-align: justify;
+    }
+    .module5 .photo {
+        display: flex;
+        width: 80vh;
+        height: 53vh;
+        background-position: center;
+        background-size: cover;
+        margin-top: -3vh;
+        margin-left: -43%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .module5 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #F4F4F4;
+        color: black;
+    }
+    .module5 .cta {
+        color: white;
+        border: 2px solid black;
+        font-style: italic !important;
+        margin-top: -80px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        align-self: start;
+        position: absolute;
+        bottom: -100px;
+    }
+    .module5 .title {
+        position: absolute;
+        left: 10vw;
+        top: 0.5vh;
+        font-size: 4vh;
+        line-height: 5.4vh !important;
+        width: 83%;
+        margin-top: 50px;
+    }
+    .module5 .title span {
+        font-style: italic;
+        margin: 0px 10px 0px 4px;
+    }
+    .module5 .body-copy {
+        position: absolute;
+        top: 18vh;
+        left: 10vw;
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 80vw;
+        margin-top: 3vh;
+    }
+    .module5 .photo {
+        position: absolute;
+        top: 50vh;
+        display: flex;
+        width: 80vw;
+        ;
+        height: 58vw;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.home1 .module5 .photo {
+    background-image: url("/assets/img/Home-Modulo-5.png");
+}
+
+@media (max-width: 700px) {
+    .module6 {
+        height: auto !important;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #EBEBEB;
+        color: black;
+        overflow: hidden;
+    }
+    .module6 .title {
+        padding: 0 10vw 0 10vw;
+        font-size: 4vh;
+        width: 100%;
+        line-height: 5.4vh;
+        margin-bottom: 4vh;
+    }
+    .module6 .title span {
+        font-style: italic;
+        margin-right: 10px;
+    }
+    .module6 .body-copy {
+        font-size: 1.6vh;
+        margin-left: 34%;
+        width: 33%;
+        font-style: italic;
+        margin-top: 10vh;
+        margin-bottom: 67vh;
+        display: none;
+    }
+    .module6 .bottom {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        justify-content: center;
+        bottom: -1vh;
+    }
+    .module6 .bottom .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+        margin-bottom: 4vh;
+    }
+    .module6 .bottom .box:nth-child(2) {
+        display: inherit;
+    }
+    .module6 .bottom .box:nth-child(3) {
+        display: inherit;
+    }
+    .module6 .box-image {
+        width: 20vh;
+        height: 20vh;
+        background-color: lightgray;
+        border-radius: 100%
+    }
+}
+
+@media (min-width: 700px) {
+    .module6 {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 100vw !important;
+        position: relative;
+        background-color: #EBEBEB;
+        color: black;
+        overflow: hidden;
+    }
+    .module6 .top {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .module6 .title {
+        margin-left: 10%;
+        font-size: 5vh;
+        width: 60%;
+        margin-bottom: -5vh;
+        line-height: 50px;
+        margin-top: 5vh;
+    }
+    .module6 .title span {
+        font-style: italic;
+        margin-right: 10px;
+    }
+    .module6 .body-copy {
+        font-size: 1.6vh;
+        margin-left: 34%;
+        width: 26%;
+        font-style: italic;
+        margin-top: 11vh;
+        margin-bottom: 67vh;
+    }
+    .module6 .bottom {
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        bottom: -1vh;
+        height: 65vh;
+    }
+    .module6 .bottom .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 16%;
+        margin-left: 5.5%;
+        margin-right: 5.5%;
+    }
+    .module6 .box-image {
+        min-width: 20vh;
+        min-height: 20vh;
+        width: 20vh;
+        height: 20vh;
+        background-color: lightgray;
+        border-radius: 100%
+    }
+}
+
+.module6 .bi1 {
+    background-image: url("/assets/img/PROFILE1.jpeg");
+    background-size: cover;
+}
+
+.module6 .bi2 {
+    background-image: url("/assets/img/PROFILE3.jpeg");
+    background-size: cover;
+}
+
+.module6 .bi3 {
+    background-image: url("/assets/img/PROFILE4-1.jpeg");
+    background-size: cover;
+}
+
+.module6 .box-title {
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 4vh;
+    width: 100%;
+    font-style: italic;
+}
+
+.module6 .box-title span {
+    font-style: normal;
+}
+
+.module6 .box-copy {
+    font-size: 1.6vh;
+    font-style: italic;
+    text-align: center;
+    width: 110%;
+    margin: 30px 0px 30px 0px;
+    line-height: 16px;
+}
+
+.module6 .box-apostrophes {
+    font-size: 90px;
+    letter-spacing: -5px;
+    line-height: 90px;
+    display: none;
+}
+
+/* OUR NESTS */
+
+@media (min-width: 700px) {
+    .our-nests {
+        background-image: url("/assets/img/NESTS.jpg");
+        background-position: 0% 0%;
+        background-size: cover;
+    }
+    .our-nests:before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        background-color: black;
+        left: 0px;
+        display: flex;
+        opacity: 0.1;
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .our-nests {
+        background-image: url("/assets/img/NESTS.jpg");
+        background-position: 45% 30%;
+        background-size: cover;
+    }
+}
+
+.our-nests .module2 .media1 .photo1 {
+    background-image: url("/assets/img/Our-nests-Módulo-1.1.jpeg");
+}
+
+.our-nests .module2 .media2 .photo2 {
+    background-image: url("/assets/img/Our-nests-Módulo-1.2.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-1 {
+    background-image: url("/assets/img/AboutAirNestHomes_1.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-2 {
+    background-image: url("/assets/img/CanaryIslandsApartments3.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-3 {
+    background-image: url("/assets/img/CanaryIslandsApartments4.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-4 {
+    background-image: url("/assets/img/Canteras_sideview.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-5 {
+    background-image: url("/assets/img/Lagos35Villa.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-6 {
+    background-image: url("/assets/img/CityCenter_GranCanaria.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-7 {
+    background-image: url("/assets/img/GlassApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-8 {
+    background-image: url("/assets/img/GlassApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-9 {
+    background-image: url("/assets/img/SunsetApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-10 {
+    background-image: url("/assets/img/OceanViewsMogan.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-11 {
+    background-image: url("/assets/img/CanaryIslandsApartments6.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-12 {
+    background-image: url("/assets/img/TaoyoSuites2.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-13 {
+    background-image: url("/assets/img/TrianaApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-14 {
+    background-image: url("/assets/img/TrianaDeluxeApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-15 {
+    background-image: url("/assets/img/DonPepe.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-16 {
+    background-image: url("/assets/img/TrianaSuites2.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-17 {
+    background-image: url("/assets/img/TrianaDoubleSuite2.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-18 {
+    background-image: url("/assets/img/TrianaDoubleSuite3.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-19 {
+    background-image: url("/assets/img/TrianaDoubleSuite4.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-20 {
+    background-image: url("/assets/img/TrianaDoubleSuite5.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-21 {
+    background-image: url("/assets/img/TrianaDoubleSuite6.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-22 {
+    /*background-image: url("");*/
+    background-size: cover;
+}
+
+.our-nests .place-photo-23 {
+    background-image: url("/assets/img/SelvaDoramas.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-24 {
+    background-image: url("/assets/img/PuertoRicoApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-25 {
+    background-image: url("/assets/img/LasCasas1.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-26 {
+    background-image: url("/assets/img/LasCasas2.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-27 {
+    background-image: url("/assets/img/LasCasas3.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-28 {
+    background-image: url("/assets/img/LasCasas4.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-29 {
+    background-image: url("/assets/img/LasCasas5.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-30 {
+    background-image: url("/assets/img/LasLomas.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-31 {
+    background-image: url("/assets/img/LopezApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-32 {
+    background-image: url("/assets/img/TaoyoSuites3.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-33 {
+    background-image: url("/assets/img/CanaryIslands_Apartments.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-34 {
+    background-image: url("/assets/img/Mogan3.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-35 {
+    background-image: url("/assets/img/PatalavacaOcean.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-36 {
+    background-image: url("/assets/img/PepitaApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-37 {
+    background-image: url("/assets/img/LasCasas6.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-38 {
+    background-image: url("/assets/img/SeasideVilla.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-39 {
+    background-image: url("/assets/img/TrianaSingleSuite.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-40 {
+    background-image: url("/assets/img/TatianaApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-41 {
+    background-image: url("/assets/img/QualityHome.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-42 {
+    background-image: url("/assets/img/Townhouse.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-43 {
+    background-image: url("/assets/img/CanaryIslandsApartments5.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-44 {
+    background-image: url("/assets/img/Lagos3.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-45 {
+    background-image: url("/assets/img/Lagos4.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-46 {
+    background-image: url("/assets/img/TaoyoSuites4.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-47 {
+    background-image: url("/assets/img/TaoyoSuites5.jpg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-48 {
+    background-image: url("/assets/img/VeguetaHouse.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-49 {
+    background-image: url("/assets/img/MaspalomasApt.jpeg");
+    background-size: cover;
+}
+
+.our-nests .place-photo-50 {
+    /*background-image: url("");*/
+    background-size: cover;
+}
+
+/* ISLANDS GENERAL */
+
+@media (max-width: 700px) {
+    .islands {
+        background-image: url("/assets/img/Islas-general-Cabecero-scaled.jpg");
+        background-size: 400%;
+    }
+}
+
+@media (min-width: 700px) {
+    .islands {
+        background-image: url("/assets/img/ISLANDS_EXPERIENCES.jpg");
+        background-size: cover;
+    }
+}
+
+.islands .module5 .photo {
+    background-image: url("/assets/img/LA-GRACIOSA01.jpg");
+}
+
+.islands .module-islands-1 .bottom-left .photo {
+    background-image: url("/assets/img/ISLANDS_LANZAROTE.jpg");
+}
+
+.islands .module-islands-1 .bottom-right .photo {
+    background-image: url("/assets/img/ISLANDS_LA-GRACIOSA.jpg");
+}
+
+.islands .module-islands-2 .bottom-left .photo {
+    background-image: url("/assets/img/ISLANDS_LAGOMERA.jpg");
+}
+
+.islands .module-islands-2 .bottom-right .photo {
+    background-image: url("/assets/img/ISLANDS_GRANCANARIA.jpg");
+}
+
+.islands .module-islands-3 .bottom-left .photo {
+    background-image: url("/assets/img/ISLANDS_TENERIFE.jpg");
+}
+
+.islands .module-islands-3 .bottom-right .photo {
+    background-image: url("/assets/img/ISLANDS_LAPALMA.jpg");
+}
+
+.islands .module-islands-4 .bottom-left .photo {
+    background-image: url("/assets/img/Islas-general-Módulo-5.2.png");
+}
+
+.islands .module-islands-4 .bottom-right .photo {
+    background-image: url("/assets/img/ISLANDS_FUERTEVENTURA.jpg");
+}
+
+/* PLANTILLA */
+
+.plantilla {
+    background-color: darkgrey;
+}
+
+.plantilla .module3 .bottom-left .photo {
+    background-color: darkgrey;
+}
+
+.plantilla .module3 .bottom-right .photo {
+    background-color: darkgrey;
+}
+
+.plantilla .module2 .media1 .photo1 {
+    background-color: darkgrey;
+}
+
+.plantilla .module2 .media2 .photo2 {
+    background-color: darkgrey;
+}
+
+/* DISCOVER */
+
+@media (max-width: 700px) {
+    .discover {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        padding: 100px 0;
+        height: 100vh !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        justify-content: flex-end;
+        background-color: #EEEAE4;
+    }
+    .discover .title {
+        margin-left: 10vw;
+        font-size: 4vh;
+        margin-bottom: 23vh;
+        line-height: 4.4vh;
+        width: 60%
+    }
+    .discover .title span {
+        margin-right: 0.2vw;
+        font-style: italic;
+    }
+    .discover .bottom .island {
+        display: flex;
+        align-items: flex-end;
+        height: calc(100% / 3);
+        padding: 10px 15px;
+        color: white;
+        font-size: 0.8em;
+        width: 100%;
+    }
+    .discover .bottom {
+        position: relative;
+        bottom: 0px;
+        height: 60%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .discover .title {
+        display: block;
+        margin-left: 10vw;
+        font-size: 45px;
+        margin-bottom: 110px;
+        width: 80vw;
+    }
+    .discover .title span {
+        margin-right: 13px;
+        font-style: italic;
+    }
+    .discover .bottom .island {
+        display: flex;
+        align-items: flex-end;
+        width: calc(100%);
+        padding: 10px 15px;
+        color: white;
+        position: relative;
+    }
+    .discover .bottom .island .img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: brightness(0.9);
+        background-position: center !important;
+    }
+    .discover .bottom .island .img:hover {
+        filter: brightness(0.7);
+        transition: 0.2s;
+    }
+    .discover .bottom .island .islandtitle {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        pointer-events: none;
+    }
+    .discover .bottom p {
+        display: none !important;
+        pointer-events: none;
+        position: fixed;
+        opacity: 0;
+    }
+}
+
+@media (min-width: 700px) {
+    .discover {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        padding: 100px 0;
+        height: 100vh !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        font-family: 'Playfair Display' !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        justify-content: flex-end;
+        background-color: #EEEAE4;
+    }
+    .discover .title {
+        display: flex;
+        margin-left: 32.75%;
+        font-size: 45px;
+        margin-bottom: 110px;
+    }
+    .discover .title span {
+        margin-right: 13px;
+        font-style: italic;
+    }
+    .discover .bottom .island {
+        display: flex;
+        align-items: flex-end;
+        width: calc(100% / 3);
+        padding: 10px 15px;
+        color: white;
+        position: relative;
+    }
+    .discover .bottom .island .img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        filter: brightness(0.9);
+        background-position: center !important;
+    }
+    .discover .bottom .island .img:hover {
+        filter: brightness(0.7);
+        transition: 0.2s;
+    }
+    .discover .bottom .island .islandtitle {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        pointer-events: none;
+    }
+    .discover .bottom {
+        position: relative;
+        bottom: 0px;
+        height: 60vh;
+        width: 100%;
+        display: flex;
+    }
+    .discover .bottom p {
+        display: none !important;
+        pointer-events: none;
+        position: fixed;
+        opacity: 0;
+    }
+}
+
+.discover .tenerife {
+    /*background-image: url("");*/
+    background-color: lightgray;
+    background-position: 0% 20%;
+}
+
+.discover .fuerteventura {
+    /*background-image: url("");*/
+    background-color: darkgray;
+}
+
+.discover .grancanaria {
+    background-image: url("/assets/img/Cabecera.png");
+    background-position: 0% 50%;
+    background-size: cover;
+}
+
+/* TELETRABAJO */
+
+@media (min-width: 700px) {
+    .teletrabajo {
+        background-image: url("/assets/img/FAMARA_BEACH2-2.jpg");
+        background-size: cover;
+        background-position: 0% 100%;
+    }
+    .teletrabajo .module3:first-child {
+        height: 100vh !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .teletrabajo {
+        background-image: url("/assets/img/REMOTE06.jpg");
+    }
+    .teletrabajo .module3 {
+        height: auto;
+    }
+    .teletrabajo .module3 .title {
+        height: auto;
+        margin-left: 10vw;
+    }
+    .teletrabajo .module-islands-3 {
+        height: auto;
+    }
+    .teletrabajo .module-islands-3 .bottom {
+        flex-direction: column;
+        justify-content: center !important;
+        width: 80vw;
+    }
+    .teletrabajo .module-islands-3 .title {
+        font-size: 4vh;
+        width: 80vw;
+        margin-left: 10% !important;
+        margin-top: 2vh;
+        line-height: 5.4vh !important;
+    }
+    .teletrabajo .module-islands-3 .bottom-left {
+        width: 100%;
+    }
+    .teletrabajo .module-islands-3 .bottom-left .body-copy-1 {
+        width: 100%;
+    }
+    .teletrabajo .module-islands-3 .bottom-left .photo {
+        width: 100%;
+    }
+    .teletrabajo .module-islands-3 .bottom-right {
+        width: 100%;
+        flex-direction: column-reverse
+    }
+    .teletrabajo .module-islands-3 .bottom-right .body-copy-2 {
+        width: 100%;
+        margin: 7vh 0 !important;
+    }
+    .teletrabajo .module-islands-3 .bottom-right .photo {
+        width: 100% !important;
+        margin: -1vh 0 10vh 0 !important;
+    }
+}
+
+.teletrabajo .module3-1 .bottom-left .photo {
+    background-image: url("/assets/img/Teletrabajo_módulo-1_foto1.png");
+}
+
+.teletrabajo .module3-1 .bottom-right .photo {
+    background-image: url("/assets/img/REMOTE01.jpg");
+}
+
+.teletrabajo .module-islands-3 .bottom-right .photo {
+    background-image: url("/assets/img/REMOTE03.jpg");
+    height: 60vh;
+    width: 50vh;
+    margin-left: 30px;
+}
+
+.teletrabajo .module-islands-3 .bottom-left .photo {
+    background-image: url("/assets/img/Teletrabajo_header.png ");
+}
+
+.teletrabajo .module4 {
+    background-image: url("/assets/img/ferran-feixas-yMsx7gWEnNU-unsplash-scaled.jpg");
+    background-size: cover;
+    background-position: 70% 0%;
+    display: none;
+}
+
+/* ABOUT AIRNEST */
+
+.header-content .title span {
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    .about {
+        background-image: url("/assets/img/ABOUTUS02.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (min-width: 700px) {
+    .about {
+        background-image: url("/assets/img/Airnest003.png");
+        background-size: 120%;
+        background-position: 50% 100% !important;
+    }
+}
+
+.about .module4 {
+    background-image: url("/assets/img/mockup_soapFino.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.about .module5 {
+    background-image: url("/assets/img/Casa-Playa-de-Las-Nieves-Agaete-11142018_112138-scaled.jpg");
+    background-size: cover;
+}
+
+/* EXPERIENCIAS */
+
+@media (min-width: 700px) {
+    .experiencias {
+        background-color: grey;
+        /*background-image: url("");*/
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .experiencias {
+        background-color: grey;
+        background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/08/Experiencias_header.png");
+        background-size: cover;
+    }
+}
+
+/* ISLANDS LONG MODULE  */
+
+@media (max-width: 600px) {
+    .module-islands-3 .title {
+        line-height: 5.4vh !important;
+    }
+    .module-islands-4 .title {
+        line-height: 5.4vh !important;
+    }
+    .module-islands-1 {
+        height: auto !important;
+    }
+    .module-islands-1 .bottom {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20vh;
+        width: 80vw;
+    }
+    .module-islands-1 .title {
+        margin-left: 10vw;
+        font-size: 4vh;
+        margin-top: 7vh;
+        margin-bottom: 4vh;
+        line-height: 60px;
+        width: 80vw;
+        line-height: 6.4vh;
+    }
+    .module-islands-1 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .module-islands-1 .bottom-right {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .module-islands-1 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-left: 0%;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-1 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-right: 0%;
+        text-align: justify;
+        line-height: 20px;
+        margin-bottom: 5vh;
+    }
+    .module-islands-1 .bottom-left .photo {
+        width: 100%;
+        height: 51vh;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-1 .bottom-right .photo {
+        width: 100%;
+        height: 51vh;
+        background-position: center;
+        background-size: cover;
+        margin-right: 0%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-2 {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -25vh !important;
+    }
+    .module-islands-2 .bottom {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20vh;
+        width: 80vw;
+        justify-content: center !important;
+    }
+    .module-islands-2 .bottom-left {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .module-islands-2 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 5vh;
+    }
+    .module-islands-2 .title {
+        margin-left: 10vw;
+        font-size: 4vh;
+        margin-bottom: 7vh;
+        line-height: 5.4vh;
+        width: 80vw;
+        margin-top: 0vh;
+    }
+    .module-islands-2 .bottom-right .photo {
+        width: 100% !important;
+        height: 61vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-right: 15%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-2 .bottom-left .photo {
+        width: 100% !important;
+        height: 60vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-left: 6%;
+    }
+    .module-islands-2 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 5vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-2 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-top: -3vh;
+        margin-right: 0%;
+        text-align: justify;
+        line-height: 20px;
+        margin-bottom: 5vh !important;
+    }
+    .module-islands-3 {
+        height: auto;
+        margin-top: -20vh !important;
+    }
+    .module-islands-3 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100% !important;
+    }
+    .module-islands-3 .bottom-right {
+        display: flex;
+        flex-direction: column !important;
+        align-items: flex-start;
+        width: 100% !important;
+    }
+    .module-islands-3 .title {
+        margin-left: 10%;
+        font-size: 4vh;
+        margin-bottom: 7vh;
+        line-height: 50px;
+        width: 80vw;
+        margin-top: -4vh;
+    }
+    .module-islands-3 .bottom-left .photo {
+        width: 100%;
+        height: 45vh;
+        background-position: center;
+        background-size: cover;
+        margin-left: 18%;
+    }
+    .module-islands-3 .bottom {
+        justify-content: space-between;
+        margin-bottom: 10vh;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .module-islands-3 .bottom-left {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 46%;
+    }
+    .module-islands-3 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 49%;
+    }
+    .module-islands-3 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-right: 0%;
+        margin-top: -3vh;
+        text-align: justify;
+        line-height: 20px;
+        margin-bottom: 5vh !important;
+    }
+    .module-islands-3 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5vh;
+        text-align: justify;
+        line-height: 20px;
+        margin-top: 5vh;
+    }
+    .module-islands-3 .bottom-right .photo {
+        width: 100%;
+        height: 53vh;
+        background-position: center;
+        background-size: cover;
+        margin-right: 15%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-4 {
+        height: auto;
+        margin-top: -10vh !important;
+    }
+    .module-islands-4 .title {
+        margin-left: 10%;
+        font-size: 4vh;
+        margin-bottom: 7vh;
+        line-height: 50px;
+        width: 80vw;
+        margin-top: -4vh;
+    }
+    .module-islands-4 .bottom {
+        justify-content: space-between;
+        width: 80vw;
+        flex-direction: column;
+    }
+    .module-islands-4 .bottom-left {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .module-islands-4 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .module-islands-4 .bottom-left .photo {
+        width: 100% !important;
+        height: 60vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-left: 18%;
+    }
+    .module-islands-4 .bottom-right .photo {
+        width: 100% !important;
+        height: 60vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-right: 15%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-4 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 5vh;
+        text-align: justify;
+        line-height: 20px;
+        margin-top: 5vh;
+    }
+    .module-islands-4 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 100%;
+        margin-right: 0%;
+        margin-top: -1vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-1 .photo {
+        position: relative;
+    }
+    .module-islands-1 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+    .module-islands-2 .photo {
+        position: relative;
+    }
+    .module-islands-2 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+    .module-islands-3 .photo {
+        position: relative;
+    }
+    .module-islands-3 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+    .module-islands-4 .photo {
+        position: relative;
+    }
+    .module-islands-4 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+}
+
+@media (min-width: 600px) {
+    .module-islands-2 .bottom {
+        justify-content: space-between;
+        margin-bottom: 20vh;
+    }
+    .module-islands-2 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 31%;
+    }
+    .module-islands-2 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 64%;
+    }
+    .module-islands-2 .title {
+        margin-left: 45%;
+        font-size: 5vh;
+        margin-bottom: 7vh;
+        line-height: 50px;
+        width: 44%;
+        margin-top: -4vh;
+    }
+    .module-islands-2 .bottom-right .photo {
+        width: 85vh !important;
+        height: 61vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-right: 15%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-2 .bottom-left .photo {
+        width: 43vh !important;
+        height: 60vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-left: 6%;
+    }
+    .module-islands-2 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 43vh;
+        margin-left: 7%;
+        margin-bottom: 14vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-2 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 35vh;
+        margin-top: 10vh;
+        margin-right: -3%;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-3 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 31%;
+    }
+    .module-islands-3 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 64%;
+    }
+    .module-islands-3 .title {
+        margin-left: 12%;
+        font-size: 5vh;
+        margin-bottom: 7vh;
+        line-height: 50px;
+        width: 44%;
+        margin-top: -4vh;
+    }
+    .module-islands-3 .bottom-left .photo {
+        width: 60vh;
+        height: 45vh;
+        background-position: center;
+        background-size: cover;
+        margin-left: 18%;
+    }
+    .module-islands-3 .bottom {
+        justify-content: space-between;
+        margin-bottom: 10vh;
+    }
+    .module-islands-3 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 46%;
+    }
+    .module-islands-3 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 49%;
+    }
+    .module-islands-3 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 35vh;
+        margin-right: 9%;
+        margin-top: 13vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-3 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 43vh;
+        margin-left: 22%;
+        margin-bottom: 7vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-3 .bottom-right .photo {
+        width: 61vh;
+        height: 83vh;
+        background-position: center;
+        background-size: cover;
+        margin-right: 15%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-4 .title {
+        margin-left: 23.5%;
+        font-size: 5vh;
+        margin-bottom: 7vh;
+        line-height: 50px;
+        width: 44%;
+        margin-top: -4vh;
+    }
+    .module-islands-4 .bottom {
+        justify-content: space-between;
+    }
+    .module-islands-4 .bottom-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 36%;
+    }
+    .module-islands-4 .bottom-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 59.5%;
+    }
+    .module-islands-4 .bottom-left .photo {
+        width: 43vh !important;
+        height: 60vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-left: 18%;
+    }
+    .module-islands-4 .bottom-right .photo {
+        width: 83vh !important;
+        height: 60vh !important;
+        background-position: center;
+        background-size: cover;
+        margin-right: 15%;
+        margin-bottom: 9vh;
+    }
+    .module-islands-4 .body-copy-2 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 43vh;
+        margin-left: 14%;
+        margin-bottom: 15vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-4 .body-copy-1 {
+        font-style: italic;
+        font-size: 1.6vh;
+        width: 35vh;
+        margin-right: 26%;
+        margin-top: 11vh;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .module-islands-1 .photo {
+        position: relative;
+    }
+    .module-islands-1 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+    .module-islands-2 .photo {
+        position: relative;
+    }
+    .module-islands-2 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+    .module-islands-3 .photo {
+        position: relative;
+    }
+    .module-islands-3 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+    .module-islands-4 .photo {
+        position: relative;
+    }
+    .module-islands-4 .cta {
+        position: absolute;
+        bottom: -40px
+    }
+}
+
+/* EXPERIENCES COPY PHOTOS */
+
+.experiencias .place-photo:after {
+    font-size: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    z-index: 10;
+    opacity: 0;
+    background-color: transparent;
+    color: white;
+}
+
+.experiencias .place-photo:before {
+    content: '';
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    z-index: 10;
+    opacity: 1;
+    background-size: cover;
+}
+
+.experiencias .place-photo:hover:after {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.experiencias .place-photo:hover:before {
+    filter: brightness(0.6);
+    transition: 0.5s;
+}
+
+.experiencias .place-photo {
+    position: relative;
+    background-color: transparent;
+}
+
+/* EXPERIENCES COPIES */
+
+.experiencias .beach .place-photo-1:after {
+    content: 'Take the hidden path through a laurisilva forest and find yourself in a virgin black sand beach, with volcanic rock formations along its shore and the most magical sunsets.';
+}
+
+.experiencias .beach .place-photo-2:after {
+    content: 'Over two kilometres of golden sand, a lively promenade and its exuberant marine life make this beautiful city-centre beach one of the most famous ones in Europe.';
+}
+
+.experiencias .beach .place-photo-3:after {
+    content: 'A grey fine pebble beach right by the fishing port of quiet Agaete. A picture-perfect spot to sail along the coast while you watch the sunset illuminate the sea cliffs.';
+}
+
+.experiencias .beach .place-photo-4:after {
+    content: 'One of the most popular beaches in Lanzarote; a small cove of white sand and still, emerald waters. Perfect for snorkelling and relaxing with idyllic views.';
+}
+
+.experiencias .beach .place-photo-5:after {
+    content: 'At the base of the impressive cliffs of Famara, golden sand stretches out for over five kilometres. An untamed sport’s beach, ideal for water and air sports alike.';
+}
+
+.experiencias .beach .place-photo-6:after {
+    content: 'Fuerteventura’s best known beach. Nine kilometres of infinite golden sand and ocean where huge lagoons are created at low tide. The perfect place for kitesurfing.';
+}
+
+.experiencias .beach .place-photo-7:after {
+    content: 'A virgin cove that can only be reach on foot or by bike at the base of Montaña Amarilla. Its turquoise waters are protected from waves and wind, a snorkelling paradise. ';
+}
+
+.experiencias .beach .place-photo-8:after {
+    content: 'A hidden treasure in La Graciosa away from civilisation. Enjoy the most pure feeling of freedom lazing on the warm sand and bathing in its mesmerising waters.';
+}
+
+.experiencias .nature .place-photo-1:after {
+    content: 'The star attraction of the Canary Islands and the highest peak in Spain. The perfect place to appreciate the constructive creativity of volcanoes. ';
+}
+
+.experiencias .nature .place-photo-2:after {
+    content: 'A highland of mountains with sharp peaks and deep ravines covered with carpets of laurel trees and dotted with charming hamlets.';
+}
+
+.experiencias .nature .place-photo-3:after {
+    content: 'The largest natural area in Gran Canaria and the main symbol of the island, which protects a range of natural treasures, rich biodiversity and unique plants.';
+}
+
+.experiencias .nature .place-photo-4:after {
+    content: 'A mix of desert and oasis in the southern tip of Gran Canaria. A unique wild place where the beach, sand dunes, palm groves and a brackish lagoon meet.';
+}
+
+.experiencias .nature .place-photo-5:after {
+    content: 'One of the most visual and picturesque spectacles in the Canary Islands, unaltered by the human hand. A sea of red and black that will feel like another planet. ';
+}
+
+.experiencias .nature .place-photo-6:after {
+    content: 'A lagoon within a volcano’s crater. A one unique landscape were the crater of an extinct volcano submerges into the Atlantic Ocean.';
+}
+
+.experiencias .nature .place-photo-7:after {
+    content: 'The Tindaya mountain is Fuerteventura’s spiritual home. A spot is full of enthralling engravings done by the “Majos”, the ancient settlers of the island.';
+}
+
+.experiencias .nature .place-photo-8:after {
+    content: 'Located in the heart of the island of La Palma, Caldera de Taburiente offers several possibilities for trekkers who want to climb up a volcano.';
+}
+
+.experiencias .town .place-photo-1:after {
+    content: 'A 16th Century city with a rich heritage on the slopes of Mount Teide. One of the oldest towns in the Canary Islands founded after the Spanish conquest.';
+}
+
+.experiencias .town .place-photo-2:after {
+    content: 'A city reflects the economic takeoff of the islands with the rise of agriculture. The Arehucas distillery is a must-see, the place were its famous rum is made.';
+}
+
+.experiencias .town .place-photo-3:after {
+    content: 'A small twen full of charm with charming streets, the oldest water mill in the Islands and beautiful views of northern Gran Canaria.';
+}
+
+.experiencias .town .place-photo-4:after {
+    content: 'White-washed walls, black sand and vegetation make up the town of San Bartolomé. And all that topped by the Timanfaya Park in the horizon.';
+}
+
+.experiencias .town .place-photo-5:after {
+    content: 'A town known for how well looked after and tidy it is. A town with white houses that contrast the ochre tones and blacks of the volcanic landscape.';
+}
+
+.experiencias .town .place-photo-6:after {
+    content: 'Caleta de Sebo is, perhaps, one of the most unusual places in the Canary Islands. It is the “capital” of La Graciosa; pure tranquility in the middle of the Atlantic.';
+}
+
+/* EXPERIENCES PHOTOS */
+
+.experiencias .beach .place-photo-1:before {
+    background-image: url("/assets/img/Benijo-scaled.jpg") !important;
+}
+
+.experiencias .beach .place-photo-2:before {
+    background-image: url("/assets/img/LasCanteras_Beach.png");
+}
+
+.experiencias .beach .place-photo-3:before {
+    background-image: url("/assets/img/LasNieves_beach.png");
+}
+
+.experiencias .beach .place-photo-4:before {
+    background-image: url("/assets/img/Papagayo_beach-scaled.jpg");
+}
+
+.experiencias .beach .place-photo-5:before {
+    background-image: url("/assets/img/Famara_beach2-scaled.jpg");
+}
+
+.experiencias .beach .place-photo-6:before {
+    background-image: url("/assets/img/Sotavento_Beach.png");
+}
+
+.experiencias .beach .place-photo-7:before {
+    background-image: url("/assets/img/LaCocina_beach.png");
+}
+
+.experiencias .beach .place-photo-8:before {
+    background-image: url("/assets/img/LasConchas_beach-scaled.jpg");
+}
+
+.experiencias .nature .place-photo-1:before {
+    background-image: url("/assets/img/Teide_Tenerife-scaled.jpg");
+}
+
+.experiencias .nature .place-photo-2:before {
+    background-image: url("/assets/img/Anaga_Tenerife-scaled.jpg");
+}
+
+.experiencias .nature .place-photo-3:before {
+    background-image: url("/assets/img/Nublo_GranCanaria-scaled.jpg");
+}
+
+.experiencias .nature .place-photo-4:before {
+    background-image: url("/assets/img/Dunas_Maspalomas-scaled.jpg");
+}
+
+.experiencias .nature .place-photo-5:before {
+    background-image: url("/assets/img/Timanfaya_Lanzarote-scaled.jpg");
+}
+
+.experiencias .nature .place-photo-6:before {
+    background-image: url("/assets/img/Clicos_Lanzarote.png");
+}
+
+.experiencias .nature .place-photo-7:before {
+    background-image: url("/assets/img/Tindaya_Lanzarote.png");
+}
+
+.experiencias .nature .place-photo-8:before {
+    background-image: url("/assets/img/Caldera_LaPalma.png");
+}
+
+.experiencias .town .place-photo-1:before {
+    background-image: url("/assets/img/Orotava_Tenerife.jpg");
+}
+
+.experiencias .town .place-photo-2:before {
+    background-image: url("/assets/img/Arucas_GranCanaria.jpg");
+}
+
+.experiencias .town .place-photo-3:before {
+    background-image: url("/assets/img/Firgas_GranCanaria.jpg");
+}
+
+.experiencias .town .place-photo-4:before {
+    background-image: url("/assets/img/SanBartolome_Lanzarote.jpg");
+}
+
+.experiencias .town .place-photo-5:before {
+    background-image: url("/assets/img/Yaiza_Lanzarote.jpg");
+}
+
+.experiencias .town .place-photo-6:before {
+    background-image: url("/assets/img/CaletaDeSebo_LaGraciosa.jpg");
+}
+
+.experiencias .town .place-photo-7 {
+    /*background-image: url("");*/
+    background-color: grey;
+
+}
+
+.experiencias .town .place-photo-8 {
+    /*background-image: url("");*/
+    background-color: grey;
+}
+
+.guesty-root-element {
+    font-family: inherit;
+}
+
+.selectr-visible {
+    display: flex !important;
+}
+
+.guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]) {
+    position: absolute;
+    top: -2px;
+    left: 18px;
+    font-weight: normal !important;
+    overflow: visible;
+    font-family: 'Playfair Display';
+    font-size: 22px;
+}
+
+.guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]):after {
+    content: "Guests";
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    line-height: 1;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Playfair Display';
+}
+
+.guesty-root-element .guests-dropdown {
+    min-width: 30% !important;
+}
+
+#post-1064 .footer-airnest {
+    width: 100vw !important;
+}
+
+@media (min-width: 600px) {
+    #post-1064 iframe {
+        margin: 0;
+        height: calc(100vh + 60px);
+        position: inherit !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin-top: 0px !important;
+    }
+}
+
+/**** ISLAS ****/
+
+.home1 .subtitle {
+    color: white;
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home1 .module2 .bottom .left {
+    margin-top: 10vh;
+}
+
+.home1 .one .bottom .right {
+    display: none;
+}
+
+.home1 .one .bottom .left {
+    margin-left: 29vw;
+    margin-top: 6vh;
+}
+
+.home1 .module2 .bottom .right {
+    margin-right: 19vh;
+}
+
+.home1 .module2 .cta {
+    display: none;
+}
+
+.discover .island {
+    background-size: cover;
+}
+
+.discover .grancanaria {
+    background-image: url("/assets/img/ISLANDS_GRANCANARIA-1.jpg");
+}
+
+.discover .tenerife {
+    background-image: url("/assets/img/ISLANDS_TENERIFE-1.jpg");
+}
+
+.discover .graciosa {
+    background-image: url("/assets/img/LA-GRACIOSA01-1.jpg");
+}
+
+.discover .palma {
+    background-image: url("/assets/img/ISLANDS_LAPALMA-1.jpg");
+}
+
+.discover .lanzarote {
+    background-image: url("/assets/img/ISLANDS_LANZAROTE-1.jpg");
+}
+
+.discover .gomera {
+    background-image: url("/assets/img/ISLANDS_LAGOMERA-1.jpg");
+}
+
+.discover .fuerteventura {
+    background-image: url("/assets/img/ISLANDS_FUERTEVENTURA-1.jpg");
+}
+
+.discover .hierro {
+    background-image: url("/assets/img/ISLANDS_ELHIERRO-1.jpg");
+}
+
+/* LANZAROTE */
+
+.lanzarote .home-page {
+    background-image: url("/assets/img/LANZAROTE01.jpg")
+}
+
+.lanzarote .module3 .bottom-left .photo {
+    background-image: url("/assets/img/LANZAROTE02.jpg");
+}
+
+.lanzarote .module3 .bottom-right .photo {
+    background-image: url("/assets/img/LANZAROTE03.jpg");
+}
+
+.lanzarote .module4 {
+    background-image: url("/assets/img/BloqueLanzarote4_V2.jpg");
+}
+
+.lanzarote .module2 .photo1 {
+    background-image: url("/assets/img/LANZAROTE05.jpg") !important;
+}
+
+/* LA GRACIOSA */
+
+.graciosa .home-page {
+    background-image: url("/assets/img/HeaderLaGraciosaV2.jpg");
+}
+
+.graciosa .module3 .bottom-left .photo {
+    background-image: url("/assets/img/LA-GRACIOSA02.jpg");
+}
+
+.graciosa .module3 .bottom-right .photo {
+    background-image: url("/assets/img/LA-GRACIOSA03.jpg");
+}
+
+.graciosa .module4 {
+    background-image: url("/assets/img/LA-GRACIOSA04.jpg");
+}
+
+.graciosa .module2 .photo1 {
+    background-image: url("/assets/img/5_LaGraciosa_Island.jpg") !important;
+}
+
+/* LA Gomera */
+
+.gomera .home-page {
+    background-image: url("/assets/img/LaGomera1_V2.jpg");
+}
+
+.gomera .module3 .bottom-left .photo {
+    background-image: url("/assets/img/LAGOMERA02.jpg");
+}
+
+.gomera .module3 .bottom-right .photo {
+    background-image: url("/assets/img/LAGOMERA03.jpg");
+}
+
+.gomera .module4 {
+    background-image: url("/assets/img/LaGomera4_V2.jpg");
+}
+
+/* Gran Canaria */
+
+.grancanaria .home-page {
+    background-image: url("/assets/img/GRANCANARIA01.jpg");
+}
+
+.grancanaria .module3 .bottom-left .photo {
+    background-image: url("/assets/img/GRANCANARIA02.jpg");
+}
+
+.grancanaria .module3 .bottom-right .photo {
+    background-image: url("/assets/img/GRANCANARIA03.jpg");
+}
+
+.grancanaria .module4 {
+    background-image: url("/assets/img/GRANCANARIA04.jpg");
+}
+
+/* La Palma */
+
+.palma .home-page {
+    background-image: url("/assets/img/LaPalma1_V2.jpg");
+    background-position: 100% 100%;
+}
+
+.palma .module3 .bottom-left .photo {
+    background-image: url("/assets/img/LAPALMA02.jpg");
+}
+
+.palma .module3 .bottom-right .photo {
+    background-image: url("/assets/img/LAPALMA03.jpg");
+}
+
+.palma .module4 {
+    background-image: url("/assets/img/LaPalma4_v2.jpg");
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+/* Tenerife */
+
+.tenerife .home-page {
+    background-image: url("/assets/img/Tenerife1_v2.jpg");
+}
+
+.tenerife .module3 .bottom-left .photo {
+    background-image: url("/assets/img/TENERIFE02.jpg");
+}
+
+.tenerife .module3 .bottom-right .photo {
+    background-image: url("/assets/img/TENERIFE03.jpg");
+}
+
+.tenerife .module4 {
+    background-image: url("/assets/img/TENERIFE07.jpg");
+}
+
+/* Fuerteventura */
+
+.fuerteventura .home-page {
+    background-image: url("/assets/img/FUERTEVENTURA01.jpg");
+}
+
+.fuerteventura .module3 .bottom-left .photo {
+    background-image: url("/assets/img/FUERTEVENTURA02.jpg");
+}
+
+.fuerteventura .module3 .bottom-right .photo {
+    background-image: url("/assets/img/FUERTEVENTURA03.jpg");
+}
+
+.fuerteventura .module4 {
+    background-image: url("/assets/img/FUERTEVENTURA04.jpg");
+}
+
+/* El Hierro */
+
+.hierro .home-page {
+    background-image: url("/assets/img/ELHIERRO01.jpg");
+}
+
+.hierro .module3 .bottom-left .photo {
+    background-image: url("/assets/img/ELHIERRO02.jpg");
+}
+
+.hierro .module3 .bottom-right .photo {
+    background-image: url("/assets/img/ELHIERRO03.jpg");
+}
+
+.hierro .module4 {
+    background-image: url("/assets/img/ElHierro4_v2.jpg");
+}
+
+.guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper].has-value:before {
+    font-size: 14px !important;
+    top: 1px;
+    left: 38px !important;
+}
+
+.guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]):after {
+    font-size: 14px !important;
+    top: -10px;
+}
+
+.guesty-root-element .guests-dropdown .selectr-label {
+    font-size: 17px !important;
+    margin-top: -1px;
+    color: #606263;
+}
+
+#guesty-search-widget__datepicker>div {
+    margin-left: 20px;
+}
+
+#guesty-search-widget__datepicker>div:after {
+    right: 5px !important;
+}
+
+#guesty-search-widget__datepicker>div:after {
+    content: '' !important;
+    display: flex !important;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid #565a5c;
+    border-right: 1px solid #565a5c;
+    position: absolute;
+    transform: rotate(45deg) translatey(-50%);
+    position: absolute;
+    right: 20px;
+    top: 45%;
+}
+
+#guesty-search-widget__datepicker>.guesty-focused:after {
+    transform: rotate(-135deg);
+    margin-top: 4px;
+    margin-right: -4px;
+}
+
+.guesty-root-element .selectr-selected:before {
+    content: '' !important;
+    display: flex !important;
+    height: 10px !important;
+    width: 10px !important;
+    border-top: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+    border-bottom: 1px solid #565a5c !important;
+    border-right: 1px solid #565a5c !important;
+    position: absolute !important;
+    transform: rotate(45deg) translatey(-40%) !important;
+    position: absolute !important;
+    right: 20px !important;
+    top: 50% !important;
+}
+
+.guesty-root-element .selectr-container.open .selectr-selected:before {
+    transform: rotate(-135deg) !important;
+    margin-right: -3px;
+    margin-top: 4px;
+}
+
+.guesty-root-element #guesty-search-widget__datepicker .__super-input {
+    color: #565a5c !important;
+    padding: 10px 0px 10px 36px !important;
+}
