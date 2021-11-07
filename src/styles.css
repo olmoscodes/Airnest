@@ -534,7 +534,6 @@ a:active .header-content {
         cursor: pointer
     }
     iframe {
-        margin-top: 80px;
         width: 100vw;
         height: 100vh;
         position: fixed;
