@@ -1380,6 +1380,8 @@ body {
 .place-title span {
     font-style: italic;
     font-size: 85%;
+    width: 100%;
+    display: flex;
 }
 
 .home1 .place-photo-1 {
@@ -3668,17 +3670,18 @@ body {
 /* EXPERIENCES COPY PHOTOS */
 
 .experiencias .place-photo:after {
-    font-size: 70%;
+    font-size: 2vh;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
     display: flex;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 80%;
+    min-height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    height: 100px;
-    width: 100px;
     z-index: 10;
     opacity: 0;
     background-color: transparent;
@@ -3806,7 +3809,7 @@ body {
 /* EXPERIENCES PHOTOS */
 
 .experiencias .beach .place-photo-1:before {
-    background-image: url("/assets/img/Benijo-scaled.jpg") !important;
+    background-image: url("/assets/img/Benijo-scaled.jpeg") !important;
 }
 
 .experiencias .beach .place-photo-2:before {
@@ -3818,11 +3821,11 @@ body {
 }
 
 .experiencias .beach .place-photo-4:before {
-    background-image: url("/assets/img/Papagayo_beach-scaled.jpg");
+    background-image: url("/assets/img/Papagayo_beach-scaled.jpeg");
 }
 
 .experiencias .beach .place-photo-5:before {
-    background-image: url("/assets/img/Famara_beach2-scaled.jpg");
+    background-image: url("/assets/img/Famara_beach2-scaled.jpeg");
 }
 
 .experiencias .beach .place-photo-6:before {
@@ -3834,27 +3837,27 @@ body {
 }
 
 .experiencias .beach .place-photo-8:before {
-    background-image: url("/assets/img/LasConchas_beach-scaled.jpg");
+    background-image: url("/assets/img/LasConchas_beach-scaled.jpeg");
 }
 
 .experiencias .nature .place-photo-1:before {
-    background-image: url("/assets/img/Teide_Tenerife-scaled.jpg");
+    background-image: url("/assets/img/Teide_Tenerife-scaled.jpeg");
 }
 
 .experiencias .nature .place-photo-2:before {
-    background-image: url("/assets/img/Anaga_Tenerife-scaled.jpg");
+    background-image: url("/assets/img/Anaga_Tenerife-scaled.jpeg");
 }
 
 .experiencias .nature .place-photo-3:before {
-    background-image: url("/assets/img/Nublo_GranCanaria-scaled.jpg");
+    background-image: url("/assets/img/Nublo_GranCanaria-scaled.jpeg");
 }
 
 .experiencias .nature .place-photo-4:before {
-    background-image: url("/assets/img/Dunas_Maspalomas-scaled.jpg");
+    background-image: url("/assets/img/Dunas_Maspalomas-scaled.jpeg");
 }
 
 .experiencias .nature .place-photo-5:before {
-    background-image: url("/assets/img/Timanfaya_Lanzarote-scaled.jpg");
+    background-image: url("/assets/img/Timanfaya_Lanzarote-scaled.jpeg");
 }
 
 .experiencias .nature .place-photo-6:before {
@@ -3870,27 +3873,27 @@ body {
 }
 
 .experiencias .town .place-photo-1:before {
-    background-image: url("/assets/img/Orotava_Tenerife.jpg");
+    background-image: url("/assets/img/Orotava_Tenerife.jpeg");
 }
 
 .experiencias .town .place-photo-2:before {
-    background-image: url("/assets/img/Arucas_GranCanaria.jpg");
+    background-image: url("/assets/img/Arucas_GranCanaria.jpeg");
 }
 
 .experiencias .town .place-photo-3:before {
-    background-image: url("/assets/img/Firgas_GranCanaria.jpg");
+    background-image: url("/assets/img/Firgas_GranCanaria.jpeg");
 }
 
 .experiencias .town .place-photo-4:before {
-    background-image: url("/assets/img/SanBartolome_Lanzarote.jpg");
+    background-image: url("/assets/img/SanBartolome_Lanzarote.jpeg");
 }
 
 .experiencias .town .place-photo-5:before {
-    background-image: url("/assets/img/Yaiza_Lanzarote.jpg");
+    background-image: url("/assets/img/Yaiza_Lanzarote.jpeg");
 }
 
 .experiencias .town .place-photo-6:before {
-    background-image: url("/assets/img/CaletaDeSebo_LaGraciosa.jpg");
+    background-image: url("/assets/img/CaletaDeSebo_LaGraciosa.jpeg");
 }
 
 .experiencias .town .place-photo-7 {
