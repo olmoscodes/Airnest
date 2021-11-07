@@ -1161,7 +1161,7 @@ body {
     }
     .oc1 .place {
         padding: 20px;
-        width: 33%;
+        width: 30%;
     }
     .oc1 .place:hover {
         cursor: pointer;
@@ -1613,11 +1613,11 @@ body {
 }
 
 .home1 .module2 .media1 .photo1 {
-    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Módulo-2-Foto-1.jpeg");
+    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Modulo-2-Foto-1.jpeg");
 }
 
 .home1 .module2 .media2 .photo2 {
-    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Módulo-2-Foto-2.jpeg");
+    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Modulo-2-Foto-2.jpeg");
 }
 
 @media (min-width: 700px) {
@@ -1921,7 +1921,7 @@ body {
     .module3-long .photo3 {
         height: 40vh;
         width: 100%;
-        background-image: url("/assets/img/About-Airnest_módulo-1_foto-3.jpeg");
+        background-image: url("/assets/img/About-Airnest_modulo-1_foto-3.jpeg");
         background-size: cover !important;
         background-position: center;
         background-position: 70% 60%;
@@ -2015,7 +2015,7 @@ body {
     .module3-long .photo1 {
         height: 38vh;
         width: 55vh;
-        background-image: url("/assets/img/About-Airnest_módulo-1_foto-1.jpeg");
+        background-image: url("/assets/img/About-Airnest_modulo-1_foto-1.jpeg");
         background-size: cover;
         background-position: center;
     }
@@ -2046,7 +2046,7 @@ body {
     .module3-long .photo3 {
         height: 60vh;
         width: 90vh;
-        background-image: url("/assets/img/About-Airnest_módulo-1_foto-3.jpeg");
+        background-image: url("/assets/img/About-Airnest_modulo-1_foto-3.jpeg");
         background-size: cover;
         background-position: center;
         background-position: 0% 60%;
@@ -2460,7 +2460,7 @@ body {
 
 @media (min-width: 700px) {
     .our-nests {
-        background-image: url("/assets/img/NESTS.jpg");
+        background-image: url("/assets/img/NESTS.jpeg");
         background-position: 0% 0%;
         background-size: cover;
     }
@@ -2480,18 +2480,18 @@ body {
 
 @media (max-width: 700px) {
     .our-nests {
-        background-image: url("/assets/img/NESTS.jpg");
+        background-image: url("/assets/img/NESTS.jpeg");
         background-position: 45% 30%;
         background-size: cover;
     }
 }
 
 .our-nests .module2 .media1 .photo1 {
-    background-image: url("/assets/img/Our-nests-Módulo-1.1.jpeg");
+    background-image: url("/assets/img/Our-nests-Modulo-1.1.jpeg");
 }
 
 .our-nests .module2 .media2 .photo2 {
-    background-image: url("/assets/img/Our-nests-Módulo-1.2.jpeg");
+    background-image: url("/assets/img/Our-nests-Modulo-1.2.jpeg");
     background-size: cover;
 }
 
@@ -2501,7 +2501,7 @@ body {
 }
 
 .our-nests .place-photo-2 {
-    background-image: url("/assets/img/CanaryIslandsApartments3.jpg");
+    background-image: url("/assets/img/CanaryIslandsApartments3.jpeg");
     background-size: cover;
 }
 
@@ -2511,17 +2511,17 @@ body {
 }
 
 .our-nests .place-photo-4 {
-    background-image: url("/assets/img/Canteras_sideview.jpg");
+    background-image: url("/assets/img/Canteras_sideview.jpeg");
     background-size: cover;
 }
 
 .our-nests .place-photo-5 {
-    background-image: url("/assets/img/Lagos35Villa.jpg");
+    background-image: url("/assets/img/Lagos35Villa.jpeg");
     background-size: cover;
 }
 
 .our-nests .place-photo-6 {
-    background-image: url("/assets/img/CityCenter_GranCanaria.jpg");
+    background-image: url("/assets/img/CityCenter_GranCanaria.jpeg");
     background-size: cover;
 }
 
@@ -2546,12 +2546,12 @@ body {
 }
 
 .our-nests .place-photo-11 {
-    background-image: url("/assets/img/CanaryIslandsApartments6.jpg");
+    background-image: url("/assets/img/CanaryIslandsApartments6.jpeg");
     background-size: cover;
 }
 
 .our-nests .place-photo-12 {
-    background-image: url("/assets/img/TaoyoSuites2.jpg");
+    background-image: url("/assets/img/TaoyoSuites2.jpeg");
     background-size: cover;
 }
 
@@ -2601,7 +2601,7 @@ body {
 }
 
 .our-nests .place-photo-22 {
-    /*background-image: url("");*/
+    background-image: url("/assets/img/CanaryIslandsApartments2.jpg");
     background-size: cover;
 }
 
@@ -2641,7 +2641,7 @@ body {
 }
 
 .our-nests .place-photo-30 {
-    background-image: url("/assets/img/LasLomas.jpg");
+    background-image: url("/assets/img/LasLomas.jpeg");
     background-size: cover;
 }
 
@@ -2651,12 +2651,12 @@ body {
 }
 
 .our-nests .place-photo-32 {
-    background-image: url("/assets/img/TaoyoSuites3.jpg");
+    background-image: url("/assets/img/TaoyoSuites3.jpeg");
     background-size: cover;
 }
 
 .our-nests .place-photo-33 {
-    background-image: url("/assets/img/CanaryIslands_Apartments.jpg");
+    background-image: url("/assets/img/CanaryIslands_Apartments.jpeg");
     background-size: cover;
 }
 
@@ -2681,7 +2681,7 @@ body {
 }
 
 .our-nests .place-photo-38 {
-    background-image: url("/assets/img/SeasideVilla.jpg");
+    background-image: url("/assets/img/SeasideVilla.jpeg");
     background-size: cover;
 }
 
@@ -2706,7 +2706,7 @@ body {
 }
 
 .our-nests .place-photo-43 {
-    background-image: url("/assets/img/CanaryIslandsApartments5.jpg");
+    background-image: url("/assets/img/CanaryIslandsApartments5.jpeg");
     background-size: cover;
 }
 
@@ -2721,12 +2721,12 @@ body {
 }
 
 .our-nests .place-photo-46 {
-    background-image: url("/assets/img/TaoyoSuites4.jpg");
+    background-image: url("/assets/img/TaoyoSuites4.jpeg");
     background-size: cover;
 }
 
 .our-nests .place-photo-47 {
-    background-image: url("/assets/img/TaoyoSuites5.jpg");
+    background-image: url("/assets/img/TaoyoSuites5.jpeg");
     background-size: cover;
 }
 
@@ -2741,7 +2741,7 @@ body {
 }
 
 .our-nests .place-photo-50 {
-    /*background-image: url("");*/
+    background-image: url("/assets/img/TaoyoSuites6.jpg");
     background-size: cover;
 }
 
@@ -2790,7 +2790,7 @@ body {
 }
 
 .islands .module-islands-4 .bottom-left .photo {
-    background-image: url("/assets/img/Islas-general-Módulo-5.2.png");
+    background-image: url("/assets/img/Islas-general-Modulo-5.2.png");
 }
 
 .islands .module-islands-4 .bottom-right .photo {
@@ -3065,7 +3065,7 @@ body {
 }
 
 .teletrabajo .module3-1 .bottom-left .photo {
-    background-image: url("/assets/img/Teletrabajo_módulo-1_foto1.png");
+    background-image: url("/assets/img/Teletrabajo_modulo-1_foto1.png");
 }
 
 .teletrabajo .module3-1 .bottom-right .photo {
