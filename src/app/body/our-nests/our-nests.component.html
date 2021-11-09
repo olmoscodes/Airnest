@@ -33,7 +33,7 @@
             <div class="title"> Your nest in <span> paradise.</span> </div>
             <div class="text"> All the houses that we offer have been carefully selected. We truly believe in quality over quantity, which is why only those that truly meet the highest standards can become a nest. Here, we invite you to take a look at some of our most beloved ones.</div>
             <div class="oc1 carrousel">
-                <a *ngFor="let nest of Nests" href="{{nest.link}}" class="pp place">
+                <a *ngFor="let nest of Nests" [routerLink]="['/nest', nest.link]" class="pp place">
                     <div class="place-photo place-photo-{{nest.id}}"></div>
                     <div class="place-info">
                         <div class="place-info-left">
