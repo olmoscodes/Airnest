@@ -4,7 +4,7 @@ import { AboutAirnestComponent } from './body/about-airnest/about-airnest.compon
 import { ExperiencesComponent } from './body/experiences/experiences.component';
 import { HomeComponent } from './body/home/home.component';
 import { IslandsComponent } from './body/islands/islands.component';
-import { NestComponent } from './body/nest/nest.component';
+import { NestComponent } from './body/our-nests/nest/nest.component';
 import { NotFoundComponent } from './body/not-found/not-found.component';
 import { OurNestsComponent } from './body/our-nests/our-nests.component';
 import { OwnersComponent } from './body/owners/owners.component';
@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'remote-working', component: RemoteWorkingComponent },
   { path: 'about', component: AboutAirnestComponent },
   { path: 'owners', component: OwnersComponent },
-  { path: 'nest/:link', component: NestComponent},
+  { path: 'our-nests/:link', component: NestComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
