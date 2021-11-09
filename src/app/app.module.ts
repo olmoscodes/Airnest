@@ -13,6 +13,7 @@ import { OwnersComponent } from './body/owners/owners.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './body/not-found/not-found.component';
+import { NestComponent, SafePipe } from './body/nest/nest.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,8 @@ import { NotFoundComponent } from './body/not-found/not-found.component';
     NavbarComponent,
     FooterComponent,
     NotFoundComponent,
+    NestComponent,
+    SafePipe,
   ],
   imports: [
     BrowserModule,
