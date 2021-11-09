@@ -80,7 +80,7 @@ a:active .header-content {
 @media (max-width: 600px) {
     .footer-airnest {
         font-family: 'Playfair Display' !important;
-        font-size: 0.69em;
+        font-size: 0.9em;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -206,7 +206,7 @@ a:active .header-content {
 @media (min-width: 600px) {
     .footer-airnest {
         font-family: 'Playfair Display' !important;
-        font-size: 0.69em;
+        font-size: 0.9em;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -252,6 +252,11 @@ a:active .header-content {
         width: 20px;
         color: black;
     }
+
+    .rrss a {
+        margin-bottom: -6.5px;
+    }
+
     .rrss .email {
         margin-bottom: 0px;
     }
@@ -1614,11 +1619,11 @@ body {
 }
 
 .home1 .module2 .media1 .photo1 {
-    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Modulo-2-Foto-1.jpeg");
+    background-image: url("/assets/img/Modulo-2-Foto-1.jpeg");
 }
 
 .home1 .module2 .media2 .photo2 {
-    background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/06/Modulo-2-Foto-2.jpeg");
+    background-image: url("/assets/img/Modulo-2-Foto-2.jpeg");
 }
 
 @media (min-width: 700px) {
@@ -2169,7 +2174,7 @@ body {
         align-items: center;
         max-width: 100vw !important;
         position: relative;
-        background-color: #F4F4F4;
+        background-color: #EBEBEB;
         color: black;
     }
     .module5 .title {
@@ -2223,7 +2228,7 @@ body {
         align-items: center;
         max-width: 100vw !important;
         position: relative;
-        background-color: #F4F4F4;
+        background-color: #EBEBEB;
         color: black;
     }
     .module5 .cta {
@@ -2291,7 +2296,7 @@ body {
         align-items: center;
         max-width: 100vw !important;
         position: relative;
-        background-color: #EBEBEB;
+        background-color: #F4F4F4;
         color: black;
         overflow: hidden;
     }
@@ -2358,7 +2363,7 @@ body {
         align-items: center;
         max-width: 100vw !important;
         position: relative;
-        background-color: #EBEBEB;
+        background-color: #F4F4F4;
         color: black;
         overflow: hidden;
     }
