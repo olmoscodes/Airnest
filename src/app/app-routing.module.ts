@@ -10,6 +10,7 @@ import { OwnersComponent } from './body/owners/owners.component';
 import { RemoteWorkingComponent } from './body/remote-working/remote-working.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'our-nests', component: OurNestsComponent },
   { path: 'experiences', component: ExperiencesComponent },
@@ -17,11 +18,11 @@ const routes: Routes = [
   { path: 'remote-working', component: RemoteWorkingComponent },
   { path: 'about', component: AboutAirnestComponent },
   { path: 'owners', component: OwnersComponent },
-  { path: '404', component: NotFoundComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
