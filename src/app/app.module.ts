@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { NotFoundComponent } from './body/not-found/not-found.component';
 import { NestComponent, SafePipe } from './body/our-nests/nest/nest.component';
+import { IslandComponent } from './body/islands/island/island.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { NestComponent, SafePipe } from './body/our-nests/nest/nest.component';
     NotFoundComponent,
     NestComponent,
     SafePipe,
+    IslandComponent,
   ],
   imports: [
     BrowserModule,
