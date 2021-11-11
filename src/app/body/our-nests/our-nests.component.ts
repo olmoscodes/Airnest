@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -63,8 +64,7 @@ export class OurNestsComponent implements OnInit {
     new Nest(50,'Taoyo-Suites-VI', 'Taoyo Suites VI | Gran Canaria', 'New apartment located in the historical town of Las Palmas', 3, 1),
   ]
 
-  constructor() {
-  }
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     gsap.registerPlugin(ScrollTrigger);
@@ -90,7 +90,5 @@ export class OurNestsComponent implements OnInit {
         });
       }
     }
-
-
   }
 }

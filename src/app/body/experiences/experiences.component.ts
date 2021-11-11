@@ -60,44 +60,44 @@ export class ExperiencesComponent implements OnInit {
   
     }  else {
   
-      const experiences1 = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".m1",
-          start: "top 5px",
-          end: "+=1700",
-          pin: true,
-          scrub: 1,
-          markers: false
-        }
-      });
+      // const experiences1 = gsap.timeline({
+      //   scrollTrigger: {
+      //     trigger: ".m1",
+      //     start: "top 5px",
+      //     end: "+=1700",
+      //     pin: true,
+      //     scrub: 1,
+      //     markers: false
+      //   }
+      // });
   
-      experiences1.fromTo(".c1", {x: "100vw"}, {x: "-680vw"})
+      // experiences1.fromTo(".c1", {x: "100vw"}, {x: "-680vw"})
   
-      const experiences2 = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".m2",
-          start: "top 5px",
-          end: "+=1700",
-          pin: true,
-          scrub: 1,
-          markers: false
-        }
-      });
+      // const experiences2 = gsap.timeline({
+      //   scrollTrigger: {
+      //     trigger: ".m2",
+      //     start: "top 5px",
+      //     end: "+=1700",
+      //     pin: true,
+      //     scrub: 1,
+      //     markers: false
+      //   }
+      // });
   
-      experiences2.fromTo(".c2", {x: "100vw"}, {x: "-680vw"})
+      // experiences2.fromTo(".c2", {x: "100vw"}, {x: "-680vw"})
       
-      const experiences3 = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".m3",
-          start: "top 5px",
-          end: "+=1700",
-          pin: true,
-          scrub: 1,
-          markers: false
-        }
-      });
+      // const experiences3 = gsap.timeline({
+      //   scrollTrigger: {
+      //     trigger: ".m3",
+      //     start: "top 5px",
+      //     end: "+=1700",
+      //     pin: true,
+      //     scrub: 1,
+      //     markers: false
+      //   }
+      // });
   
-      experiences3.fromTo(".c3", {x: "100vw"}, {x: "-480vw"})
+      // experiences3.fromTo(".c3", {x: "100vw"}, {x: "-480vw"})
     }
   }
 

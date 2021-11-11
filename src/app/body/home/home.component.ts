@@ -29,18 +29,18 @@ export class HomeComponent implements OnInit {
 
       home1.fromTo('.hc1', { x: '100vw' }, { x: '-100vw' });
     } else {
-      const home1 = gsap.timeline({
-        scrollTrigger: {
-          trigger: '.hm1',
-          start: 'top 5px',
-          end: '+=1700',
-          pin: true,
-          scrub: 1,
-          markers: false,
-        },
-      });
+      // const home1 = gsap.timeline({
+      //   scrollTrigger: {
+      //     trigger: '.hm1',
+      //     start: 'top 5px',
+      //     end: '+=1700',
+      //     pin: true,
+      //     scrub: 1,
+      //     markers: false,
+      //   },
+      // });
 
-      home1.fromTo('.hc1', { x: '100vw' }, { x: '-650vw' });
+      // home1.fromTo('.hc1', { x: '100vw' }, { x: '-650vw' });
     }
   }
 }

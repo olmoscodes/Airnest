@@ -767,6 +767,7 @@ body {
         background-color: white;
         padding-top: 80px;
         color: black !important;
+        width: 100vw;
     }
     .header #nav2 .hamburguer-nav div {
         border: 1px solid transparent;
@@ -1031,9 +1032,15 @@ body {
         max-height: 100%;
         min-height: 25vh;
         justify-content: center;
-        ;
         width: 90vw;
         padding-bottom: 29px;
+    }
+    .our-nests .carrousel {
+        margin-top: 30px;
+        padding-left: 0px;
+        align-self: center;
+        max-width: 85vw !important;
+        min-width: 85vw !important;
     }
     .oc1 .place-info {
         display: flex;
@@ -1134,7 +1141,6 @@ body {
         max-height: 100%;
         min-height: 25vh;
         justify-content: center;
-        ;
         width: 90vw;
         padding-bottom: 29px;
     }
@@ -1286,22 +1292,6 @@ body {
 }
 
 @media (max-width: 700px) {
-    .module4 .cta {
-        color: white;
-        border: 2px solid white;
-        font-style: italic !important;
-        margin-top: -80px;
-        padding: 10px 20px;
-        text-align: center;
-        font-size: 15px;
-        margin-bottom: 2vh !important;
-        text-decoration: none;
-        align-self: start;
-        margin-left: 10vw;
-    }
-    .module4 .cta a {
-        color: white;
-    }
     .module1 .title {
         margin-left: -20vw;
         font-size: 4vh;
@@ -1315,7 +1305,7 @@ body {
     .module1 .text {
         display: flex;
         margin-left: 10vw;
-        font-size: 1.7vh;
+        font-size: 2vh;
         padding-right: 6vw;
         margin-top: 3vh;
         margin-bottom: 2vh;
@@ -1323,11 +1313,13 @@ body {
     }
     .carrousel {
         display: flex;
+        justify-content: flex-start;
         max-height: 100%;
-        min-height: 25vh;
+        min-height: 35vh;
         padding-left: 10vw;
-        width: auto;
+        min-width: 90vw;
         align-self: flex-start;
+        overflow-y: scroll;
     }
     .module1 .cta {
         color: black;
@@ -1337,7 +1329,7 @@ body {
         padding: 10px 20px;
         text-align: center;
         font-size: 15px;
-        margin-bottom: 6vh !important;
+        margin-bottom: 2vh !important;
         text-decoration: none;
         margin-left: 10%;
     }
@@ -1576,7 +1568,7 @@ body {
         width: 100vw;
     }
     .module2 .bottom .left .text {
-        font-size: 1.4vh;
+        font-size: 2vh;
         width: 80%;
         font-style: italic;
         margin-left: 10vw;
@@ -1723,9 +1715,9 @@ body {
         width: 100%;
     }
     .module3 .title {
-        margin-left: 14vw;
+        margin-left: 10vw;
         font-size: 4vh;
-        margin-top: 7vh;
+        margin-top: 50px;
         margin-bottom: 4vh;
         line-height: 60px;
         width: 80vw;
@@ -1755,14 +1747,14 @@ body {
     }
     .module3 .body-copy-1 {
         font-style: italic;
-        font-size: 1.5vh;
+        font-size: 2vh;
         width: 80vw;
         margin-left: 10vw;
         margin-bottom: 5vh;
     }
     .module3 .bottom-left .photo {
-        width: 34vh;
-        height: 50vh;
+        width: 45vh;
+        height: 60vh;
         background-position: center;
         background-size: cover;
         margin-left: 10vw;
@@ -2078,6 +2070,26 @@ body {
 }
 
 @media (max-width: 700px) {
+    .module4 .cta {
+        color: white;
+        border: 2px solid white;
+        font-style: italic !important;
+        margin-top: 30px;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2vh !important;
+        text-decoration: none;
+        align-self: start;
+        margin-left: 10vw;
+    }
+    .module4 .cta a {
+        color: white;
+    }
+
+    .module4 .box-resizing {
+        justify-content: flex-start;
+    }
     .module4 {
         height: 100vh;
         width: 100vw;
@@ -2097,10 +2109,9 @@ body {
     .module4 .title {
         font-size: 4vh;
         width: 80vw;
-        margin-top: 50px;
+        margin-bottom: 20px;
         line-height: 60px;
         justify-self: flex-start;
-        position: absolute;
         top: 0.5vh;
         left: 10vw;
         line-height: 11vw;
@@ -2110,11 +2121,11 @@ body {
     }
     .module4 .body-copy {
         font-style: italic;
-        font-size: 1.6vh;
-        position: absolute;
+        font-size: 2vh;
+        position: flex;
         width: 82%;
         left: 10vw;
-        top: 23vh;
+        top: 18vh;
     }
 }
 
@@ -2216,6 +2227,11 @@ body {
 }
 
 @media (max-width: 700px) {
+
+    .module5 .box-resizing {
+        justify-content: flex-start;
+        align-items: center;
+    }
     .module5 {
         height: 100vh;
         width: 100vw;
@@ -2232,40 +2248,37 @@ body {
         color: black;
     }
     .module5 .cta {
-        color: white;
+        color: black;
         border: 2px solid black;
         font-style: italic !important;
-        margin-top: -80px;
         padding: 10px 20px;
         text-align: center;
         font-size: 15px;
-        margin-bottom: 2vh !important;
         text-decoration: none;
         align-self: start;
-        position: absolute;
-        bottom: -100px;
+        display: flex;
+        margin-top: 30px;
     }
+
     .module5 .title {
-        position: absolute;
-        left: 10vw;
+        position: inherit;
         top: 0.5vh;
         font-size: 4vh;
         line-height: 5.4vh !important;
         width: 83%;
-        margin-top: 50px;
     }
     .module5 .title span {
         font-style: italic;
         margin: 0px 10px 0px 4px;
     }
     .module5 .body-copy {
-        position: absolute;
-        top: 18vh;
-        left: 10vw;
+        position: inherit;
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 80vw;
         margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
     }
     .module5 .photo {
         position: absolute;
@@ -2306,6 +2319,8 @@ body {
         width: 100%;
         line-height: 5.4vh;
         margin-bottom: 4vh;
+        display: block;
+        text-align: center;
     }
     .module6 .title span {
         font-style: italic;
@@ -3963,7 +3978,7 @@ body {
 
 .home1 .subtitle {
     color: white;
-    margin-top: -30px;
+    margin-top: 1px;
     font-size: 20px;
     text-align: center;
 }
