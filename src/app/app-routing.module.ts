@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutAirnestComponent } from './body/about-airnest/about-airnest.component';
-import { ExperiencesComponent } from './body/experiences/experiences.component';
-import { HomeComponent } from './body/home/home.component';
-import { IslandsComponent } from './body/islands/islands.component';
-import { NestComponent } from './body/our-nests/nest/nest.component';
-import { NotFoundComponent } from './body/not-found/not-found.component';
-import { OurNestsComponent } from './body/our-nests/our-nests.component';
-import { OwnersComponent } from './body/owners/owners.component';
-import { RemoteWorkingComponent } from './body/remote-working/remote-working.component';
-import { IslandComponent } from './body/islands/island/island.component';
+import { AboutAirnestComponent } from './site/body/about-airnest/about-airnest.component';
+import { ExperiencesComponent } from './site/body/experiences/experiences.component';
+import { HomeComponent } from './site/body/home/home.component';
+import { IslandsComponent } from './site/body/islands/islands.component';
+import { NestComponent } from './site/body/our-nests/nest/nest.component';
+import { NotFoundComponent } from './site/body/not-found/not-found.component';
+import { OurNestsComponent } from './site/body/our-nests/our-nests.component';
+import { OwnersComponent } from './site/body/owners/owners.component';
+import { RemoteWorkingComponent } from './site/body/remote-working/remote-working.component';
+import { IslandComponent } from './site/body/islands/island/island.component';
+import { AdminComponent } from './admin/admin.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'owners', component: OwnersComponent },
   { path: 'our-nests/:link', component: NestComponent},
   { path: 'islands/:island', component: IslandComponent},
+  { path: 'admin', component: AdminComponent },
   { path: '**', component: NotFoundComponent },
 ];
 
