@@ -16,6 +16,10 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
 
     gsap.registerPlugin(ScrollTrigger);
+
+    const navbarStart = gsap.timeline()
+
+    navbarStart.fromTo("#nav", {opacity: 0}, {opacity: 1}, "+=0.2")
   
     const navbarHideTL = gsap.timeline({paused: true})
       
