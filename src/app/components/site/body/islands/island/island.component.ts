@@ -70,7 +70,7 @@ export class IslandComponent implements OnInit {
         '')
     ),
     new Island('tenerife',
-      new IslandContent('Gran Canaria.',
+      new IslandContent('Tenerife.',
         'Endless possibilities await.',
         'Take yourself back ',
         'in time.',
@@ -151,7 +151,7 @@ export class IslandComponent implements OnInit {
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
 
     this.islandName = this.route.snapshot.params['island'];
-    console.log(this.islandName)
+    // console.log(this.islandName)
 
     this.islandsList.forEach(element => {
       if (element === this.islandName) {
