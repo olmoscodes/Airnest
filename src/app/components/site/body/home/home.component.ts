@@ -15,6 +15,17 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     gsap.registerPlugin(ScrollTrigger);
 
+    const widgetStart = gsap.timeline()
+
+    widgetStart.fromTo("#search-widget_IO312PWQ", {opacity: 0}, {opacity: 1}, "+=1")
+
+    if (!localStorage.getItem('foo')) {
+      localStorage.setItem('foo', 'no reload')
+      location.reload()
+    } else {
+        localStorage.removeItem('foo')
+    }
+
     if (window.matchMedia('(min-width: 400px)').matches) {
       const home1 = gsap.timeline({
         scrollTrigger: {

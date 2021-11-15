@@ -69,6 +69,13 @@ export class OurNestsComponent implements OnInit {
   ngOnInit(): void {
     gsap.registerPlugin(ScrollTrigger);
 
+    if (!localStorage.getItem('foo')) {
+        localStorage.setItem('foo', 'no reload')
+        location.reload()
+    } else {
+        localStorage.removeItem('foo')
+    }
+
     window.onload = function() {
       if (window.matchMedia('(min-width: 400px)').matches) {
         ScrollTrigger.batch('.pp', {

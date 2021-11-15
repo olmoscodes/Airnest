@@ -4067,41 +4067,41 @@ body {
 
 /* LA GRACIOSA */
 
-.graciosa .home-page {
+.lagraciosa .home-page {
     background-image: url("/assets/img/HeaderLaGraciosaV2.jpeg");
 }
 
-.graciosa .module3 .bottom-left .photo {
+.lagraciosa .module3 .bottom-left .photo {
     background-image: url("/assets/img/LA-GRACIOSA02.jpeg");
 }
 
-.graciosa .module3 .bottom-right .photo {
+.lagraciosa .module3 .bottom-right .photo {
     background-image: url("/assets/img/LA-GRACIOSA03.jpeg");
 }
 
-.graciosa .module4 {
+.lagraciosa .module4 {
     background-image: url("/assets/img/LA-GRACIOSA04.jpeg");
 }
 
-.graciosa .module2 .photo1 {
+.lagraciosa .module2 .photo1 {
     background-image: url("/assets/img/5_LaGraciosa_Island.jpeg") !important;
 }
 
 /* LA Gomera */
 
-.gomera .home-page {
+.lagomera .home-page {
     background-image: url("/assets/img/LaGomera1_V2.jpeg");
 }
 
-.gomera .module3 .bottom-left .photo {
+.lagomera .module3 .bottom-left .photo {
     background-image: url("/assets/img/LAGOMERA02.jpeg");
 }
 
-.gomera .module3 .bottom-right .photo {
+.lagomera .module3 .bottom-right .photo {
     background-image: url("/assets/img/LAGOMERA03.jpeg");
 }
 
-.gomera .module4 {
+.lagomera .module4 {
     background-image: url("/assets/img/LaGomera4_V2.jpeg");
 }
 
@@ -4125,20 +4125,20 @@ body {
 
 /* La Palma */
 
-.palma .home-page {
+.lapalma .home-page {
     background-image: url("/assets/img/LaPalma1_V2.jpeg");
     background-position: 100% 100%;
 }
 
-.palma .module3 .bottom-left .photo {
+.lapalma .module3 .bottom-left .photo {
     background-image: url("/assets/img/LAPALMA02.jpeg");
 }
 
-.palma .module3 .bottom-right .photo {
+.lapalma .module3 .bottom-right .photo {
     background-image: url("/assets/img/LAPALMA03.jpeg");
 }
 
-.palma .module4 {
+.lapalma .module4 {
     background-image: url("/assets/img/LaPalma4_v2.jpeg");
     background-size: cover;
     background-position: 100% 100%;
@@ -4182,19 +4182,19 @@ body {
 
 /* El Hierro */
 
-.hierro .home-page {
+.elhierro .home-page {
     background-image: url("/assets/img/ELHIERRO01.jpeg");
 }
 
-.hierro .module3 .bottom-left .photo {
+.elhierro .module3 .bottom-left .photo {
     background-image: url("/assets/img/ELHIERRO02.jpeg");
 }
 
-.hierro .module3 .bottom-right .photo {
+.elhierro .module3 .bottom-right .photo {
     background-image: url("/assets/img/ELHIERRO03.jpeg");
 }
 
-.hierro .module4 {
+.elhierro .module4 {
     background-image: url("/assets/img/ElHierro4_v2.jpeg");
 }
 
