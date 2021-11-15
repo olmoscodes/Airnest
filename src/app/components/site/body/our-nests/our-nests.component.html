@@ -1,0 +1,54 @@
+<app-navbar></app-navbar>
+<div class="airnest-content our-nests">
+    <div class="header our-nests">
+        <div class="header-content">
+            <div class="title">Our nests.</div>
+            <a href="https://airnest.guestybookings.com/listings/" class="cta"> Book now </a>
+        </div>
+    </div>
+    <div class="module2">
+        <div class="box-resizing">
+            <div class="top">
+                <img src="https://dev.airnest.es/wp-content/uploads/2021/06/QUALITY-MARK-21-e1623683452387.png" alt="">
+                <div class="title"> A new <span>quality standard</span> for vacation homes. </div>
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <div class="text"> When you are already in paradise, our intent is to match the experience with the place. In order to make this possible, we only offer a strictly selected set of homes that fit these characteristics and combine them with an all around personalized experience to match. Our goal is to ensure you can fully get a taste of the Islands, inside the apartments and throughout your visit.</div>
+                    <div class="media1">
+                        <div class="photo1"></div>
+                        <a href="https://dev.airnest.es/booking/" class="cta"> Find your nest </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="media2">
+                        <div class="photo2"></div>
+                        <a href="https://dev.airnest.es/booking/" class="cta"> Find your nest </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="om1 module1">
+        <div class="box-resizing">
+            <div class="title"> Your nest in <span> paradise.</span> </div>
+            <div class="text"> All the houses that we offer have been carefully selected. We truly believe in quality over quantity, which is why only those that truly meet the highest standards can become a nest. Here, we invite you to take a look at some of our most beloved ones.</div>
+            <div class="oc1 carrousel">
+                <a *ngFor="let nest of Nests" [routerLink]="['/our-nests', nest.link]" class="pp place">
+                    <div class="place-photo place-photo-{{nest.id}}"></div>
+                    <div class="place-info">
+                        <div class="place-info-left">
+                            <div class="place-name">{{nest.name}}</div>
+                            <div class="place-description">{{nest.description}}</div>
+                        </div>
+                        <div class="place-info-right">
+                            <div class="place-guests">{{nest.guests}}<i class="fas fa-male"></i></div>
+                            <div class="place-rooms">{{nest.rooms}}<i class="fas fa-bed"></i></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
