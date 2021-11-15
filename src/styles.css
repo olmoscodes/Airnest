@@ -161,7 +161,7 @@ a:active .header-content {
         border: 0;
         height: 40px !important;
         padding-left: 14px;
-        width: 100%;
+        width: calc(100% - 16px);
     }
     .f-right form .submit {
         width: 100%;
@@ -1753,8 +1753,8 @@ body {
         margin-bottom: 5vh;
     }
     .module3 .bottom-left .photo {
-        width: 45vh;
-        height: 60vh;
+        width: 80vw;
+        height: 50vh;
         background-position: center;
         background-size: cover;
         margin-left: 10vw;
