@@ -2,6 +2,10 @@
     font-family: 'Playfair Display' !important;
 }
 
+a {
+    color: black;
+}
+
 @media (min-width: 600px) {
     .display {
         height: 100vh;
