@@ -11,6 +11,9 @@ import { OwnersComponent } from './components/site/body/owners/owners.component'
 import { RemoteWorkingComponent } from './components/site/body/remote-working/remote-working.component';
 import { IslandComponent } from './components/site/body/islands/island/island.component';
 import { AdminComponent } from './components/admin/admin.component';
+import { LoginComponent } from './components/login/login.component';
+import { AuthGuard } from './services/auth.guard';
+import { RoleGuard } from './services/role.guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -23,7 +26,8 @@ const routes: Routes = [
   { path: 'owners', component: OwnersComponent },
   { path: 'our-nests/:link', component: NestComponent},
   { path: 'islands/:island', component: IslandComponent},
-  { path: 'admin', component: AdminComponent },
+  { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
+  { path: 'login', component: LoginComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

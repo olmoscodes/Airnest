@@ -70,7 +70,7 @@ export class IslandComponent implements OnInit {
         '')
     ),
     new Island('tenerife',
-      new IslandContent('Gran Canaria.',
+      new IslandContent('Tenerife.',
         'Endless possibilities await.',
         'Take yourself back ',
         'in time.',
@@ -93,7 +93,7 @@ export class IslandComponent implements OnInit {
         'Fuertevnetura was the first island to emerge from the Atlantic Ocean. As a result, vast plains of low mountains, mesmerizing beaches, enthralling ancient engraving, a fairytale islet and its very own cheese with milk from an endemic goat make this island the perfect paradise.',
         '')
     ),
-    new Island('palma',
+    new Island('lapalma',
       new IslandContent('La Palma.',
         'The «Isla Bonita».',
         'The best sky in the ',
@@ -105,7 +105,7 @@ export class IslandComponent implements OnInit {
         'La Palma is, in one word, breathtaking. It is astoundingly beautiful from the stars in its skies to its spectacular pine forests and underwater caves. An island with an awe-inspiring atmosphere that connects us to the powerful energy of this indomitable nature.',
         '')
     ),
-    new Island('gomera',
+    new Island('lagomera',
       new IslandContent('La Gomera.',
         'A green heaven.',
         'Endless trails and ',
@@ -117,7 +117,7 @@ export class IslandComponent implements OnInit {
         'Lush laurisilva, deep ravines and abrupt cliffs, valleys colonised by leafy palm groves, wild little beaches… you can find them all in this truly diverse and intricate island. A place so unique that still preserves the ancient whistled language used centuries ago, the “Silbo Gomero”.',
         '')
     ),
-    new Island('hierro',
+    new Island('elhierro',
       new IslandContent('El Hierro.',
         'A shelter to disconnect.',
         'A diving ',
@@ -129,7 +129,7 @@ export class IslandComponent implements OnInit {
         'The one furthest to the south and to the west, a place that in ancient times was thought to be the end of the world. Now, it is a place of peace and tranquility, where time and stress disappear.',
         '')
     ),
-    new Island('graciosa',
+    new Island('lagraciosa',
       new IslandContent('La Graciosa.',
         'A virginal paradise.',
         'Nature in its ',
@@ -147,7 +147,11 @@ export class IslandComponent implements OnInit {
   constructor(private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
+
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+
     this.islandName = this.route.snapshot.params['island'];
+    // console.log(this.islandName)
 
     this.islandsList.forEach(element => {
       if (element === this.islandName) {
@@ -180,20 +184,7 @@ export class IslandComponent implements OnInit {
       });
 
       home1.fromTo('.hc1', { x: '100vw' }, { x: '-100vw' });
-    } else {
-      // const home1 = gsap.timeline({
-      //   scrollTrigger: {
-      //     trigger: '.hm1',
-      //     start: 'top 5px',
-      //     end: '+=1700',
-      //     pin: true,
-      //     scrub: 1,
-      //     markers: false,
-      //   },
-      // });
-
-      // home1.fromTo('.hc1', { x: '100vw' }, { x: '-650vw' });
-    }
+    } 
 
   }
 

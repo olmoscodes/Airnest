@@ -22,9 +22,9 @@ import { BodyComponent } from './components/site/body/body.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { environment } from 'src/environments/environment';
+import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './components/login/login.component';
 
-
- 
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,11 +43,14 @@ import { environment } from 'src/environments/environment';
     IslandComponent,
     AdminComponent,
     SiteComponent,
-    BodyComponent],
+    BodyComponent,
+    LoginComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig)
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    FormsModule
   ],
   providers: [
     AngularFirestore,
