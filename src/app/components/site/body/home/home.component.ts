@@ -14,10 +14,23 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     gsap.registerPlugin(ScrollTrigger);
-
+    
     const widgetStart = gsap.timeline()
+    
+    widgetStart.fromTo(".header-content", {opacity: 0}, {opacity: 1}, "+=1")
+    .fromTo("#search-widget_IO312PWQ", {opacity: 0}, {opacity: 1}, "+=0.1")
 
-    widgetStart.fromTo("#search-widget_IO312PWQ", {opacity: 0}, {opacity: 1}, "+=1")
+    const popUp = gsap.timeline()
+    
+    popUp.fromTo(".pop-up-background", {opacity: 0, pointerEvents: 'none'}, {opacity: 1, pointerEvents: 'auto'}, "+=5")
+    .fromTo(".pop-up", {opacity: 0, pointerEvents: 'none'}, {opacity: 1, pointerEvents: 'auto'}, "-=.5")
+    .fromTo(".pop-up", {opacity: 0, pointerEvents: 'none'}, {opacity: 1, pointerEvents: 'auto'}, "-=.5")
+
+    const crosPop = document.getElementById('crossPop')!;
+
+    crosPop.addEventListener("click", function() {
+      popUp.reverse();
+    });
 
     if (!localStorage.getItem('foo')) {
       localStorage.setItem('foo', 'no reload')

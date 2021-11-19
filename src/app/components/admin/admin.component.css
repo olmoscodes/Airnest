@@ -1,0 +1,241 @@
+* {
+    font-family: 'Playfair Display' !important;
+}
+
+.display {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.display>.left {
+    max-height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.display>.right {
+    max-height: 100%;
+    overflow-y: scroll;
+    width: 70%;
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.topbar {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 30px;
+    margin: 30px
+}
+
+.userdata {
+    width: 100%;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    width: 83%;
+}
+
+.add-module {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.add-module .title {
+    font-size: 20px;
+    position: relative;
+}
+
+
+
+.add .text .title:after {
+    content: 'How to add different paragraphs?';
+    color: gray;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.add .image .title:after {
+    content: 'How to add an image?';
+    color: gray;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.add .text .title:after:hover {
+    cursor: pointer;
+}
+
+.add .text .title .instructions {
+    opacity: 0;
+    display: flex;
+    background-color: #f1f1f1;
+    width: 200px;
+    height: auto;
+    font-size: 10px;
+    padding: 14px;
+    position: absolute;
+    top: 28px;
+    left: 50px;
+}
+
+.add .text .title:hover {
+    cursor: pointer;
+}
+
+.add .text .title:hover .instructions {
+    content: '';
+    opacity: 1;
+}
+
+.add .image .title .instructions {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    width: 200px;
+    height: auto;
+    font-size: 10px;
+    padding: 14px;
+    position: absolute;
+    top: 28px;
+    left: 50px;
+}
+
+.instructions a {
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.add .image .title:hover {
+    cursor: pointer;
+}
+
+.add .image .title:hover .instructions {
+    content: '';
+    opacity: 1;
+}
+
+.add-module input[type=text] {
+    margin-top: 10px;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 0;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.add-module .textarea {
+    margin-top: 10px;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 0;
+    height: 200px;
+    padding: 20px;
+}
+
+.articleBox {
+    width: calc(80% - 100px);
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 50px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.articleBox .buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.articleBox .buttons button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: white;
+    font-style: italic;
+}
+
+.articleBox .buttons button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.articleBox .left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleBox .right {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleBox .title {
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.articleBox .text {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.articleBox .date {
+    font-size: 13px;
+    font-style: italic;
+    width: 100%;
+}
+
+.articleBox img {
+    width: 100%;
+}
+
+.add .buttons {
+    margin-top: 30px;
+}
+
+.add .buttons button {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+    font-style: italic;
+}
+
+.add .buttons button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

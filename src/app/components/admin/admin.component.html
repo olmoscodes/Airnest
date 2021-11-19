@@ -1,5 +1,65 @@
-<div *ngFor="let a of articlesList">
-    {{a.uid}}
-    {{a.data}}
+<div class="display">
+    <div class="left">
+        <div class="topbar">
+            <img class="logo" src="/assets/img/Airnest_Logo-Black.png" alt="">
+            <div class="userdata"></div>
+        </div>
+        <div class="add">
+            <div class="explanation"></div>
+            <input type="hidden" name="id" [(ngModel)]="article.id">
+            <div class="add-module">
+                <div class="title">Title</div>
+                <input type="text" name="title" [(ngModel)]="article.title">
+            </div>
+            <div class="add-module text">
+                <div class="title">
+                    Text
+                    <div class="instructions">
+                        In order to add paragraphs, you should add the tag {{anotherParagraphTag}} whenever you want to create another paragraph.
+                    </div>
+                </div>
+                <textarea name="text" class="textarea" [(ngModel)]="article.text"></textarea>
+            </div>
+            <div class="add-module image">
+                <div class="title">
+                    Image
+                    <div class="instructions">
+                        In order to add an image, you should: <br>
+                        1. Access: <a target="_blank" href="https://postimages.org/">https://postimages.org/</a>
+                        2. Upload an image <br>
+                        3. Copy the "Direct link" <br>
+                        4. Paste it here
+                    </div>
+                </div>
+                <div class="img-explanation"></div>
+                <input type="text" name="img" [(ngModel)]="article.img">
+            </div>
+            <div class="add-module">
+                <div class="title">Date</div>
+                <input type="text" name="date" [(ngModel)]="article.date">
+            </div>
+            <div class="buttons">
+                <button *ngIf="editProcessOff" (click)=createArticle()>Publish</button>
+                <button *ngIf="editProcessOff" (click)=clear()>Clear</button>
+                <button *ngIf="editProcessOn" (click)=updateArticle(article.id)>Edit</button>
+                <button *ngIf="editProcessOn" (click)=cancelEdit()>Cancel</button>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div *ngFor="let article of articlesList"class="articleBox">
+            <div class="left">
+                <div class="title">{{article.title}}</div>
+                <div class="text" [innerHTML]="article.text"></div>
+                <div class="date">{{article.date}}</div>
+            </div>
+            <div class="right">
+                <img src="{{article.img}}" alt="">
+            </div>
+            <div class="buttons">
+                <button *ngIf="editProcessOff" (click)=deleteArticle(article.id)>Delete</button>
+                <button (click)=getOneArticle(article.id)>Edit</button>
+            </div>
+        </div>
+    </div>
 </div>
-
