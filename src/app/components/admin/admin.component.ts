@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Article } from 'src/app/models/article.model';
 import { FirestoreService } from 'src/app/services/firestore.service';
 
@@ -27,7 +28,7 @@ export class AdminComponent implements OnInit {
 
   articlesList: Article[] = [];
   
-  constructor(private database: FirestoreService) {}
+  constructor(private database: FirestoreService, private router: Router) {}
 
   ngOnInit() {
     this.showArticles();
@@ -101,4 +102,10 @@ export class AdminComponent implements OnInit {
     this.article.date = ' ';
     this.article.img = ' ';
   }
+
+  public logOut():void {
+    localStorage.removeItem('token');
+    this.router.navigate(['login'])
+
+}
 }
