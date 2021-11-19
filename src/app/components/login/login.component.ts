@@ -16,24 +16,29 @@ export class LoginComponent implements OnInit {
     role: '',
   }
 
+  invalidCredentials = false;
+
   usersList: User[] = [];
 
   constructor(private database: FirestoreService, private router: Router) { }
 
   ngOnInit(): void {
+    this.getUsers();
   }
 
-  logIn(user: string, password: string) {
+  getUsers():void {
     this.database.getCollection<User>('users').subscribe( (res) => {
       this.usersList = res;
     })
+  }
 
+  logIn(user: string, password: string) {
     this.usersList.forEach(element => {
       if (element.user === this.user.user && element.password === this.user.password) {
         localStorage.setItem('token', "6hrFDATxrG9w14QY9wwnmVhLE0Wg6LIvwOwUaxz761m1JfRp4rs8Mzozk5xhSkw0_MQz6bpcJnrFUDwp5lPPFC157dHxbkKlDiQ9XY3ZIP8zAGCsS8ruN2uKjIaIargX")
         this.router.navigate(['admin']);
       } else {
-        alert("Invalid credentials");
+        this.invalidCredentials = true;
       }
     });
   }

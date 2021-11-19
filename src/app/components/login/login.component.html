@@ -1,7 +1,14 @@
-<div class="title">USER</div>
-<input type="text" name="user" [(ngModel)]="user.user">
-
-<div class="title">PASSWORD</div>
-<input type="text" name="password" [(ngModel)]="user.password">
-
-<button (click)=logIn(user.user,user.password)>LOG IN</button>
+<div class="login">
+    <div class="logInBox">
+        <img src="/assets/img/Airnest_Logo-Black.png" alt="">
+        <div class="text">Log in with your credentials in order to administrate the articles of your blog.</div>
+        <div class="input-module">
+            <input type="text" name="user" [(ngModel)]="user.user" placeholder="User">
+        </div>
+        <div class="input-module">
+            <input type="text" name="password" [(ngModel)]="user.password" placeholder="Password">
+        </div>
+        <div *ngIf=invalidCredentials class="invalidCredentials">Invalid credentials, make sure you have introduced you credencials correctly.</div>
+        <button (click)=logIn(user.user,user.password)>Log in</button>    
+    </div>
+</div>

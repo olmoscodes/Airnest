@@ -6,6 +6,27 @@ button {
   color: black !important;
 }
 
+.userdata {
+  position: relative;
+}
+
+.userdata button {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+  border: 2px solid black;
+  background-color: white;
+  font-style: italic;
+  padding: 10px 20px;
+}
+
+.userdata button:hover {
+  background-color: black;
+  color: white !important;
+  cursor: pointer;
+}
+
 @media (min-width: 600px) {
   .display {
     height: 100vh;
@@ -250,8 +271,6 @@ button {
   height: 200px;
   padding: 20px;
 }
-
-
 
 .articleBox .buttons button {
   border: 2px solid black;
