@@ -48,9 +48,12 @@ export class AdminComponent implements OnInit {
   }
 
   deleteArticle(id: string) {
-    this.database.deleteDoc('articles', id).then( () => {
-      console.log(id + ' deleted');
-    })
+    if(confirm("Are you sure you want to delete this article?")) {
+      this.database.deleteDoc('articles', id).then( () => {
+        console.log(id + ' deleted');
+      })
+    }
+
   }
 
   updateArticle(id: string) {
