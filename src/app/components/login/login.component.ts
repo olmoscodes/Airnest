@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { User } from 'src/app/models/user.model';
+import { AuthService } from 'src/app/services/auth.service';
 import { FirestoreService } from 'src/app/services/firestore.service';
 
 @Component({
@@ -20,9 +21,10 @@ export class LoginComponent implements OnInit {
 
   usersList: User[] = [];
 
-  constructor(private database: FirestoreService, private router: Router) { }
+  constructor(private database: FirestoreService, private router: Router, private auth: AuthService) { }
 
   ngOnInit(): void {
+    this.checkIfLoggedIn();
     this.getUsers();
   }
 
@@ -41,6 +43,12 @@ export class LoginComponent implements OnInit {
         this.invalidCredentials = true;
       }
     });
+  }
+
+  checkIfLoggedIn() {
+    if (this.auth.IsLoggedIn()) {
+      this.router.navigate(['admin'])
+    }
   }
 
 }

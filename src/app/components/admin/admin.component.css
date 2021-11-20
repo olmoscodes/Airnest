@@ -6,6 +6,10 @@ button {
   color: black !important;
 }
 
+button:hover {
+  color: white !important;
+}
+
 .userdata {
   position: relative;
 }
@@ -206,9 +210,9 @@ button {
 }
 
 .add .text .title .instructions {
-  opacity: 0;
-  display: flex;
-  background-color: #f1f1f1;
+  display: none;
+  background-color: white;
+  border: 1px solid black;
   width: 200px;
   height: auto;
   font-size: 10px;
@@ -224,14 +228,14 @@ button {
 
 .add .text .title:hover .instructions {
   content: "";
-  opacity: 1;
+  display: flex;
 }
 
 .add .image .title .instructions {
-  opacity: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
-  background-color: #f1f1f1;
+  background-color: white;
+  border: 1px solid black;
   width: 200px;
   height: auto;
   font-size: 10px;
@@ -253,23 +257,26 @@ button {
 
 .add .image .title:hover .instructions {
   content: "";
-  opacity: 1;
+  display: flex;
 }
 
 .add-module input[type="text"] {
   margin-top: 10px;
-  border: 1px solid rgb(124, 124, 124);
+  border: 0;
   border-radius: 0;
   height: 40px;
   padding-left: 20px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 3px;
 }
 
 .add-module .textarea {
   margin-top: 10px;
-  border: 1px solid rgb(124, 124, 124);
-  border-radius: 0;
+  border: 0;
+  border-radius: 3px;
   height: 200px;
   padding: 20px;
+  background-color: rgb(241, 241, 241);
 }
 
 .articleBox .buttons button {
