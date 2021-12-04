@@ -35,7 +35,7 @@ export class OurNestsComponent implements OnInit {
     new Nest(5,'Lagos-Villa-I', 'Lagos-Villa I | Gran Canaria', 'Beautiful modern Villa in 5 stars Golf Resort', 5, 2),
     new Nest(6,'Las-Palmas-City-Center', 'Las Palmas City Center | Gran Canaria', 'Brand new apartment in Las Palmas city center', 2, 1),
     new Nest(7,'Patalavaca-Apartment-I', 'Patalavaca Apartment I | Gran Canaria', 'Glass apartment with ocean views', 3, 2),
-    new Nest(8,'htPatalavaca-Apartment-II', 'Patalavaca Apartment II | Gran Canaria', 'Glass apartment with ocean views', 3, 2),
+    new Nest(8,'Patalavaca-Apartment-II', 'Patalavaca Apartment II | Gran Canaria', 'Glass apartment with ocean views', 3, 2),
     new Nest(9,'Patalavaca-Apartment-III', 'Patalavaca Apartment III | Gran Canaria', 'Glass apartment with sunset and ocean views', 3, 2),
     new Nest(10,'Puerto-Rico-I', 'Puerto Rico I | Gran Canaria', 'Apartment in Puerto Rico with ocean views and a large terrace', 4, 2),
     new Nest(11,'Las-Canteras-III', 'Las Canteras III | Gran Canaria', 'Beachfront apartment in Las Canteras', 4, 1),

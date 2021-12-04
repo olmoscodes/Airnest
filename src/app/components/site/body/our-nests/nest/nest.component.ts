@@ -42,19 +42,18 @@ export class NestComponent implements OnInit {
     new Link('https://airnest.guestybookings.com/listings/5fddcfc3ea5d19002ff2f240', 'Puerto-Rico-I'),
     new Link('https://airnest.guestybookings.com/listings/5eea219041105c002c92bb59', 'Las-Canteras-III'),
     new Link('https://airnest.guestybookings.com/listings/603a7ac1fe44f4002e8fc3d7', 'Taoyo-Suites-II'),
-    new Link('https://airnest.guestybookings.com/listings/6030e4e347363a003073e5ec', 'Triana-Suites'),
-    new Link('https://airnest.guestybookings.com/listings/615ce7aeb448e7002d2f935e', 'Casa-San-Marcial'),
+    new Link('https://urbansuites.guestybookings.com/listings', 'Triana-Suites'),
+    new Link('https://sanmarcial.guestybookings.com/listings', 'Casa-San-Marcial'),
     new Link('https://airnest.guestybookings.com/listings/604a1a33c32e8f0030ddd326', 'Dreamscape'),
     new Link('https://airnest.guestybookings.com/listings/6011b7a2e9cb99002e50f2f0', 'Selva-Doramas'),
     new Link('https://airnest.guestybookings.com/listings/5fedfbcfcd2219003083a4b0', 'Puerto-Rico-II'),
-    new Link('https://airnest.guestybookings.com/listings/60c745a79b6fff002d6f1edd', 'Las-Casas-de-Maspalomas'),
+    new Link('https://lascasas.guestybookings.com/listings', 'Las-Casas-de-Maspalomas'),
     new Link('https://airnest.guestybookings.com/listings/60d990b6aa31a30030d12716', 'Las-Lomas'),
     new Link('https://airnest.guestybookings.com/listings/603a7b47b1c122002e7d23fe', 'Taoyo-Suites-III'),
     new Link('https://airnest.guestybookings.com/listings/61088dbaeb4495002f23ffb5', 'Las-Nieves'),
     new Link('https://airnest.guestybookings.com/listings/5eea215a41105c002c92b6f3', 'Puerto-de-Mogan'),
     new Link('https://airnest.guestybookings.com/listings/5fedf5a52314f3002c184602', 'Patalavaca-IV'),
     new Link('https://airnest.guestybookings.com/listings/5eea21adaaf3a10029b8f605', 'Seaside-Villa'),
-    new Link('https://airnest.guestybookings.com/listings/6030e4e347363a003073e5f3', 'Triana-Suites-IX'),
     new Link('https://airnest.guestybookings.com/listings/5eea21f39e4410002dfa682e', 'Quality-Design-Home'),
     new Link('https://airnest.guestybookings.com/listings/60f017ca02f603002f9a188f', 'Traditional-Townhouse'),
     new Link('https://airnest.guestybookings.com/listings/5eea2172533079002a70349d', 'Lagos-Villa-II'),
@@ -64,6 +63,7 @@ export class NestComponent implements OnInit {
     new Link('https://airnest.guestybookings.com/listings/603ab95671ed9c002f0653b3', 'Taoyo-Suites-V'),
     new Link('https://airnest.guestybookings.com/listings/60d0fd752f51870030eacef3', 'Maspalomas-Apartment'),
     new Link('https://airnest.guestybookings.com/listings/603a789f47160c002d73fdff', 'Taoyo-Suites-VI'),
+
   ]
 
 
