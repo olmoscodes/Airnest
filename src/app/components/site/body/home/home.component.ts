@@ -1,3 +1,4 @@
+import { NONE_TYPE } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -20,6 +21,16 @@ export class HomeComponent implements OnInit {
     widgetStart.fromTo(".header-content", {opacity: 0}, {opacity: 1}, "+=1")
     .fromTo("#search-widget_IO312PWQ", {opacity: 0}, {opacity: 1}, "+=0.1")
 
+    const cookies = gsap.timeline()
+
+    cookies.fromTo(".cookies", {pointerEvents: "none", opacity: 0}, {pointerEvents: "auto", opacity: 1}, "+=2")
+
+    const closeCookies = document.getElementById('closeCookies')!;
+
+    closeCookies.addEventListener("click", function() {
+      cookies.reverse();
+    })
+
     // const popUp = gsap.timeline()
     
     // popUp.fromTo(".pop-up-background", {opacity: 0, pointerEvents: 'none'}, {opacity: 1, pointerEvents: 'auto'}, "+=5")
@@ -40,7 +51,7 @@ export class HomeComponent implements OnInit {
     }
 
     if (window.matchMedia('(min-width: 400px)').matches) {
-      const home1 = gsap.timeline({
+      /*const home1 = gsap.timeline({
         scrollTrigger: {
           trigger: '.hm1',
           start: 'top 0%',
@@ -51,7 +62,7 @@ export class HomeComponent implements OnInit {
         },
       });
 
-      home1.fromTo('.hc1', { x: '100vw', pointerEvents: 'auto' }, { x: '-100vw', pointerEvents: 'auto' });
+      home1.fromTo('.hc1', { x: '100vw', pointerEvents: 'auto' }, { x: '-100vw', pointerEvents: 'auto' });*/
     } 
   }
 }

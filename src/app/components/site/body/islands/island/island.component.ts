@@ -172,7 +172,7 @@ export class IslandComponent implements OnInit {
     gsap.registerPlugin(ScrollTrigger);
 
     if (window.matchMedia('(min-width: 400px)').matches) {
-      const home1 = gsap.timeline({
+      /*const home1 = gsap.timeline({
         scrollTrigger: {
           trigger: '.hm1',
           start: 'top 0%',
@@ -183,7 +183,7 @@ export class IslandComponent implements OnInit {
         },
       });
 
-      home1.fromTo('.hc1', { x: '100vw' }, { x: '-100vw' });
+      home1.fromTo('.hc1', { x: '100vw' }, { x: '-100vw' });*/
     } 
 
   }

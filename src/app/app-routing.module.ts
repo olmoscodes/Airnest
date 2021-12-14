@@ -14,6 +14,9 @@ import { AdminComponent } from './components/admin/admin.component';
 import { LoginComponent } from './components/login/login.component';
 import { AuthGuard } from './services/auth.guard';
 import { RoleGuard } from './services/role.guard';
+import { TermsAndConditionsComponent } from './components/site/body/terms-and-conditions/terms-and-conditions.component';
+import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -28,6 +31,8 @@ const routes: Routes = [
   { path: 'islands/:island', component: IslandComponent},
   { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
   { path: 'login', component: LoginComponent },
+  { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
+  { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

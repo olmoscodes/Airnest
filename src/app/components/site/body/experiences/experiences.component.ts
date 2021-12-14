@@ -19,7 +19,7 @@ export class ExperiencesComponent implements OnInit {
   
     if (window.matchMedia("(min-width: 400px)").matches) {
   
-      const experiences1 = gsap.timeline({
+      /*const experiences1 = gsap.timeline({
         scrollTrigger: {
           trigger: ".m1",
           start: "top 0%",
@@ -56,7 +56,7 @@ export class ExperiencesComponent implements OnInit {
         }
       });
   
-      experiences3.fromTo(".c3", {x: "100vw"}, {x: "-100vw"})
+      experiences3.fromTo(".c3", {x: "100vw"}, {x: "-100vw"})*/
   
     }  else {
   

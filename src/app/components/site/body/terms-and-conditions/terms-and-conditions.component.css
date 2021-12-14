@@ -1,0 +1,26 @@
+.legal-header {
+    background-color: #424242;
+    height: auto;
+    color: white;
+    padding: 143px 100px 100px 100px;
+}
+
+.legal-header .last {
+    font-weight: 16px;
+    margin-top: 10px;
+}
+
+.legal-header .title {
+    font-size: 30px;
+}
+
+.text {
+    padding: 100px;
+    background-color: #F4F4F4;
+}
+
+.subtitle {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}

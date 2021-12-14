@@ -24,6 +24,8 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { environment } from 'src/environments/environment';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
+import { TermsAndConditionsComponent } from './components/site/body/terms-and-conditions/terms-and-conditions.component';
+import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { LoginComponent } from './components/login/login.component';
     SiteComponent,
     BodyComponent,
     LoginComponent,
+    TermsAndConditionsComponent,
+    PrivacyPolicyComponent,
   ],
   imports: [
     BrowserModule,

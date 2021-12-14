@@ -4,6 +4,18 @@ body {
     padding: 0;
 }
 
+app-terms-and-conditions {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display' !important;
+}
+
+app-privacy-policy {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display' !important;
+}
+
 a {
     color: inherit;
 }
@@ -1124,14 +1136,14 @@ body {
         overflow-y: hidden;
     }
     .oc1 {
-        display: flex;
-        max-height: 100%;
-        min-height: 25vh;
+        display: flex !important;
+        max-height: 100% !important;
+        min-height: 25vh !important;
         justify-content: center;
-        ;
-        width: 90vw;
-        flex-wrap: wrap;
-        padding-bottom: 29px;
+        width: 90vw !important;
+        flex-wrap: wrap !important;
+        padding-bottom: 29px !important;
+        overflow-x: auto !important;
     }
     .pp {
         opacity: 0;
@@ -1141,9 +1153,48 @@ body {
         max-height: 100%;
         min-height: 25vh;
         justify-content: center;
-        width: 90vw;
+        width: 100vw;
         padding-bottom: 29px;
+        overflow-x: scroll;
     }
+
+    .carrousel .place:first-child {
+        margin-left: 200vw;
+        transition: 0.4s;
+    }
+    
+    .carrousel:hover .place:first-child {
+        margin-left: 180vw;
+        transition: 0.4s;
+    }
+    
+
+    .m3 .carrousel .place:first-child {
+        margin-left: 141vw;
+        transition: 0.4s;
+    }
+
+    .m3 .carrousel:hover .place:first-child {
+        margin-left: 121vw;
+        transition: 0.4s;
+    }
+
+    .om1 .carrousel:hover .place:first-child {
+        margin-left: 0;
+        transition: 0;
+    }
+
+    .om1 .carrousel .place:first-child {
+        margin-left: 0;
+        transition: 0;
+    }
+
+    /*.place-photo:hover {
+        width: 48vh;
+        height: 35vh;
+        transition: 0.2s;
+    }*/
+
     .oc1 .place-info {
         display: flex;
         font-size: 15px;
