@@ -1,0 +1,116 @@
+.legal-header {
+    background-image: url('/assets/img/FUERTEVENTURA01.jpeg');
+    background-position: center center;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100vw;
+}
+
+.legal-header .last {
+    font-weight: 16px;
+    margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+    .legal-header .title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .legal-header .title {
+        font-size: 50px;
+        margin-top: 60px;
+    }
+}
+
+.text {
+    padding: 100px 0;
+    width: 80%;
+}
+
+.fas {
+    top: 30px;
+    left: 30px;
+    color: black;
+    font-size: 40px;
+    z-index: 999999;
+}
+
+.subtitle {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.articleBox {
+    height: auto;
+    width: 30vw;
+    margin: 5vw;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    transition: 0.4s;
+}
+
+.articleBox:hover {
+    background-color: #424242;
+    color: white;
+    transition: 0.4s;
+}
+
+.articleBox:hover .bottom {
+    background-color: #424242;
+    color: white;
+    transition: 0.4s;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    width: 100vw;
+    background-color: #F4F4F4;
+}
+
+.top {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.top img {
+    width: auto;
+    height: 100%;
+}
+
+.title {
+    font-size: 29px;
+    margin: 20px;
+    z-index: 9999;
+}
+.date {
+    font-size: 15px;
+    margin-top: -20px;
+    z-index: 9999;
+}
+
+.legal-header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.legal-header img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}

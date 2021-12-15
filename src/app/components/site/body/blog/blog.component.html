@@ -1,0 +1,19 @@
+<app-navbar></app-navbar>
+<div class="airnest-content">
+    <div class="legal-header">
+        <div class="title">Blog</div>
+    </div>
+    <div class="articles">
+        <a *ngFor="let article of articlesList" class="a articleBox" [routerLink]="['/blog', article.id]">
+            <div class="top">
+                <img src="{{article.img}}" alt="">
+            </div>
+            <div class="bottom">
+                <div class="title">{{article.title}}</div>
+                <div class="date">{{article.date}}</div>
+            </div>
+
+        </a>
+    </div>
+</div>
+<app-footer></app-footer>

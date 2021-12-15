@@ -16,6 +16,10 @@ import { AuthGuard } from './services/auth.guard';
 import { RoleGuard } from './services/role.guard';
 import { TermsAndConditionsComponent } from './components/site/body/terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
+import { BlogComponent } from './components/site/body/blog/blog.component';
+import { ArticleComponent } from './components/site/body/blog/article/article.component';
+
+
 
 
 const routes: Routes = [
@@ -33,6 +37,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'blog', component: BlogComponent },
+  { path: 'blog/:article', component: ArticleComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
