@@ -2,20 +2,34 @@
     background-color: #424242;
     height: auto;
     color: white;
-    padding: 143px 100px 100px 100px;}
+    padding: 143px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .legal-header .last {
     font-weight: 16px;
     margin-top: 10px;
+    width: 80%;
 }
 
 .legal-header .title {
     font-size: 30px;
+    width: 80%;
+}
+
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
 }
 
 .text {
-    padding: 100px;
-    background-color: #F4F4F4;
+    padding: 100px 0;
+    width: 80%;
 }
 
 .subtitle {
