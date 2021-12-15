@@ -103,6 +103,40 @@
 }
 
 @media (max-width: 600px) {
+    .cookies{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+        background-color: white;
+        font-family: 'Playfair Display' !important;
+        font-size: 1em;
+        z-index: 999999;
+    }
+
+    .cookies .text {
+        width: 90%;
+    }
+
+    .cookies .button {
+        background-color: transparent;
+        padding: 10px 20px;
+        color: black;
+        border: 2px solid black;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .cookies .button:hover {
+        background-color: black;
+        color: white;
+        border: 2px solid black;
+        cursor: pointer;
+    }
     .pop-up-background {
         position: fixed;
         top: 0;
