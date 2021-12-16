@@ -6,15 +6,18 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 30px;
         background-color: white;
         font-family: 'Playfair Display' !important;
-        font-size: 1em;
+        font-size: 0.8em;
         z-index: 999999;
+        width: 100vw;
     }
 
     .cookies .text {
-        width: 85%;
+        width: 80%;
+        font-size: 1.6vh;
+        margin: 4vh 0;
+        line-height: 22px;
     }
 
     .cookies .button {
@@ -22,6 +25,7 @@
         padding: 10px 20px;
         color: black;
         border: 2px solid black;
+        font-size: 1.6vh;
     }
 
     .cookies .button:hover {
@@ -111,15 +115,18 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        padding: 30px;
         background-color: white;
         font-family: 'Playfair Display' !important;
-        font-size: 1em;
+        font-size: 0.8em;
         z-index: 999999;
+        width: 100vw;
+
     }
 
     .cookies .text {
         width: 90%;
+        line-height: 22px;
+
     }
 
     .cookies .button {
