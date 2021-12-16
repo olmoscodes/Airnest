@@ -1,0 +1,17 @@
+
+@media (min-width: 600px) {
+    .trustpilot-widget {
+        margin-left: -20px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .trustpilot-widget {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+

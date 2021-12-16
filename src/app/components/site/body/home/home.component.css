@@ -120,11 +120,11 @@
         font-size: 0.8em;
         z-index: 999999;
         width: 100vw;
-
+        padding: 31px 0;
     }
 
     .cookies .text {
-        width: 90%;
+        width: 75%;
         line-height: 22px;
 
     }
@@ -135,7 +135,10 @@
         color: black;
         border: 2px solid black;
         margin-top: 30px;
-        width: 90%;
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
     }
 
     .cookies .button:hover {
