@@ -35,12 +35,14 @@ button:hover {
 
 @media (min-width: 600px) {
 
-  .articleBox > img {
+  .articleBox > .img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 320px;
+    background-size: cover;
+    background-position: center;
   }
   
   .display {
@@ -76,7 +78,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     position: relative;
-    padding: 350px 50px 50px 50px;
+    padding: 250px 50px 50px 50px;
     background-color: white;
     justify-content: space-between;
   }
@@ -104,12 +106,14 @@ button:hover {
 
 @media (max-width: 600px) {
 
-  .articleBox > img {
+  .articleBox > .img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 200px;
+    background-size: cover;
+    background-position: center;
   }
   
   .display {
@@ -331,8 +335,11 @@ button:hover {
   width: 100%;
 }
 
-.articleBox img {
+.articleBox .img {
   width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
 }
 
 .add .buttons {

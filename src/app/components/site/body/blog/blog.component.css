@@ -1,6 +1,7 @@
 .legal-header {
     background-image: url('/assets/img/FUERTEVENTURA01.jpeg');
     background-position: center center;
+    background-size: cover;
     height: auto;
     color: white;
     display: flex;

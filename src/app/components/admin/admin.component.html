@@ -64,14 +64,14 @@
     </div>
     <div class="right">
         <div *ngFor="let article of articlesList"class="articleBox">
-            <img src="{{article.img1}}" alt="">
+            <div class="img" [ngStyle]="{ 'background-image': 'url(' + article.img1 + ')'}" alt=""></div>
             <div class="left">
                 <div class="title">{{article.title}}</div>
                 <div class="text" [innerHTML]="article.text"></div>
                 <div class="date">{{article.date}}</div>
             </div>
             <div class="right">
-                <img src="{{article.img2}}" alt="">
+                <div class="img" [ngStyle]="{ 'background-image': 'url(' + article.img2 + ')'}" alt=""></div>
 
             </div>
             <div class="buttons">
