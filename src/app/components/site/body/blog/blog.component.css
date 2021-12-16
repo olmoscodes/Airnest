@@ -94,9 +94,12 @@
     position: relative;
 }
 
-.top img {
+.top .img {
     width: auto;
     height: 100%;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .bottom .title {
@@ -104,6 +107,7 @@
     margin: 20px
 }
 .bottom .date {
-    font-size: 17px;
+    font-size: 1.6vh;
+    font-style: italic;
     margin: -10px 20px 20px 20px;
 }

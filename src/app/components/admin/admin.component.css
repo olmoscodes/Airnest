@@ -31,7 +31,18 @@ button:hover {
   cursor: pointer;
 }
 
+
+
 @media (min-width: 600px) {
+
+  .articleBox > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+  }
+  
   .display {
     height: 100vh;
     width: 100vw;
@@ -65,7 +76,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     position: relative;
-    padding: 50px;
+    padding: 350px 50px 50px 50px;
     background-color: white;
     justify-content: space-between;
   }
@@ -92,6 +103,15 @@ button:hover {
 }
 
 @media (max-width: 600px) {
+
+  .articleBox > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+  }
+  
   .display {
     height: auto;
     width: 100vw;
@@ -126,7 +146,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 34px;
+    padding: 230px 34px 34px 34px;
     background-color: white;
     justify-content: space-between;
   }

@@ -3,5 +3,7 @@ export interface Article {
     title: string;
     text: string;
     date: string;
-    img: string;
+    img1: string;
+    img2: string;
+
 }

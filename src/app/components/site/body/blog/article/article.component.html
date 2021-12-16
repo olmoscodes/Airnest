@@ -1,12 +1,15 @@
 <app-navbar></app-navbar>
 <div class="airnest-content">
-    <div class="legal-header" style="background-image: url(article.img);">
+    <div class="legal-header" [ngStyle]="{ 'background-image': 'url(' + article.img1 + ')'}">
         <div class="title">{{article.title}}</div>
         <div class="date">{{article.date}}</div>
-        <img src="{{article.img}}" alt="">
+        <!-- <img src="{{article.img1}}" alt=""> -->
     </div>
     <div class="articles">
-        <div class="text" [innerHTML]="article.text"></div>
+        <div class="text">
+            <div class="content-text" [innerHTML]="article.text"></div>
+            <div class="img" [ngStyle]="{ 'background-image': 'url(' + article.img2 + ')'}"></div>
+        </div>
     </div>
 </div>
 <app-footer></app-footer>

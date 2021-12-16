@@ -6,7 +6,7 @@
     <div class="articles">
         <a *ngFor="let article of articlesList" class="a articleBox" [routerLink]="['/blog', article.id]">
             <div class="top">
-                <img src="{{article.img}}" alt="">
+                <div class="img" [ngStyle]="{ 'background-image': 'url(' + article.img1 + ')'}"></div>
             </div>
             <div class="bottom">
                 <div class="title">{{article.title}}</div>

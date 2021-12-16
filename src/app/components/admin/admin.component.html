@@ -24,7 +24,7 @@
             </div>
             <div class="add-module image">
                 <div class="title">
-                    Image
+                    Image 1
                     <div class="instructions">
                         In order to add an image, you should: <br>
                         1. Access: <a target="_blank" href="https://postimages.org/">https://postimages.org/</a>
@@ -34,7 +34,21 @@
                     </div>
                 </div>
                 <div class="img-explanation"></div>
-                <input type="text" name="img" [(ngModel)]="article.img">
+                <input type="text" name="img" [(ngModel)]="article.img1">
+            </div>
+            <div class="add-module image">
+                <div class="title">
+                    Image 2
+                    <div class="instructions">
+                        In order to add an image, you should: <br>
+                        1. Access: <a target="_blank" href="https://postimages.org/">https://postimages.org/</a>
+                        2. Upload an image <br>
+                        3. Copy the "Direct link" <br>
+                        4. Paste it here
+                    </div>
+                </div>
+                <div class="img-explanation"></div>
+                <input type="text" name="img" [(ngModel)]="article.img2">
             </div>
             <div class="add-module">
                 <div class="title">Date</div>
@@ -50,13 +64,15 @@
     </div>
     <div class="right">
         <div *ngFor="let article of articlesList"class="articleBox">
+            <img src="{{article.img1}}" alt="">
             <div class="left">
                 <div class="title">{{article.title}}</div>
                 <div class="text" [innerHTML]="article.text"></div>
                 <div class="date">{{article.date}}</div>
             </div>
             <div class="right">
-                <img src="{{article.img}}" alt="">
+                <img src="{{article.img2}}" alt="">
+
             </div>
             <div class="buttons">
                 <button *ngIf="editProcessOff" (click)=deleteArticle(article.id)>Delete</button>

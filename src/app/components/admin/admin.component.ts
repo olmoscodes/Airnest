@@ -15,7 +15,8 @@ export class AdminComponent implements OnInit {
     title: '',
     text: '',
     date: '',
-    img: '',
+    img1: '',
+    img2: '',
   }
 
   anotherParagraphTag = '<br><br>'
@@ -70,7 +71,9 @@ export class AdminComponent implements OnInit {
       this.article.title = res!.title;
       this.article.text = res!.text;
       this.article.date = res!.date;
-      this.article.img = res!.img;
+      this.article.img1 = res!.img1;
+      this.article.img2 = res!.img2;
+
     })
     this.activateEditProcess()
   }
@@ -92,7 +95,9 @@ export class AdminComponent implements OnInit {
     this.article.title = ' ';
     this.article.text = ' ';
     this.article.date = ' ';
-    this.article.img = ' ';
+    this.article.img1 = ' ';
+    this.article.img2 = ' ';
+
   }
 
   clear(){
@@ -100,7 +105,8 @@ export class AdminComponent implements OnInit {
     this.article.title = ' ';
     this.article.text = ' ';
     this.article.date = ' ';
-    this.article.img = ' ';
+    this.article.img1 = ' ';
+    this.article.img2 = ' ';
   }
 
   public logOut():void {
