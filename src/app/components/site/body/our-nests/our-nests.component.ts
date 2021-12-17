@@ -30,10 +30,10 @@ export class OurNestsComponent implements OnInit {
 
   Nests = [
     new Nest(1,'Lomo-Quiebre', 'Lomo Quiebre | Gran Canaria', 'Cozy apartment in the heart of Puerto de Mogan', 3, 1, 'https://ournests.airnest.es/listings/6063963b5301ad002f8a49e8' ),
-    new Nest(2,'Taoyo-Suites-I', 'Taoyo Suites I | Gran Canaria', 'Apartment located in the historical town of Las Palmas', 4, 1, 'https://ournests.airnest.es/listings/603ab94ab1c122002e83eaf7'),
+    //new Nest(2,'Taoyo-Suites-I', 'Taoyo Suites I | Gran Canaria', 'Apartment located in the historical town of Las Palmas', 4, 1, 'https://ournests.airnest.es/listings/603ab94ab1c122002e83eaf7'),
     new Nest(3,'Las-Canteras-I', 'Las Canteras I | Gran Canaria', 'Beachfront apartment in Las Canteras', 4, 1, 'https://ournests.airnest.es/listings/5eea21689e4410002dfa5b8b'),
     new Nest(4,'Las-Canteras-II', 'Las Canteras II | Gran Canaria', 'Beachside apartment with lateral sea view', 6, 2, 'https://ournests.airnest.es/listings/5f1310396b86b4002ca39323'),
-    new Nest(5,'Lagos-Villa-I', 'Lagos-Villa I | Gran Canaria', 'Beautiful modern Villa in 5 stars Golf Resort', 5, 2, 'https://ournests.airnest.es/listings/5eea214ba1f3a10029b8eb6c'),
+    //new Nest(5,'Lagos-Villa-I', 'Lagos-Villa I | Gran Canaria', 'Beautiful modern Villa in 5 stars Golf Resort', 5, 2, 'https://ournests.airnest.es/listings/5eea214ba1f3a10029b8eb6c'),
     new Nest(6,'Las-Palmas-City-Center', 'Las Palmas City Center | Gran Canaria', 'Brand new apartment in Las Palmas city center', 2, 1, 'https://ournests.airnest.es/listings/5eea213a9e4410002dfa54be'),
     new Nest(7,'Patalavaca-Apartment-I', 'Patalavaca Apartment I | Gran Canaria', 'Glass apartment with ocean views', 3, 2, 'https://ournests.airnest.es/listings/5fd50333387fe30032d18df1'),
     new Nest(8,'Patalavaca-Apartment-II', 'Patalavaca Apartment II | Gran Canaria', 'Glass apartment with ocean views', 3, 2, 'https://ournests.airnest.es/listings/5fe0df09377861002ea7d2a0'),
