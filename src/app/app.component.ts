@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
+
 gsap.registerPlugin(ScrollTrigger);
 
 @Component({
@@ -14,5 +15,11 @@ export class AppComponent {
 
   constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    gsap.registerPlugin(ScrollTrigger);
+
+
+
+
+  }
 }
