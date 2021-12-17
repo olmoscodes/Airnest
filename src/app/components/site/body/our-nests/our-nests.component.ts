@@ -41,7 +41,7 @@ export class OurNestsComponent implements OnInit {
     new Nest(10,'Puerto-Rico-I', 'Puerto Rico I | Gran Canaria', 'Apartment in Puerto Rico with ocean views and a large terrace', 4, 2, 'https://ournests.airnest.es/listings/5fddcfc3ea5d19002ff2f240'),
     new Nest(11,'Las-Canteras-III', 'Las Canteras III | Gran Canaria', 'Beachfront apartment in Las Canteras', 4, 1,'https://ournests.airnest.es/listings/5eea219041105c002c92bb59'),
     new Nest(12,'Taoyo-Suites-II', 'Taoyo Suites II | Gran  Canaria', 'New apartment located in the historical town of Las Palmas', 4, 1,'https://ournests.airnest.es/listings/603a7ac1fe44f4002e8fc3d7'),
-    new Nest(13,'Triana-Suites', 'Triana Suites | Gran  Canaria', 'Deluxe double suite with a beautiful balcony', 2, 1,'https://urbansuites.guestybookings.com/listings'),
+    new Nest(13,'Triana-Suites', 'Urban Suites | Gran  Canaria', 'Deluxe double suite with a beautiful balcony', 2, 1,'https://urbansuites.guestybookings.com/listings'),
     new Nest(15,'Casa-San-Marcial', 'Casa San Marcial | Gran Canaria', 'Cozy apartment in historical Vegueta House', 1, 4,'https://sanmarcial.guestybookings.com/listings'),
     new Nest(22,'Dreamscape', 'Dreamscape | Lanzarote', "Exclusive villa in Lanzarote's southeast shore", 10, 5,'https://ournests.airnest.es/listings/604a1a33c32e8f0030ddd326'),
     new Nest(23,'Selva-Doramas', 'Selva Doramas | Gran Canaria', 'Eco-villa in the beautiful Laurisilva forests', 6, 4,'https://ournests.airnest.es/listings/6011b7a2e9cb99002e50f2f0'),

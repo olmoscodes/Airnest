@@ -4,7 +4,7 @@
         <div class="title">Blog</div>
     </div>
     <div class="articles">
-        <a *ngFor="let article of articlesList" class="a articleBox" [routerLink]="['/blog', article.id]">
+        <a *ngFor="let article of articlesList" class="a articleBox" [routerLink]="['/blog', article.id]" [@fadeIn]>
             <div class="top">
                 <div class="img" [ngStyle]="{ 'background-image': 'url(' + article.img1 + ')'}"></div>
             </div>

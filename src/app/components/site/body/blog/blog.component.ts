@@ -3,11 +3,20 @@ import { Article } from 'src/app/models/article.model';
 import { FirestoreService } from 'src/app/services/firestore.service';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { animate, style, transition, trigger } from '@angular/animations';
 
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
-  styleUrls: ['./blog.component.css']
+  styleUrls: ['./blog.component.css'],
+  animations: [
+    trigger('fadeIn', [
+      transition(':enter', [
+        style({ opacity: '0' }),
+        animate('.5s ease-out', style({ opacity: '1' })),
+      ]),
+    ]),
+  ],
 })
 export class BlogComponent implements OnInit {
 
@@ -28,28 +37,6 @@ export class BlogComponent implements OnInit {
     gsap.registerPlugin(ScrollTrigger);
 
     this.showArticles();
-
-    window.onload = function() {
-      if (window.matchMedia('(min-width: 400px)').matches) {
-        ScrollTrigger.batch('.a', {
-          onEnter: (batch) => gsap.to(batch, { opacity: 1, stagger: 0.1 }),
-          onLeave: (batch) => gsap.to(batch, { opacity: 0, stagger: 0.1 }),
-          onEnterBack: (batch) =>
-            gsap.to(batch, { opacity: 1, stagger: 0.15, overwrite: true }),
-          onLeaveBack: (batch) =>
-            gsap.set(batch, { opacity: 0, overwrite: true }),
-        });
-      } else {
-        ScrollTrigger.batch('.a', {
-          onEnter: (batch) => gsap.to(batch, { opacity: 1, stagger: 0.1 }),
-          onLeave: (batch) => gsap.to(batch, { opacity: 0, stagger: 0.1 }),
-          onEnterBack: (batch) =>
-            gsap.to(batch, { opacity: 1, stagger: 0.15, overwrite: true }),
-          onLeaveBack: (batch) =>
-            gsap.set(batch, { opacity: 0, overwrite: true }),
-        });
-      }
-    }
 
   }
 
