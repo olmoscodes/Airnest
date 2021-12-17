@@ -15,6 +15,13 @@ export class ExperiencesComponent implements OnInit {
 
   ngOnInit(): void {
 
+    if (!localStorage.getItem('foo')) {
+      localStorage.setItem('foo', 'no reload')
+      location.reload()
+  } else {
+      localStorage.removeItem('foo')
+  }
+
     gsap.registerPlugin(ScrollTrigger);
 
     const a1 = gsap.timeline({

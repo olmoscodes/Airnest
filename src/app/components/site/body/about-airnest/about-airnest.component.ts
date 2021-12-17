@@ -15,6 +15,13 @@ export class AboutAirnestComponent implements OnInit {
   ngOnInit(): void {
     gsap.registerPlugin(ScrollTrigger);
 
+    if (!localStorage.getItem('foo')) {
+      localStorage.setItem('foo', 'no reload')
+      location.reload()
+    } else {
+        localStorage.removeItem('foo')
+    }
+
 
     const a1 = gsap.timeline({
       scrollTrigger: {
