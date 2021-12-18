@@ -291,7 +291,7 @@ a:active .header-content {
         margin-top: 30px;
         display: flex;
         justify-content: space-between;
-        width: 90%
+        flex-wrap: wrap;
     }
     .f-right form .email {
         border: 0;
