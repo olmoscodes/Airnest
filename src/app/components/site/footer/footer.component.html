@@ -60,13 +60,27 @@
                 <input class="submit" name="submit" type="submit" value="Send">
             </form> -->
             <!-- Begin Mailchimp Signup Form -->
-        <div id="mc_embed_signup">
+
+
+
+        <!-- <div id="mc_embed_signup">
             <form [formGroup]="sub" (ngSubmit)="submit()" novalidate>
                 <input formControlName="emailControl" placeholder="E-mail" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                 <input type="hidden" name="b_edd79a59c2e5bc2637645344b_8709a3b193" tabindex="-1" value="">
                 <button class="submit">Send</button>            
             </form>
-        </div>
+        </div> -->
+
+        <form [formGroup]="userForm" novalidate>
+            <input class="email-input mat-body-1 email"
+                type="email" formControlName="email" />
+            <button
+                class="subscribe mat-body-2 submit"
+                (click)="subscribeEmail()"
+              >
+               Subscribe
+              </button>
+        </form>
             <!--End mc_embed_signup-->
 
 

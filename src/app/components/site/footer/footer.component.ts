@@ -1,6 +1,6 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { HttpClient, HttpParams } from '@angular/common/http';
 
 interface MailChimpResponse {
   result: string;
@@ -12,38 +12,39 @@ interface MailChimpResponse {
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.css']
 })
-export class FooterComponent {
 
+export class FooterComponent {
   submitted = false;
-	mailChimpEndpoint = 'https://airnest.us20.list-manage.com/subscribe/post-json?u=edd79a59c2e5bc2637645344b&amp;id=8709a3b193';
+	mailChimpEndpoint = 'https://airnest.us20.list-manage.com/subscribe/post-json?u=edd79a59c2e5bc2637645344b&amp;id=8709a3b193&amp';
 	error = '';
 
-	constructor(private http: HttpClient) { }
+	constructor(private http: HttpClient) {}
 
-  // reactive form components
+  userForm: FormGroup;
 
-  sub = new FormGroup({
-    emailControl: new FormControl('', [
-      Validators.required,
-      Validators.email
-    ])
-  });
+  ngOnInit(): void {
+    this.userForm = new FormGroup({
+      email: new FormControl('', [
+		   Validators.required,
+	    	Validators.email,
+	    ]),
+    });
+  }
+  subscribeEmail() {
+    this.error = '';
 
-	submit() {
-		this.error = '';
 
-    console.log(this.sub.value.emailControl);
-    console.log(this.sub.status);
-		if (this.sub.status === 'VALID') {
+		if (this.userForm.controls.email.status === 'VALID') {
 
-			const params = new HttpParams()
-				.set('EMAIL', this.sub.value.emailControl)
-				.set('b_123abc123abc123abc123abc123abc123abc', ''); // hidden input name
-
+      const params = new HttpParams()
+				.set('EMAIL', this.userForm.controls.email.value)
+        .set('subscribe','Subscribe')
+        .set('b_edd79a59c2e5bc2637645344b_8709a3b193','')
+      console.log(params);
 			const mailChimpUrl = this.mailChimpEndpoint + params.toString();
 
-      // 'c' refers to the jsonp callback param key. This is specific to Mailchimp
 			this.http.jsonp<MailChimpResponse>(mailChimpUrl, 'c').subscribe(response => {
+        console.log('response ', response)
 				if (response.result && response.result !== 'error') {
 					this.submitted = true;
 				}
@@ -55,6 +56,5 @@ export class FooterComponent {
 				this.error = 'Sorry, an error occurred.';
 			});
 		}
-	}
-
+  }
 }
