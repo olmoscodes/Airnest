@@ -10,6 +10,15 @@
 }
 
 
+@media (max-width: 390px) {
+    iframe {
+        height: 40px !important;
+    }
+}
+
+
+
+
 @media (max-width: 600px) {
     .trustpilot-widget {
         margin-bottom: 20px;

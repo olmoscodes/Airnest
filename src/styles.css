@@ -448,6 +448,12 @@ a:active .header-content {
     }
 }
 
+@media (max-width: 390px) {
+    iframe {
+        height: 40px !important;
+    }
+}
+
 #guesty-search-widget__datepicker input {
     font-family: 'Playfair Display' !important;
 }
