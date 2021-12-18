@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ import { TermsAndConditionsComponent } from './components/site/body/terms-and-co
 import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
 import { BlogComponent } from './components/site/body/blog/blog.component';
 import { ArticleComponent } from './components/site/body/blog/article/article.component';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -58,7 +60,10 @@ import { ArticleComponent } from './components/site/body/blog/article/article.co
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    FormsModule
+    FormsModule,
+    HttpClientJsonpModule,
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [
     AngularFirestore,

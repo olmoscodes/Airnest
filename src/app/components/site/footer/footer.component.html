@@ -61,15 +61,12 @@
             </form> -->
             <!-- Begin Mailchimp Signup Form -->
         <div id="mc_embed_signup">
-            <form action="https://airnest.us20.list-manage.com/subscribe/post?u=edd79a59c2e5bc2637645344b&amp;id=8709a3b193" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input placeholder="E-mail" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                <div class="response" id="mce-error-response" style="display:none"></div>
-                <div class="response" id="mce-success-response" style="display:none"></div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edd79a59c2e5bc2637645344b_8709a3b193" tabindex="-1" value=""></div>
-                <input type="submit" value="Send" name="subscribe" id="mc-embedded-subscribe" class="button submit">
+            <form [formGroup]="sub" (ngSubmit)="submit()" novalidate>
+                <input formControlName="emailControl" placeholder="E-mail" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input type="hidden" name="b_edd79a59c2e5bc2637645344b_8709a3b193" tabindex="-1" value="">
+                <button class="submit">Send</button>            
             </form>
-            </div>
+        </div>
             <!--End mc_embed_signup-->
 
 
