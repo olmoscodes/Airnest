@@ -3,12 +3,21 @@
     .trustpilot-widget {
         margin-left: -20px;
     }
+
+    .message {
+        margin: 15px 0px;
+    }
 }
 
 
 @media (max-width: 600px) {
     .trustpilot-widget {
         margin-bottom: 20px;
+    }
+
+    .message {
+        margin: 15px 0px;
+        text-align: center;
     }
 }
 

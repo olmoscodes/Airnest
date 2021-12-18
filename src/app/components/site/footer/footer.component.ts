@@ -15,8 +15,9 @@ interface MailChimpResponse {
 
 export class FooterComponent {
   submitted = false;
-	mailChimpEndpoint = 'https://airnest.us20.list-manage.com/subscribe/post-json?u=edd79a59c2e5bc2637645344b&amp;id=8709a3b193&amp';
+	mailChimpEndpoint = 'https://airnest.us20.list-manage.com/subscribe/post-json?u=edd79a59c2e5bc2637645344b&id=8709a3b193&';
 	error = '';
+  message = '';
 
 	constructor(private http: HttpClient) {}
 
@@ -32,7 +33,7 @@ export class FooterComponent {
   }
   subscribeEmail() {
     this.error = '';
-
+    this.message = '';
 
 		if (this.userForm.controls.email.status === 'VALID') {
 
@@ -40,21 +41,24 @@ export class FooterComponent {
 				.set('EMAIL', this.userForm.controls.email.value)
         .set('subscribe','Subscribe')
         .set('b_edd79a59c2e5bc2637645344b_8709a3b193','')
-      console.log(params);
 			const mailChimpUrl = this.mailChimpEndpoint + params.toString();
 
 			this.http.jsonp<MailChimpResponse>(mailChimpUrl, 'c').subscribe(response => {
-        console.log('response ', response)
+        console.log(response)
 				if (response.result && response.result !== 'error') {
 					this.submitted = true;
+          this.message = response.msg;
 				}
 				else {
 					this.error = response.msg;
+          this.message = this.error;
 				}
 			}, error => {
 				console.error(error);
 				this.error = 'Sorry, an error occurred.';
 			});
-		}
+		} else {
+      this.message = "Enter a valid email, please."
+    }
   }
 }

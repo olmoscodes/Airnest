@@ -16,7 +16,10 @@
                 </div>
             </div>
             <!-- TrustBox widget - Micro Review Count -->
-            <div class="trustpilot-widget" data-locale="es-ES" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="600039119f76260001f7b359" data-style-height="24px" data-style-width="100%" data-theme="light" data-stars="1,2,3,4,5" data-no-reviews="hide" data-scroll-to-list="true" data-allow-robots="true" data-min-review-count="10">
+            <div class="trustpilot-widget" data-locale="es-ES" data-template-id="5419b6a8b0d04a076446a9ad"
+                data-businessunit-id="600039119f76260001f7b359" data-style-height="24px" data-style-width="100%"
+                data-theme="light" data-stars="1,2,3,4,5" data-no-reviews="hide" data-scroll-to-list="true"
+                data-allow-robots="true" data-min-review-count="10">
                 <a href="https://es.trustpilot.com/review/airnest.es" target="_blank" rel="noopener">Trustpilot</a>
             </div>
             <!-- End TrustBox widget -->
@@ -27,7 +30,8 @@
                 <a target="_blank" href="https://www.facebook.com/airnest.es/" rel="noopener">
                     <i class="fab fa-facebook"></i>
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/company/airnesthomes/?originalSubdomain=ca" rel="noopener">
+                <a target="_blank" href="https://www.linkedin.com/company/airnesthomes/?originalSubdomain=ca"
+                    rel="noopener">
                     <i class="fab fa-linkedin"></i>
                 </a>
                 <div class="email">info@airnest.es</div>
@@ -36,54 +40,15 @@
         <div class="f-right">
             <div class="newsletter-text">Subscribe to our Newsletter and rediscover the Canary Islands.</div>
             <div class="newsletter-text">You will access to exclusive content, special offers and much more.</div>
-            <!-- <form action="https://airnest.us20.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="edd79a59c2e5bc2637645344b">
-                <input type="hidden" name="id" value="8709a3b193">
-                <div id="mergeTable" class="mergeTable">
-                    <div class="mergeRow dojoDndItem mergeRow-email" id="mergeRow-0">
-                        <label for="MERGE0">Email Address <span class="req asterisk">*</span></label>
-                        <div class="field-group">
-                            <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
-                        </div>
-                    </div>
-                </div>
-                <div class="submit_container clear">
-                    <input type="submit" class="formEmailButton" name="submit" value="Subscribe">
-                </div>
-                <input type="hidden" name="ht" value="afa0879ae2be9caf3e849713437a5eb73c1e6fa5:MTYzOTczNDk5Mi44Njky">
-                <input type="hidden" name="mc_signupsource" value="hosted">
-            </form> -->
-            <!-- <form action="https://airnest.us20.list-manage.com/subscribe/post">
-                <input type="hidden" name="u" value="edd79a59c2e5bc2637645344b">
-                <input type="hidden" name="id" value="8709a3b193">
-                <input placeholder="E-mail" type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="" class="email">
-                <input class="submit" name="submit" type="submit" value="Send">
-            </form> -->
-            <!-- Begin Mailchimp Signup Form -->
-
-
-
-        <!-- <div id="mc_embed_signup">
-            <form [formGroup]="sub" (ngSubmit)="submit()" novalidate>
-                <input formControlName="emailControl" placeholder="E-mail" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            <form [formGroup]="userForm" novalidate>
+                <input name="EMAIL" class="email-input mat-body-1 email" type="email" formControlName="email"
+                    id="mce-EMAIL" />
                 <input type="hidden" name="b_edd79a59c2e5bc2637645344b_8709a3b193" tabindex="-1" value="">
-                <button class="submit">Send</button>            
+                <div class="message" [innerHTML]="message"></div>
+                <button class="subscribe mat-body-2 submit" (click)="subscribeEmail()">
+                    Send
+                </button>
             </form>
-        </div> -->
-
-        <form [formGroup]="userForm" novalidate>
-            <input class="email-input mat-body-1 email"
-                type="email" formControlName="email" />
-            <button
-                class="subscribe mat-body-2 submit"
-                (click)="subscribeEmail()"
-              >
-               Subscribe
-              </button>
-        </form>
-            <!--End mc_embed_signup-->
-
-
             <div class="right-links">
                 <a routerLink="/terms-and-conditions">Terms and conditions</a>
                 <a routerLink="/privacy-policy">Legal notice</a>
