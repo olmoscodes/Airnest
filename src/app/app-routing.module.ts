@@ -7,13 +7,12 @@ import { IslandsComponent } from './components/site/body/islands/islands.compone
 import { NestComponent } from './components/site/body/our-nests/nest/nest.component';
 import { NotFoundComponent } from './components/site/body/not-found/not-found.component';
 import { OurNestsComponent } from './components/site/body/our-nests/our-nests.component';
-import { OwnersComponent } from './components/site/body/owners/owners.component';
+//import { OwnersComponent } from './components/site/body/owners/owners.component';
 import { RemoteWorkingComponent } from './components/site/body/remote-working/remote-working.component';
 import { IslandComponent } from './components/site/body/islands/island/island.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { LoginComponent } from './components/login/login.component';
 import { AuthGuard } from './services/auth.guard';
-import { RoleGuard } from './services/role.guard';
 import { TermsAndConditionsComponent } from './components/site/body/terms-and-conditions/terms-and-conditions.component';
 import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
 import { BlogComponent } from './components/site/body/blog/blog.component';
@@ -30,7 +29,7 @@ const routes: Routes = [
   { path: 'islands', component: IslandsComponent },
   { path: 'remote-working', component: RemoteWorkingComponent },
   { path: 'about', component: AboutAirnestComponent },
-  { path: 'owners', component: OwnersComponent },
+  //{ path: 'owners', component: OwnersComponent },
   { path: 'our-nests/:link', component: NestComponent},
   { path: 'islands/:island', component: IslandComponent},
   { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
