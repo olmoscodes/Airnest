@@ -4335,7 +4335,19 @@ body {
     .guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]) {
         left: 0px !important;
     }
+
+    .guesty-root-element .selectr-selected:before {
+        top: 43% !important;
+    }
 }
+
+@media (min-width: 600px) {
+    .guesty-root-element .selectr-selected:before {
+        top: 50% !important;
+    }
+}
+
+
 
 .guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]):after {
     font-size: 14px !important;
@@ -4391,8 +4403,9 @@ body {
     transform: rotate(45deg) translatey(-40%) !important;
     position: absolute !important;
     right: 20px !important;
-    top: 50% !important;
 }
+
+
 
 .guesty-root-element .selectr-container.open .selectr-selected:before {
     transform: rotate(-135deg) !important;
