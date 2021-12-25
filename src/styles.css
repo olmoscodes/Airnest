@@ -416,7 +416,7 @@ a:active .header-content {
         padding: 0 !important;
         color: rgba(0, 0, 0, 0.8) !important;
         border: 0px !important;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
     }
     .lightpick__next-action {
         background-color: rgba(0, 0, 0, 0.1) !important;
@@ -424,10 +424,10 @@ a:active .header-content {
         padding: 0 !important;
         color: rgba(0, 0, 0, 0.8) !important;
         border: 0px !important;
-        margin-top: 10px;
+        /*margin-top: 10px;*/
     }
     .lightpick__month:last-child header {
-        margin-left: -50px !important;
+        /*margin-left: -50px !important;*/
     }
     .lightpick__months select {
         border: 0px;
@@ -4318,6 +4318,23 @@ body {
     font-size: 14px !important;
     top: 1px;
     left: 38px !important;
+}
+
+@media (max-width: 600px) {
+    .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper].has-value:before {
+        top: 11px;
+    }
+
+    .guesty-root-element.small-size.guesty-widget__container .guesty-widget__item #guesty-search-widget__datepicker [id^=date-picker-wrapper] {
+        padding: 10px 0px;
+    }
+    .guesty-root-element .selectr-selected {
+        height: 60px !important;
+        padding-left: 38px !important;
+    }
+    .guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]) {
+        left: 0px !important;
+    }
 }
 
 .guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]):after {
