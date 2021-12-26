@@ -378,7 +378,7 @@ a:active .header-content {
         border-radius: 2px !important;
     }
     #guesty-search-widget__datepicker>div:after {
-        left: 90% !important;
+        right: 22px !important;
     }
     .selectr-container {
         top: -10px !important;
@@ -426,9 +426,9 @@ a:active .header-content {
         border: 0px !important;
         /*margin-top: 10px;*/
     }
-    .lightpick__month:last-child header {
-        /*margin-left: -50px !important;*/
-    }
+    /*.lightpick__month:last-child header {
+        margin-left: -50px !important;
+    }*/
     .lightpick__months select {
         border: 0px;
         margin-left: 15px;
@@ -650,14 +650,63 @@ a:focus {
     position: absolute;
     display: flex;
     flex-direction: column;
-    padding: 4vh 0 0 0;
     opacity: 0;
     z-index: 10;
-    height: 10px;
+    height: 0px;
     z-index: 10;
     width: 130%;
-    padding-bottom: 20px;
 }
+
+@media (max-width: 700px) { 
+    .live .livebox {
+        padding: 29px 0 0 0;
+    }
+
+    .live-box {
+        display: flex;
+        height: 20px;
+        width: 100%;
+        position: absolute;
+        z-index: 11;
+        top: 0;
+    }
+
+    .open-live {
+        background-color: transparent;
+    }
+
+    .close-live {
+        background-color: transparent;
+        pointer-events: none;
+        opacity: 0;
+    }
+
+    /*#nav2 .live:hover .livetext:after {
+        transform: rotate(0deg);
+        right: -20px;
+        top: 5px;
+    }*/
+}
+
+@media (min-width: 700px) { 
+    .live .livebox {
+        padding: 4vh 0 0 0;
+    }
+
+    .livebox:hover {
+        opacity: 1;
+        height: auto;
+        cursor: auto;
+        z-index: -1;
+        padding-bottom: 20px;
+    }
+
+    .livebox:hover a {
+        pointer-events: inherit;
+    }
+
+}
+
 
 .livetext {
     margin-top: 2px !important;
@@ -668,16 +717,6 @@ a:focus {
     pointer-events: none;
 }
 
-.livebox:hover {
-    opacity: 1;
-    height: auto;
-    cursor: auto;
-    z-index: -1;
-}
-
-.livebox:hover a {
-    pointer-events: inherit;
-}
 
 .live .livebox a {
     margin: 5px 0;
@@ -768,6 +807,7 @@ body {
         height: 30px;
         width: 30px;
         background-color: transparent;
+        z-index: 999999;
     }
     #nav2 #ham-close {
         position: absolute;
@@ -775,6 +815,7 @@ body {
         width: 30px;
         background-color: transparent;
         pointer-events: none;
+        z-index: 999999;
     }
     .header #nav2 .hamburguer-nav {
         display: flex !important;
@@ -812,18 +853,21 @@ body {
         position: inherit;
         margin-top: -30px;
     }
-    #nav2 .livetext:after {
-        content: '\2303';
+    #nav2 .arrow {
+        display: flex;
+        border-right: 1px solid black !important;
+        border-bottom: 1px solid black !important;
+        border-left: 1px solid transparent !important;
+        border-top: 1px solid transparent !important;
         position: absolute;
-        right: -20px;
-        top: 0px;
-        transform: rotate(180deg);
+        right: -22px;
+        top: 6px;
+        height: 8px;
+        width: 8px;
+        transform: rotate(45deg);
     }
-    #nav2 .live:hover .livetext:after {
-        transform: rotate(0deg);
-        right: -20px;
-        top: 5px;
-    }
+
+
     #nav2 .live .livebox .nav-button {
         margin: 0 0 0 10px !important;
     }
@@ -944,6 +988,12 @@ body {
     font-size: 1.6vh;
 }
 
+@media (max-height: 1300px) {
+    .nav-button {
+        font-size: 2vh;
+    }
+}
+
 @media (min-height: 1300px) {
     .nav-button {
         font-size: 20px;
@@ -1038,7 +1088,8 @@ body {
         font-size: 10vw;
     }
     .airnest-subtitle {
-        font-size: 4vw
+        font-size: 4vw;
+        margin-bottom: 10px !important;
     }
 }
 
@@ -4322,14 +4373,14 @@ body {
 
 @media (max-width: 600px) {
     .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper].has-value:before {
-        top: 11px;
+        top: 8px;
     }
 
     .guesty-root-element.small-size.guesty-widget__container .guesty-widget__item #guesty-search-widget__datepicker [id^=date-picker-wrapper] {
-        padding: 10px 0px;
+        padding: 4px 0px;
     }
     .guesty-root-element .selectr-selected {
-        height: 60px !important;
+        height: 47px !important;
         padding-left: 38px !important;
     }
     .guesty-root-element .guests-dropdown .selectr-label:not([data-label=Guests]) {
@@ -4364,9 +4415,13 @@ body {
     margin-left: 20px;
 }
 
-#guesty-search-widget__datepicker>div:after {
-    right: 5px !important;
+@media (min-width: 600px) {
+    #guesty-search-widget__datepicker>div:after {
+        right: 5px !important;
+    }
 }
+
+
 
 #guesty-search-widget__datepicker>div:after {
     content: '' !important;
