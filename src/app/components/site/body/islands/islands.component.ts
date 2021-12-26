@@ -26,8 +26,8 @@ export class IslandsComponent implements OnInit {
     const a1 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a1',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -38,8 +38,8 @@ export class IslandsComponent implements OnInit {
     const a2 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a2',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -50,8 +50,8 @@ export class IslandsComponent implements OnInit {
     const a3 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a3',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -62,8 +62,8 @@ export class IslandsComponent implements OnInit {
     const a4 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a4',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -74,8 +74,8 @@ export class IslandsComponent implements OnInit {
     const a5 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a5',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -86,8 +86,8 @@ export class IslandsComponent implements OnInit {
     const a6 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a6',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -98,8 +98,8 @@ export class IslandsComponent implements OnInit {
     const a7 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a7',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -110,8 +110,8 @@ export class IslandsComponent implements OnInit {
     const a8 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a8',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -122,8 +122,8 @@ export class IslandsComponent implements OnInit {
     const a9 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a9',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -134,8 +134,8 @@ export class IslandsComponent implements OnInit {
     const a10 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a10',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -146,8 +146,8 @@ export class IslandsComponent implements OnInit {
     const a11 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a11',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -158,8 +158,8 @@ export class IslandsComponent implements OnInit {
     const a12 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a12',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -170,8 +170,8 @@ export class IslandsComponent implements OnInit {
     const a13 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a13',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -182,8 +182,8 @@ export class IslandsComponent implements OnInit {
     const a14 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a14',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -194,8 +194,8 @@ export class IslandsComponent implements OnInit {
     const a15 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a15',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -206,8 +206,8 @@ export class IslandsComponent implements OnInit {
     const a16 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a16',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -218,8 +218,8 @@ export class IslandsComponent implements OnInit {
     const a17 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a17',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -230,8 +230,8 @@ export class IslandsComponent implements OnInit {
     const a18 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a18',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -242,8 +242,8 @@ export class IslandsComponent implements OnInit {
     const a19 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a19',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -254,8 +254,8 @@ export class IslandsComponent implements OnInit {
     const a20 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a20',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -266,8 +266,8 @@ export class IslandsComponent implements OnInit {
     const a21 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a21',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -278,8 +278,8 @@ export class IslandsComponent implements OnInit {
     const a22 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a22',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -290,8 +290,8 @@ export class IslandsComponent implements OnInit {
     const a23 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a23',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -302,8 +302,8 @@ export class IslandsComponent implements OnInit {
     const a24 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a24',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -314,8 +314,8 @@ export class IslandsComponent implements OnInit {
     const a25 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a25',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -326,8 +326,8 @@ export class IslandsComponent implements OnInit {
     const aa = gsap.timeline({
       scrollTrigger: {
         trigger: '.aa',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },

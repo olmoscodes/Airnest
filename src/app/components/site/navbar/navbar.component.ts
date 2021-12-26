@@ -81,8 +81,30 @@ export class NavbarComponent implements OnInit {
     .fromTo(".airnest-logo-white", {opacity: 1}, {opacity: 0}, "-=0.5")
     .fromTo(".airnest-logo-black", {opacity: 0}, {opacity: 1}, "-=0.5")
     .fromTo(".livebox", {backgroundColor: 'transparent'}, {backgroundColor: 'white'}, "-=0.5")
-    
-  
+
+    let openLive = document.getElementById("open-live")!;
+    let closeLive = document.getElementById("close-live")!;
+
+    const liveDropdownTL = gsap.timeline({paused: true})
+
+    liveDropdownTL.to('.close-live', {opacity: "1", pointerEvents: "auto"})
+    .to('.open-live', {opacity: "0", pointerEvents: "none"}, "-=0.5")
+    .to('.livebox', {height: "auto", opacity: "1", cursor: "auto", zIndex: "-1"}, "-=0.5")
+    .to('.livebox a', {pointerEvents: "auto"}, "-=0.5")
+    .to('.arrow', {transform: "rotate(-135deg)", top: "12px"}, "-=0.5")
+
+    openLive.addEventListener('click', function() {
+      console.log("live opened");
+      liveDropdownTL.play();
+    }, false)
+
+    closeLive.addEventListener('click', function() {
+      console.log("live closed");
+      liveDropdownTL.reverse();
+    }, false)
+
+
+
   }
 
 }

@@ -25,8 +25,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a1 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a1',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -37,8 +37,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a2 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a2',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -49,8 +49,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a3 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a3',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -61,8 +61,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a4 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a4',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -73,8 +73,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a5 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a5',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -85,8 +85,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a6 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a6',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -97,8 +97,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a7 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a7',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -109,8 +109,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a8 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a8',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -121,8 +121,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a9 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a9',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -133,8 +133,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a10 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a10',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -145,8 +145,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a11 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a11',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -157,8 +157,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a12 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a12',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -169,8 +169,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a13 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a13',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -181,8 +181,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a14 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a14',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
@@ -193,8 +193,8 @@ export class RemoteWorkingComponent implements OnInit {
     const a15 = gsap.timeline({
       scrollTrigger: {
         trigger: '.a15',
-        start: 'bottom 100%',
-        end: 'bottom 50%',
+        start: 'top 100%',
+        end: 'top 50%',
         scrub: true,
         markers: false
       },
