@@ -36,8 +36,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'terms-and-conditions', component: TermsAndConditionsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
-  { path: 'blog', component: BlogComponent },
-  { path: 'blog/:article', component: ArticleComponent},
+  { path: 'journal', component: BlogComponent },
+  { path: 'journal/:article', component: ArticleComponent},
   { path: '**', component: NotFoundComponent },
 ];
 
