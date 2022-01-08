@@ -1883,14 +1883,15 @@ body {
         margin-left: 10vw;
         font-size: 4vh;
         margin-top: 50px;
-        margin-bottom: 4vh;
+        margin-bottom: 3vh;
         line-height: 60px;
         width: 80vw;
-        line-height: 6.4vh
+        line-height: 5.4vh
     }
     .module3 .title span {
         font-style: italic;
-        margin: 0px 3px 0px 4px;
+        margin: 0px 1px 0px 4px;
+        display: inline-block;
     }
     .module3 .bottom {
         width: 100%;
@@ -2288,16 +2289,18 @@ body {
     }
     .module4 .title {
         font-size: 4vh;
-        width: 80vw;
+        width: 83vw;
         margin-bottom: 20px;
         line-height: 60px;
         justify-self: flex-start;
         top: 0.5vh;
         left: 10vw;
-        line-height: 11vw;
+        line-height: 5.4vh;
     }
     .module4 .title span {
         font-style: italic;
+        display: inline-block;
+        margin-left: 3px;
     }
     .module4 .body-copy {
         font-style: italic;
@@ -2452,7 +2455,8 @@ body {
     }
     .module5 .title span {
         font-style: italic;
-        margin: 0px 10px 0px 4px;
+        margin: 0px 3px 0px 4px;
+        display: inline-block;
     }
     .module5 .body-copy {
         position: inherit;
@@ -2468,8 +2472,7 @@ body {
         position: absolute;
         top: 50vh;
         display: flex;
-        width: 80vw;
-        ;
+        width: 83vw;
         height: 58vw;
         background-position: center;
         background-size: cover;
@@ -3379,7 +3382,7 @@ body {
         margin-bottom: 4vh;
         line-height: 60px;
         width: 80vw;
-        line-height: 6.4vh;
+        line-height: 5.4vh;
     }
     .module-islands-1 .bottom-left {
         display: flex;
@@ -4122,6 +4125,12 @@ body {
     font-family: inherit;
 }
 
+
+@media (max-width: 600px) {
+    .guesty-root-element .lightpick__day.is-start-date, .guesty-root-element .lightpick__day.is-end-date, .guesty-root-element .lightpick__day.is-start-date:hover, .guesty-root-element .lightpick__day.is-end-date:hover {
+        color: black !important;
+    }
+}
 .selectr-visible {
     display: flex !important;
 }
