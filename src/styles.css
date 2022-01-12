@@ -708,7 +708,7 @@ a:focus {
     }
 
     .livebox:hover a {
-        pointer-events: inherit;
+        pointer-events: inherit !important
     }
 
 }
