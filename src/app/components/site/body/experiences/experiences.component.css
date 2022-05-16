@@ -1,0 +1,70 @@
+.wrapper {
+    position: relative;
+    width: 250%;
+    height: 408px;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        left: 90%;
+        bottom: -26%;
+    }
+}
+
+@media (min-width: 600px) {
+    .wrapper {
+        left: 100%;
+        bottom: -19%;
+    }
+    .w3 {
+        left: 125%;
+
+    }
+}
+
+.wrapper .boxC {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0 15px 0 0;
+}
+
+.boxC img {
+    width: 400px;
+    height: 300px;
+}
+
+.textBox {
+    width: 500px !important;
+    text-align: right;
+}
+
+.place-photo {
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.experiencias .place-photo:after {
+    line-height: 1.7;
+}
+
+.box-resizing {
+    background: #F4F4F4;
+    position: relative;
+}
+
+.line {
+    width: 100vw;
+    height: 4px;
+    background-color: #F4F4F4;
+    position: absolute;
+    bottom: -1px;
+}

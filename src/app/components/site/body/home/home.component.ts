@@ -377,6 +377,39 @@ export class HomeComponent implements OnInit {
 
       home1.fromTo('.hc1', { x: '100vw', pointerEvents: 'auto' }, { x: '-100vw', pointerEvents: 'auto' });*/
     } 
+
+
+
+    gsap.set('.wrapper',{xPercent:-50,yPercent:-50})
+
+
+    var boxWidth = 400 + 8 * 5,
+        totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
+        time = 30,
+        no01 = document.querySelectorAll("#no01 .boxC"),
+        dirFromLeft = "+=" + totalWidth,
+        dirFromRight = "-=" + totalWidth;
+
+    var mod = gsap.utils.wrap(0, totalWidth);
+
+    gsap.set(no01, {
+      x:function(i) {
+        return i * boxWidth;
+      }
+    });
+
+    var action = gsap.timeline()
+    .to(no01,  {
+      x: dirFromRight,
+      modifiers: {
+        x: x => mod(parseFloat(x)) + "px"
+      },
+      duration:time, ease:'none',
+      repeat:-1,
+    });
+
+
+
   }
 
   

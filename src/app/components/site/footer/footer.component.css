@@ -2,6 +2,7 @@
 @media (min-width: 600px) {
     .trustpilot-widget {
         margin-left: -20px;
+        margin-top: 20px;
     }
 
     .message {

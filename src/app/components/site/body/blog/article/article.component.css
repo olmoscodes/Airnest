@@ -70,7 +70,8 @@
     .text .content-text {
         width: 35vw;
         font-family: 'Playfair Display' !important;
-        line-height: 22px;
+        line-height: 3vh;
+        font-size: 2vh;
     }
     
     .text .img {

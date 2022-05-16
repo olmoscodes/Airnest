@@ -42,6 +42,27 @@ a {
     text-decoration: none;
 }
 
+.guesty-root-element .lightpick__month-title-bar {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.guesty-root-element .lightpick__next-action:hover {
+    cursor: pointer !important;
+}
+
+.guesty-root-element .lightpick__next-action {
+    margin-top: -3px !important;
+}
+
+.guesty-root-element .lightpick__previous-action:hover {
+    cursor: pointer !important;
+}
+
+.guesty-root-element .lightpick__previous-action {
+    margin-top: -3px !important;
+}
+
 @media (min-width: 600px) {
     #search-widget_IO312PWQ {
         border-radius: 4px;
@@ -238,7 +259,7 @@ a:active .header-content {
         width: 80vw;
         justify-content: space-between;
         height: 200px;
-        font-size: 1.6vh;;
+        font-size: 2vh;;
     }
     .f-left {
         width: 45%;
@@ -261,7 +282,7 @@ a:active .header-content {
     .rrss {
         display: flex;
         align-items: end;
-        width: 260px;
+        width: 288px;
         justify-content: space-between;
     }
     .rrss i {
@@ -298,6 +319,7 @@ a:active .header-content {
         height: 38px !important;
         padding-left: 14px;
         width: 71%;
+        font-size: 2vh;
     }
     .f-right form .submit {
         width: 25%;
@@ -308,7 +330,7 @@ a:active .header-content {
         padding: 0px;
         justify-content: center;
         align-items: center;
-        font-size: 13px;
+        font-size: 2vh;
         font-family: 'Playfair Display' !important;
         color: black !important;
         font-style: italic;
@@ -319,6 +341,7 @@ a:active .header-content {
     .f-right form .submit:hover {
         background-color: black !important;
         color: #ECE7E1 !important;
+        cursor: pointer;
     }
     .f-right form .submit:focus {
         outline: 0px solid transparent !important;
@@ -349,6 +372,44 @@ a:active .header-content {
 /* WIDGET SEARCH BAR */
 
 @media (max-width: 600px) {
+
+    .guesty-root-element .lightpick__month-title {
+        display: flex;
+        justify-content: center;
+        margin-left: 76px !important;
+    }
+
+    .lightpick__months select {
+        display: flex;
+        border: 0px;
+        /*margin-left: 15px;*/
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        pointer-events: none;
+        font-family: 'Playfair Display' !important;
+        text-transform: capitalize;
+        margin: 2px !important;
+        padding: 0px !important;
+        width: auto !important;
+        overflow: visible !important;
+        color: black !important;
+        background-color: white !important;
+    }
+
+    .guesty-root-element #guesty-search-widget__datepicker {
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+
+    .lightpick__select-months {
+        margin-right: 15px;
+    }
+    
+    .lightpick__select-years {
+        margin-left: -12px;
+    }
+
     #search-widget_IO312PWQ div {
         font-family: 'Playfair Display' !important;
     }
@@ -370,10 +431,11 @@ a:active .header-content {
     }
     #guesty-search-widget__datepicker {
         display: flex;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
     }
     #guesty-search-widget__datepicker>div {
-        min-width: 100% !important;
+        min-width: 48% !important;
+        width: 48% !important;
         margin: 20px 0 !important;
         border-radius: 2px !important;
     }
@@ -416,7 +478,6 @@ a:active .header-content {
         padding: 0 !important;
         color: rgba(0, 0, 0, 0.8) !important;
         border: 0px !important;
-        /*margin-top: 10px;*/
     }
     .lightpick__next-action {
         background-color: rgba(0, 0, 0, 0.1) !important;
@@ -424,11 +485,7 @@ a:active .header-content {
         padding: 0 !important;
         color: rgba(0, 0, 0, 0.8) !important;
         border: 0px !important;
-        /*margin-top: 10px;*/
     }
-    /*.lightpick__month:last-child header {
-        margin-left: -50px !important;
-    }*/
     .lightpick__months select {
         border: 0px;
         margin-left: 15px;
@@ -463,6 +520,12 @@ a:active .header-content {
 }
 
 @media (min-width: 600px) {
+
+    .guesty-root-element .lightpick {
+        margin-top: 35px;
+        margin-left: 14px;
+        transform: scale(1.1);
+    }
     .guesty-search-submit-btn {
         margin-left: 0px !important;
     }
@@ -486,7 +549,7 @@ a:active .header-content {
         align-items: center;
         flex-direction: row !important;
         font-family: 'Playfair Display' !important;
-        transform: scale(0.8);
+        transform: scale(1);
     }
     .guesty-root-element #guesty-search-widget__datepicker [id^=date-picker-wrapper] input {
         font-family: 'Playfair Display' !important;
@@ -548,8 +611,26 @@ a:active .header-content {
     }
     .lightpick__months select {
         border: 0px;
-        margin-left: 15px;
+        /*margin-left: 15px;*/
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        pointer-events: none;
+        font-family: 'Playfair Display' !important;
+        text-transform: capitalize;
     }
+    .lightpick__select-months {
+        margin-right: 15px;
+    }
+
+    .lightpick__select-years {
+        margin-left: -12px;
+    }
+
+    section.lightpick__month .lightpick__month-title-bar:first-child {
+        margin-left: -41px !important;
+    }
+
     .guesty-root-element .lightpick__month .lightpick__month-title:hover {
         background-color: transparent !important;
     }
@@ -919,6 +1000,7 @@ body {
     }
     .airnest-logo {
         max-width: 400px !important;
+        margin-top: -160px;
     }
 }
 
@@ -1112,7 +1194,7 @@ body {
     border: 2px solid white;
     padding: 9px 24px;
     font-style: italic !important;
-    font-size: 1.8vh;
+    font-size: 2vh;
 }
 
 .header .cta:hover {
@@ -1213,13 +1295,13 @@ body {
     .module1 .text {
         display: flex;
         margin-left: 33%;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 33.25%;
         margin-top: 3vh;
         margin-bottom: 2vh;
         font-style: italic;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .our-nests .module1 .text {
         margin-bottom: 50px;
@@ -1267,13 +1349,13 @@ body {
         transition: 0.4s;
     }
     
-    .carrousel:hover .place:first-child {
+    /* .carrousel:hover .place:first-child {
         margin-left: 180vw;
         transition: 0.4s;
-    }
+    } */
     
 
-    .m3 .carrousel .place:first-child {
+    /* .m3 .carrousel .place:first-child {
         margin-left: 141vw;
         transition: 0.4s;
     }
@@ -1281,7 +1363,7 @@ body {
     .m3 .carrousel:hover .place:first-child {
         margin-left: 121vw;
         transition: 0.4s;
-    }
+    } */
 
     .om1 .carrousel:hover .place:first-child {
         margin-left: 0;
@@ -1305,10 +1387,10 @@ body {
         justify-content: space-between;
     }
     .oc1 .place-name {
-        font-size: 18px;
+        font-size: 2vh;
     }
     .oc1 .place-description {
-        font-size: 14px;
+        font-size: 1.8vh;
     }
     .oc1 .place-info-left {
         width: 85%;
@@ -1341,7 +1423,7 @@ body {
     }
     .our-nests .module1 .cta {
         margin: 20px 0px 70px 130px !important;
-        font-size: 1.6vh;
+        font-size: 2vh;
 
     }
     .module1 .cta {
@@ -1351,7 +1433,7 @@ body {
         margin-top: 20px;
         padding: 10px 20px;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-bottom: 2vh !important;
         text-decoration: none;
         margin-right: 40.4%;
@@ -1366,7 +1448,7 @@ body {
         margin-top: 20px;
         padding: 10px 20px;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-bottom: 2vh !important;
         text-decoration: none;
         margin-right: 40.4%;
@@ -1385,7 +1467,7 @@ body {
         margin-top: 20px;
         padding: 10px 20px;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-bottom: 2vh !important;
         text-decoration: none;
         align-self: flex-start;
@@ -1395,7 +1477,7 @@ body {
         border: 2px solid black;
         font-style: italic !important;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         text-decoration: none;
         background-color: black;
         cursor: pointer;
@@ -1413,7 +1495,7 @@ body {
         margin-top: 20px;
         padding: 10px 20px;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-bottom: 2vh !important;
         text-decoration: none;
         margin-left: 33%;
@@ -1423,7 +1505,7 @@ body {
         border: 2px solid white;
         font-style: italic !important;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         text-decoration: none;
         background-color: white;
         cursor: pointer;
@@ -1437,7 +1519,7 @@ body {
         font-style: italic !important;
         padding: 10px 20px;
         text-align: center;
-        font-size: 1.6vh;
+        font-size: 2vh;
         text-decoration: none;
         background-color: black !important;
     }
@@ -1612,20 +1694,22 @@ body {
         position: static;
         width: 100%;
         display: flex;
+        margin-bottom: 42px;
     }
     .module2 .top img {
-        width: 12.28%;
-        margin-left: 10.71%;
+        width: 9.28%;
+        margin-left: 23.71%;
     }
     .module2 .top .title {
         font-size: 5vh;
         width: 41.25%;
-        margin-left: 7.67%;
+        margin-left: 3.67%;
         line-height: 60px;
         align-items: center;
         margin-top: auto;
         margin-bottom: auto;
         line-height: 5.7vh;
+        text-align: center;
     }
     .module2 .top .title span {
         font-style: italic;
@@ -1642,14 +1726,14 @@ body {
         width: 62.5%;
     }
     .module2 .bottom .left .text {
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-left: 40%;
         width: 56%;
         font-style: italic;
-        margin-top: 1vh;
+        margin-top: -6vh;
         margin-bottom: 6vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module2 .media1 {
         margin-left: 15%;
@@ -1842,12 +1926,12 @@ body {
     }
     .module3 .body-copy-1 {
         font-style: italic;
-        font-size: 1.6vh;
-        width: 35vh;
+        font-size: 2vh;
+        width: 36vh;
         margin-left: 26%;
         margin-bottom: 7vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module3 .bottom-left .photo {
         width: 46vh;
@@ -1966,11 +2050,11 @@ body {
     }
     .module3 .body-copy-2 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 43vh;
         margin-right: 39%;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
         align-self: flex-start;
     }
 }
@@ -2163,10 +2247,11 @@ body {
         font-weight: normal;
     }
     .side .body-copy .copy {
-        font-size: 1.6vh;
-        line-height: 2.6vh;
+        font-size: 2vh;
+        line-height: 3vh;
         font-weight: normal;
         font-style: italic;
+        margin-top: 10px;
     }
     .module3-long .body-copy-1a {
         width: 50%;
@@ -2348,12 +2433,12 @@ body {
     }
     .module4 .body-copy {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-left: 33%;
         width: 31.25vw;
         margin-top: 40px;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
 }
 
@@ -2393,12 +2478,12 @@ body {
     }
     .module5 .body-copy {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-left: 57%;
         width: 35.25%;
         margin-top: 4.6vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module5 .photo {
         display: flex;
@@ -2588,13 +2673,13 @@ body {
         margin-right: 10px;
     }
     .module6 .body-copy {
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin-left: 34%;
         width: 26%;
         font-style: italic;
         margin-top: 11vh;
         margin-bottom: 70px;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module6 .bottom {
         position: inherit;
@@ -2614,18 +2699,33 @@ body {
         margin-left: 5.5%;
         margin-right: 5.5%;
     }
+
+    .module6-extra .box {
+        width: 18.48% !important; 
+        margin-left: 7.26% !important;
+        margin-right: 7.26% !important;
+    }
+
+    .module6-extra .box-image {
+        margin-bottom: 20px;
+    }
     .module6 .box-image {
         min-width: 20vh;
         min-height: 20vh;
         width: 20vh;
         height: 20vh;
         background-color: lightgray;
-        border-radius: 100%
+        border-radius: 100%;
     }
 }
 
+.module6 .stars {
+    max-width: 73%;
+    margin-bottom: -49px;
+}
+
 .module6 .bi1 {
-    background-image: url("/assets/img/PROFILE1.jpeg");
+    background-image: url("/assets/img/estrellas.png");
     background-size: cover;
 }
 
@@ -2638,6 +2738,38 @@ body {
     background-image: url("/assets/img/PROFILE4-1.jpeg");
     background-size: cover;
 }
+
+.module6-extra .a10 .box-image {
+    background-image: url("/assets/img/Javier_Navarro.jpeg");
+    background-size: cover;
+}
+
+.module6-extra .a11 .box-image {
+    background-image: url("/assets/img/Javier_Aguirre.jpeg");
+    background-size: cover;
+}
+
+.module6-extra .a12 .box-image {
+    background-image: url("/assets/img/Alejandro.png");
+    background-size: cover;
+}
+
+.module6-extra .a13 .box-image {
+    background-image: url("/assets/img/Otilia2.png");
+    background-size: cover;
+}
+
+.module6-extra .a14 .box-image {
+    background-image: url("/assets/img/1.jpeg");
+    background-size: cover;
+}
+
+.module6-extra .a15 .box-image {
+    background-image: url("/assets/img/Lara.png");
+    background-size: cover;
+}
+
+
 
 .module6 .box-title {
     font-size: 3vh;
@@ -2653,12 +2785,12 @@ body {
 }
 
 .module6 .box-copy {
-    font-size: 1.6vh;
+    font-size: 2vh;
     font-style: italic;
     text-align: center;
-    width: 110%;
+    width: 120%;
     margin: 30px 0px 30px 0px;
-    line-height: 2.6vh;
+    line-height: 3vh;
 }
 
 .module6 .box-apostrophes {
@@ -2961,8 +3093,9 @@ body {
 
 @media (max-width: 700px) {
     .islands {
-        background-image: url("/assets/img/Islas-general-Cabecero-scaled.jpeg");
+        background-image: url("/assets/img/ISLANDS_EXPERIENCES.jpeg");
         background-size: 400%;
+        background-position: 50% 80%;
     }
 }
 
@@ -2970,6 +3103,7 @@ body {
     .islands {
         background-image: url("/assets/img/ISLANDS_EXPERIENCES.jpeg");
         background-size: cover;
+        background-position: 50% 100%;
     }
 }
 
@@ -3343,7 +3477,7 @@ body {
 
 @media (min-width: 700px) {
     .experiencias {
-        background-color: grey;
+        background: #F4F4F4;
         /*background-image: url("");*/
         background-size: 100%;
     }
@@ -3351,7 +3485,7 @@ body {
 
 @media (max-width: 700px) {
     .experiencias {
-        background-color: grey;
+        background: #F4F4F4;
         background-image: url("https://secureservercdn.net/160.153.138.163/ph6.f60.myftpupload.com/wp-content/uploads/2021/08/Experiencias_header.png");
         background-size: cover;
     }
@@ -3710,21 +3844,21 @@ body {
     }
     .module-islands-2 .body-copy-2 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 43vh;
         margin-left: 7%;
         margin-bottom: 14vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module-islands-2 .body-copy-1 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 35vh;
         margin-top: 10vh;
         margin-right: -3%;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module-islands-3 .bottom-left {
         display: flex;
@@ -3771,21 +3905,21 @@ body {
     }
     .module-islands-3 .body-copy-1 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 35vh;
         margin-right: 9%;
         margin-top: 13vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module-islands-3 .body-copy-2 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 43vh;
         margin-left: 22%;
         margin-bottom: 7vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module-islands-3 .bottom-right .photo {
         width: 61vh;
@@ -3835,49 +3969,53 @@ body {
     }
     .module-islands-4 .body-copy-2 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 43vh;
         margin-left: 14%;
         margin-bottom: 15vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module-islands-4 .body-copy-1 {
         font-style: italic;
-        font-size: 1.6vh;
+        font-size: 2vh;
         width: 35vh;
         margin-right: 26%;
         margin-top: 11vh;
         text-align: justify;
-        line-height: 2.6vh;
+        line-height: 3vh;
     }
     .module-islands-1 .photo {
         position: relative;
     }
     .module-islands-1 .cta {
         position: absolute;
-        bottom: -40px
+        bottom: -40px;
+        font-size: 2vh;
     }
     .module-islands-2 .photo {
         position: relative;
     }
     .module-islands-2 .cta {
         position: absolute;
-        bottom: -40px
+        bottom: -40px;
+        font-size: 2vh;
     }
     .module-islands-3 .photo {
         position: relative;
     }
     .module-islands-3 .cta {
         position: absolute;
-        bottom: -40px
+        bottom: -40px;
+        font-size: 2vh;
     }
     .module-islands-4 .photo {
         position: relative;
     }
     .module-islands-4 .cta {
         position: absolute;
-        bottom: -40px
+        bottom: -40px;
+        font-size: 2vh;
     }
 }
 
@@ -4181,7 +4319,7 @@ body {
 .home1 .subtitle {
     color: white;
     margin-top: 1px;
-    font-size: 20px;
+    font-size: 2vh;
     text-align: center;
 }
 
@@ -4502,5 +4640,6 @@ body {
 
 .guesty-root-element #guesty-search-widget__datepicker .__super-input {
     color: #565a5c !important;
-    padding: 10px 0px 10px 36px !important;
+    padding: 10px 0px 10px 29px !important;
 }
+

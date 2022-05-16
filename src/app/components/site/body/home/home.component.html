@@ -16,7 +16,7 @@
             www.airnest.es uses a technology called "cookies" in order to be able to collect information about the use of the Website. 
             We inform you that we may use cookies in order to facilitate your navigation through the Airnest Website, to distinguish you from other users and to analyze your browsing habits within the Website. 
             other users and to analyze your browsing habits within the Website. By clicking "Accept" or by browsing the website, you consent to the use of cookies. <a style="text-decoration: underline;" routerLink="/privacy-policy"> Check out our Privacy Policy here.</a> </div>
-        <div id="closeCookies" class="button">Aceptar</div>
+        <div id="closeCookies" class="button">Consent</div>
     </div>
     <div class="header home-page" id="header">
         <div class="header-content">
@@ -43,7 +43,7 @@
             <div class="a7 ctaBox">
                 <a routerLink="/islands" class="cta">Take me there</a>
             </div>
-            <div class="a8 hc1 carrousel">
+            <!-- <div class="a8 hc1 carrousel">
                 <a routerLink="/islands/grancanaria" class="place">
                     <div class="place-photo place-photo-1"></div>
                     <div class="place-title" id="test">Gran Canaria</div>
@@ -76,34 +76,72 @@
                     <div class="place-photo place-photo-8"></div>
                     <div class="place-title">La Graciosa</div>
                 </a>
-            </div>        
+            </div>    -->
+            
+            <div id="no01" class="wrapper">
+                <div class="a8 boxes">
+                    <a routerLink="/islands/grancanaria" class="boxC">
+                        <div class="place-photo place-photo-1"></div>
+                        <div class="place-title" id="test">Gran Canaria</div>
+                    </a>
+                    <a routerLink="/islands/tenerife" class="boxC">
+                        <div class="place-photo place-photo-2"></div>
+                        <div class="place-title">Tenerife</div>
+                    </a>
+                    <a routerLink="/islands/fuerteventura" class="boxC">
+                        <div class="place-photo place-photo-3"></div>
+                        <div class="place-title">Fuerteventura</div>
+                    </a>
+                    <a routerLink="/islands/lanzarote" class="boxC">
+                        <div class="place-photo place-photo-4"></div>
+                        <div class="place-title">Lanzarote</div>
+                    </a>
+                    <a routerLink="/islands/lapalma" class="boxC">
+                        <div class="place-photo place-photo-5"></div>
+                        <div class="place-title">La Palma</div>
+                    </a>
+                    <a routerLink="/islands/lagomera" class="boxC">
+                        <div class="place-photo place-photo-6"></div>
+                        <div class="place-title">La Gomera</div>
+                    </a>
+                    <a routerLink="/islands/elhierro" class="boxC">
+                        <div class="place-photo place-photo-7"></div>
+                        <div class="place-title">El Hierro</div>
+                    </a>
+                    <a routerLink="/islands/lagraciosa" class="boxC">
+                        <div class="place-photo place-photo-8"></div>
+                        <div class="place-title">La Graciosa</div>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
-    <div class="module2">
+    <div class="module2 module2-new">
         <div class="box-resizing">
             <div class="top">
-                <img src="/assets/img/quality-mark.png" alt="">
+                <img src="/assets/img/quality-mark.png" alt="" class="a11">
                 <div class="a9 title">
                     A new
                     <span>quality standard</span>
                     for vacation homes.
                 </div>
             </div>
-            <div class="bottom">
-                <div class="left">
-                    <div class="a10 text">
-                        When you are already in paradise, our intent is to match the experience with the place. In order to make this possible, we only offer a strictly selected set of homes that fit these characteristics and combine them with an all around personalized experience to match. Our goal is to ensure you can fully get a taste of the Islands, inside the apartments and throughout your visit.
-                    </div>
-                    <div class="media1">
-                        <div class="a1 photo1"></div>
-                        <a routerLink="/about" class="a11 cta">Learn more</a>
-                    </div>
+            <div class="a12 bottom-new">
+                <div class="box">
+                    <div class="photo p1"></div>
+                    <div class="text-1">The place where you’ll find only the best homes in the Canary Islands</div>
+                    <div class="text-2">Choosing a home on Airbnb or Booking can be overwhelming. At AirNest we've done the hard work for you. We review every home and select only the best ones.</div>
                 </div>
-                <div class="right">
-                    <div class="media2">
-                        <div class="a2 photo2"></div>
-                        <a href="https://ournests.airnest.es/listings" class="a12 cta">Find your nest</a>
-                    </div>
+                <div class="box">
+                    <div class="photo p2"></div>
+                    <div class="text-1">The place where you’ll find only the best homes in the Canary Islands</div>
+                    <div class="text-2">All our homes go through a rigorous preparation process to meet our high quality standards. This includes fast wifi, quality beds, fully-equipped kitchens and much more.</div>
+                </div>
+                <div class="box">
+                    <div class="photo p3"></div>
+                    <div class="text-1">The place where you’ll find only the best homes in the Canary Islands</div>
+                    <div class="text-2">Remember when real people who knew what they were doing helped you plan your trips? That was lovely. It still is. No hidden numbers or call centres, our local team is here to help.</div>
                 </div>
             </div>
         </div>
@@ -155,7 +193,7 @@
             <div class="a20 body-copy">
                 Being able to enjoy this remarkable destination is only possible because those native of the islands are willing to open their homes. This is the one way to live the true experience, both inside the apartments and exploring the outdoors.
                 <div class="a21 cta">
-                    <a href="https://airnest.guestyowners.com" target="_self"> List your home</a>
+                    <a href="mailto:info@airnest.es">List your home</a>
                 </div>
             </div>
             <div class="a5 photo"></div>
@@ -170,30 +208,33 @@
             <div class="a23 body-copy">Read what those who have experienced it before you say about their adventure.</div>
             <div class="bottom">
                 <div class="a24 box">
-                    <div class="box-image bi1"></div>
+                    <!-- <img class="stars" src="/assets//img//estrellas.png" alt=""> -->
+                    <div class="box-image"></div>
                     <div class="box-title">
-                        <span>Oliver</span> <br>
-                        Las Palmas
+                        <span>Nita</span> <br>
+                        United Kingdom
                     </div>
-                    <div class="box-copy">The hosts were incredibly helpful, friendly and responded quickly to WhatsApp queries. All in all, an amazing stay at an amazing apartment.</div>
+                    <div class="box-copy">Beautiful villa in a quiet and peaceful resort. We really enjoyed our stay and wish we had booked for a longer time.</div>
                     <div class="box-apostrophes">’’</div>
                 </div>
                 <div class="a25 box">
-                    <div class="box-image bi2"></div>
+                    <!-- <img class="stars" src="/assets//img//estrellas.png" alt=""> -->
+                    <div class="box-image"></div>
                     <div class="box-title">
-                        <span>Norma</span> <br>
-                        Las Canteras
+                        <span>Sara</span> <br>
+                        Sweden
                     </div>
-                    <div class="box-copy">This apartment is fabulous and in an excellent location. We loved lying in bed, overlooking the ocean and hearing the whoosh of the waves.</div>
+                    <div class="box-copy">Me and my son had an amazing stay. Beautiful view, comfortable beds, duvets and pillows. Modern feel. Cannot wait for next time.</div>
                     <div class="box-apostrophes">’’</div>
                 </div>
                 <div class="a26 box">
-                    <div class="box-image bi3"></div>
+                    <!-- <img class="stars" src="/assets//img//estrellas.png" alt=""> -->
+                    <div class="box-image"></div>
                     <div class="box-title">
-                        <span>Matt</span> <br>
-                        La Graciosa
+                        <span>Maria Grazia</span> <br>
+                        Spain
                     </div>
-                    <div class="box-copy">A secret haven exactly as in the photos. This home is a true escape. We spent every day chilling in our own practically private beach.</div>
+                    <div class="box-copy">Elegant, modern, comfortable and pleasant apartment. Fantastic terrace and central location. Friendly and helpful manager. Super!</div>
                     <div class="box-apostrophes">’’</div>
                 </div>
             </div>

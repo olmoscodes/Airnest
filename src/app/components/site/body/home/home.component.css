@@ -1,5 +1,5 @@
 @media (min-width: 600px) {
-    .cookies{
+    .cookies {
         position: fixed;
         bottom: 0;
         left: 0;
@@ -15,9 +15,9 @@
 
     .cookies .text {
         width: 80%;
-        font-size: 1.6vh;
+        font-size: 2vh;
         margin: 4vh 0;
-        line-height: 22px;
+        line-height: 3vh;
     }
 
     .cookies .button {
@@ -25,7 +25,7 @@
         padding: 10px 20px;
         color: black;
         border: 2px solid black;
-        font-size: 1.6vh;
+        font-size: 2vh;
     }
 
     .cookies .button:hover {
@@ -47,6 +47,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .pop-up {
         padding: 50px 100px;
         background-color: white;
@@ -56,6 +57,7 @@
         flex-direction: column;
         position: relative;
     }
+
     .p-cross {
         height: 20px;
         width: 20px;
@@ -63,9 +65,11 @@
         top: 15px;
         right: 15px;
     }
+
     .p-cross:hover {
         cursor: pointer;
     }
+
     .p-cross .line {
         height: 1px;
         width: 100%;
@@ -74,12 +78,15 @@
         top: 50%;
         left: 50%;
     }
+
     .p-cross .l1 {
         transform: translate(-50%, -50%) rotate(45deg);
     }
+
     .p-cross .l2 {
         transform: translate(-50%, -50%) rotate(-45deg);
     }
+
     .p-title {
         display: flex;
         text-align: center;
@@ -87,6 +94,7 @@
         font-size: 30px;
         font-weight: normal;
     }
+
     .p-subtitle {
         display: flex;
         text-align: center;
@@ -96,6 +104,7 @@
         font-style: italic;
         margin-top: 15px;
     }
+
     .p-newsletter {
         display: flex;
         border: 1px solid lightgray;
@@ -104,10 +113,56 @@
         width: 120%;
         margin-top: 30px;
     }
+
+    .module2-new .bottom-new {
+        display: flex;
+        justify-content: space-around;
+        height: 52vh;
+        margin-top: 6vh;
+    }
+
+    .module2-new .bottom-new .box {
+        width: 30%;
+    }
+
+    .module2-new .photo {
+        height: 23vh;
+        width: 36vh;
+    }
 }
 
 @media (max-width: 600px) {
-    .cookies{
+
+    .module2 .top {
+        position: static;
+        width: 100vw;
+        display: flex;
+        margin-bottom: 3vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .module2 .top img {
+        position: inherit;
+        width: 12vh;
+        height: 12vh;
+        left: 5vh;
+        top: 4vh;
+    }
+
+    .module2 .top .title {
+        font-size: 4vh;
+        width: 52%;
+        margin-left: 20px;
+        line-height: 5.4vh;
+        align-items: center;
+    }
+
+    .module2-new {
+        height: auto !important;
+    }
+
+    .cookies {
         position: fixed;
         bottom: 0;
         left: 0;
@@ -147,6 +202,7 @@
         border: 2px solid black;
         cursor: pointer;
     }
+
     .pop-up-background {
         position: fixed;
         top: 0;
@@ -159,6 +215,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .pop-up {
         background-color: white;
         display: flex;
@@ -170,6 +227,7 @@
         max-width: 90vw;
         padding: 0;
     }
+
     .p-cross {
         height: 20px;
         width: 20px;
@@ -177,9 +235,11 @@
         top: 15px;
         right: 15px;
     }
+
     .p-cross:hover {
         cursor: pointer;
     }
+
     .p-cross .line {
         height: 1px;
         width: 100%;
@@ -188,12 +248,15 @@
         top: 50%;
         left: 50%;
     }
+
     .p-cross .l1 {
         transform: translate(-50%, -50%) rotate(45deg);
     }
+
     .p-cross .l2 {
         transform: translate(-50%, -50%) rotate(-45deg);
     }
+
     .p-title {
         display: flex;
         text-align: center;
@@ -203,6 +266,7 @@
         margin-top: 24px;
         width: 80%;
     }
+
     .p-subtitle {
         display: flex;
         text-align: center;
@@ -213,6 +277,7 @@
         margin-top: 15px;
         width: 80%;
     }
+
     .p-newsletter {
         display: flex;
         border: 1 px solid lightgray;
@@ -222,4 +287,132 @@
         margin-top: 30px;
         margin-bottom: 34px;
     }
+
+    .module2-new .bottom-new {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto !important;
+        margin-top: 6vh;
+    }
+
+    .module2-new .bottom-new .box {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .module2-new .photo {
+        height: 23vh;
+        width: 36vh;
+    }
+}
+
+.module2-new .p1 {
+    background-image: url("/assets/img/new-bloque1.jpeg");
+    background-size: cover;
+}
+
+.module2-new .p2 {
+    background-image: url("/assets/img/new-bloque2.jpg");
+    background-size: cover;
+}
+
+.module2-new .p3 {
+    background-image: url("/assets/img/new-bloque3.jpeg");
+    background-size: cover;
+}
+
+.module2-new .text-1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vh;
+    line-height: 3vh;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+.module2-new .text-2 {
+    text-align: center;
+    font-size: 2vh;
+    line-height: 3vh;
+    font-style: italic;
+    text-align: center;
+}
+
+.module2-new .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper {
+    position: relative;
+    width: 250%;
+    height: 393px;
+    bottom: -27%;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        left: 90%;
+    }
+}
+
+@media (min-width: 600px) {
+    .wrapper {
+        left: 100%;
+    }
+}
+
+.wrapper .boxC {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    padding: 25px;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0 15px 0 0;
+}
+
+.boxC img {
+    width: 400px;
+    height: 300px;
+}
+
+.textBox {
+    width: 500px !important;
+    text-align: right;
+}
+
+.place-photo {
+    width: 400px;
+    height: 300px;
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+
+.a24 .box-image {
+    background-image: url("/assets/img/NITA.png");
+    background-position: center;
+    background-size: 109%;
+
+}
+
+.a25 .box-image {
+    background-image: url("/assets/img/SARA.png");
+    background-position: center;
+    background-size: 109%;
+
+}
+
+.a26 .box-image {
+    background-image: url("/assets/img/MARIA.png");
+    background-position: center;
+    background-size: 109%;
+
 }

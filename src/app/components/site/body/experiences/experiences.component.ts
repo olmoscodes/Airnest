@@ -179,6 +179,97 @@ export class ExperiencesComponent implements OnInit {
   
       // experiences3.fromTo(".c3", {x: "100vw"}, {x: "-480vw"})
     }
+
+
+
+    gsap.set('.w1',{xPercent:-50,yPercent:-50})
+
+
+    var boxWidth = 400 + 8 * 5,
+        totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
+        time = 30,
+        no01 = document.querySelectorAll("#no01 .boxC"),
+        dirFromLeft = "+=" + totalWidth,
+        dirFromRight = "-=" + totalWidth;
+
+    var mod = gsap.utils.wrap(0, totalWidth);
+
+    gsap.set(no01, {
+      x:function(i) {
+        return i * boxWidth;
+      }
+    });
+
+    var action = gsap.timeline()
+    .to(no01,  {
+      x: dirFromRight,
+      modifiers: {
+        x: x => mod(parseFloat(x)) + "px"
+      },
+      duration:time, ease:'none',
+      repeat:-1,
+    });
+
+
+    gsap.set('.w2',{xPercent:-50,yPercent:-50})
+
+
+    var boxWidth = 400 + 8 * 5,
+        totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
+        time = 30,
+        no01 = document.querySelectorAll("#no02 .boxC"),
+        dirFromLeft = "+=" + totalWidth,
+        dirFromRight = "-=" + totalWidth;
+
+    var mod = gsap.utils.wrap(0, totalWidth);
+
+    gsap.set(no01, {
+      x:function(i) {
+        return i * boxWidth;
+      }
+    });
+
+    var action = gsap.timeline()
+    .to(no01,  {
+      x: dirFromRight,
+      modifiers: {
+        x: x => mod(parseFloat(x)) + "px"
+      },
+      duration:time, ease:'none',
+      repeat:-1,
+    });
+
+
+    gsap.set('.w3',{xPercent:-50,yPercent:-50})
+
+
+    var boxWidth3 = 400 + 6 * 5,
+        totalWidth3 = boxWidth3 * 6,  // * n of boxes + diff textBox + (n of boxes * margin right)
+        time3 = 20,
+        no03 = document.querySelectorAll("#no03 .boxC"),
+        dirFromLeft = "+=" + totalWidth3,
+        dirFromRight3 = "-=" + totalWidth3;
+
+    var mod3 = gsap.utils.wrap(0, totalWidth3);
+
+    gsap.set(no03, {
+      x:function(i) {
+        return i * boxWidth3;
+      }
+    });
+
+    var action = gsap.timeline()
+    .to(no03,  {
+      x: dirFromRight3,
+      modifiers: {
+        x: x => mod3(parseFloat(x)) + "px"
+      },
+      duration:time3, ease:'none',
+      repeat:-1,
+    });
+
+
+
   }
 
 }

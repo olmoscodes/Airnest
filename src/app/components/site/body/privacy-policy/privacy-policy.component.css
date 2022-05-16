@@ -11,12 +11,13 @@
 
 .legal-header .last {
     font-weight: 16px;
+    font-size: 2vh;
     margin-top: 10px;
     width: 80%;
 }
 
 .legal-header .title {
-    font-size: 30px;
+    font-size: 3vh;
     width: 80%;
 }
 
@@ -30,10 +31,11 @@
 .text {
     padding: 100px 0;
     width: 80%;
+    font-size: 2vh;
 }
 
 .subtitle {
     margin-top: 30px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2.3vh;
 }
