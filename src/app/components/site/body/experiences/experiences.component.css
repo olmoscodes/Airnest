@@ -63,8 +63,8 @@
 
 .line {
     width: 100vw;
-    height: 4px;
+    height: 13px;
     background-color: #F4F4F4;
     position: absolute;
-    bottom: -1px;
+    bottom: -2px;
 }
