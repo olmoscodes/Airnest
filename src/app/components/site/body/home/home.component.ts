@@ -328,6 +328,18 @@ export class HomeComponent implements OnInit {
     });
 
     a26.fromTo('.a26', { opacity: 0 }, { opacity: 1 });
+
+    const a27 = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.a27',
+        start: 'top 100%',
+        end: 'top 50%',
+        scrub: true,
+        markers: false
+      },
+    });
+
+    a27.fromTo('.a27', { opacity: 0 }, { opacity: 1 });
     
     const widgetStart = gsap.timeline()
     
@@ -364,53 +376,51 @@ export class HomeComponent implements OnInit {
     }
 
     if (window.matchMedia('(min-width: 400px)').matches) {
-      /*const home1 = gsap.timeline({
-        scrollTrigger: {
-          trigger: '.hm1',
-          start: 'top 0%',
-          end: '+=1300',
-          pin: true,
-          scrub: 1,
-          markers: false,
-        },
-      });
+      gsap.set('.wrapper',{xPercent:-50,yPercent:-50})
 
-      home1.fromTo('.hc1', { x: '100vw', pointerEvents: 'auto' }, { x: '-100vw', pointerEvents: 'auto' });*/
+      var boxWidth = 400 + 8 * 5,
+          totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
+          time = 60,
+          no01 = document.querySelectorAll("#no01 .boxC"),
+          dirFromLeft = "+=" + totalWidth,
+          dirFromRight = "-=" + totalWidth;
+  
+      var mod = gsap.utils.wrap(0, totalWidth);
+  
+      gsap.set(no01, {
+        x:function(i) {
+          return i * boxWidth;
+        }
+      });
+  
+      var action = gsap.timeline()
+      .to(no01,  {
+        x: dirFromRight,
+        modifiers: {
+          x: x => mod(parseFloat(x)) + "px"
+        },
+        duration:time, ease:'none',
+        repeat:-1,
+      });
+  
+      Array.from(document.getElementsByClassName('boxC')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action.pause()
+        }, false)
+      });
+  
+      Array.from(document.getElementsByClassName('play')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action.play()
+        }, false)
+      });
+  
+    }
+  
     } 
 
 
 
-    gsap.set('.wrapper',{xPercent:-50,yPercent:-50})
-
-
-    var boxWidth = 400 + 8 * 5,
-        totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
-        time = 30,
-        no01 = document.querySelectorAll("#no01 .boxC"),
-        dirFromLeft = "+=" + totalWidth,
-        dirFromRight = "-=" + totalWidth;
-
-    var mod = gsap.utils.wrap(0, totalWidth);
-
-    gsap.set(no01, {
-      x:function(i) {
-        return i * boxWidth;
-      }
-    });
-
-    var action = gsap.timeline()
-    .to(no01,  {
-      x: dirFromRight,
-      modifiers: {
-        x: x => mod(parseFloat(x)) + "px"
-      },
-      duration:time, ease:'none',
-      repeat:-1,
-    });
-
-
-
-  }
 
   
 }

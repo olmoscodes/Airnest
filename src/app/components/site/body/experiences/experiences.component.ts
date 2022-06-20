@@ -99,177 +99,132 @@ export class ExperiencesComponent implements OnInit {
   
     if (window.matchMedia("(min-width: 400px)").matches) {
   
-      /*const experiences1 = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".m1",
-          start: "top 0%",
-          end: "+=1400",
-          pin: true,
-          scrub: 1,
-          markers: false
+      gsap.set('.w1',{xPercent:-50,yPercent:-50})
+
+
+      var boxWidth = 400 + 8 * 5,
+          totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
+          time = 60,
+          no01 = document.querySelectorAll("#no01 .boxC"),
+          dirFromLeft = "+=" + totalWidth,
+          dirFromRight = "-=" + totalWidth;
+  
+      var mod = gsap.utils.wrap(0, totalWidth);
+  
+      gsap.set(no01, {
+        x:function(i) {
+          return i * boxWidth;
         }
       });
   
-      experiences1.fromTo(".c1", {x: "100vw"}, {x: "-100vw"})
+      var action1 = gsap.timeline()
+      .to(no01,  {
+        x: dirFromRight,
+        modifiers: {
+          x: x => mod(parseFloat(x)) + "px"
+        },
+        duration:time, ease:'none',
+        repeat:-1,
+      });
   
-      const experiences2 = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".m2",
-          start: "top 0%",
-          end: "+=1800",
-          pin: true,
-          scrub: 1,
-          markers: false
+      Array.from(document.getElementsByClassName('exp-1')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action1.pause()
+          console.log('pause')
+        }, false)
+      });
+  
+      Array.from(document.getElementsByClassName('explay1')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action1.play()
+        }, false)
+      });
+  
+  
+      gsap.set('.w2',{xPercent:-50,yPercent:-50})
+  
+  
+      var boxWidth = 400 + 8 * 5,
+          totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
+          time = 60,
+          no01 = document.querySelectorAll("#no02 .boxC"),
+          dirFromLeft = "+=" + totalWidth,
+          dirFromRight = "-=" + totalWidth;
+  
+      var mod = gsap.utils.wrap(0, totalWidth);
+  
+      gsap.set(no01, {
+        x:function(i) {
+          return i * boxWidth;
         }
       });
   
-      experiences2.fromTo(".c2", {x: "100vw"}, {x: "-100vw"})
-      
-      const experiences3 = gsap.timeline({
-        scrollTrigger: {
-          trigger: ".m3",
-          start: "top 0%",
-          end: "+=2000",
-          pin: true,
-          scrub: 1,
-          markers: false
+      var action2 = gsap.timeline()
+      .to(no01,  {
+        x: dirFromRight,
+        modifiers: {
+          x: x => mod(parseFloat(x)) + "px"
+        },
+        duration:time, ease:'none',
+        repeat:-1,
+      });
+  
+      Array.from(document.getElementsByClassName('exp-2')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action2.pause()
+          console.log('pause')
+        }, false)
+      });
+  
+      Array.from(document.getElementsByClassName('explay2')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action2.play()
+        }, false)
+      });
+  
+  
+      gsap.set('.w3',{xPercent:-50,yPercent:-50})
+  
+  
+      var boxWidth3 = 400 + 6 * 5,
+          totalWidth3 = boxWidth3 * 6,  // * n of boxes + diff textBox + (n of boxes * margin right)
+          time3 = 40,
+          no03 = document.querySelectorAll("#no03 .boxC"),
+          dirFromLeft = "+=" + totalWidth3,
+          dirFromRight3 = "-=" + totalWidth3;
+  
+      var mod3 = gsap.utils.wrap(0, totalWidth3);
+  
+      gsap.set(no03, {
+        x:function(i) {
+          return i * boxWidth3;
         }
       });
   
-      experiences3.fromTo(".c3", {x: "100vw"}, {x: "-100vw"})*/
+      var action3 = gsap.timeline()
+      .to(no03,  {
+        x: dirFromRight3,
+        modifiers: {
+          x: x => mod3(parseFloat(x)) + "px"
+        },
+        duration:time3, ease:'none',
+        repeat:-1,
+      });
   
-    }  else {
+      Array.from(document.getElementsByClassName('exp-3')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action3.pause()
+          console.log('pause')
+        }, false)
+      });
   
-      // const experiences1 = gsap.timeline({
-      //   scrollTrigger: {
-      //     trigger: ".m1",
-      //     start: "top 5px",
-      //     end: "+=1700",
-      //     pin: true,
-      //     scrub: 1,
-      //     markers: false
-      //   }
-      // });
-  
-      // experiences1.fromTo(".c1", {x: "100vw"}, {x: "-680vw"})
-  
-      // const experiences2 = gsap.timeline({
-      //   scrollTrigger: {
-      //     trigger: ".m2",
-      //     start: "top 5px",
-      //     end: "+=1700",
-      //     pin: true,
-      //     scrub: 1,
-      //     markers: false
-      //   }
-      // });
-  
-      // experiences2.fromTo(".c2", {x: "100vw"}, {x: "-680vw"})
-      
-      // const experiences3 = gsap.timeline({
-      //   scrollTrigger: {
-      //     trigger: ".m3",
-      //     start: "top 5px",
-      //     end: "+=1700",
-      //     pin: true,
-      //     scrub: 1,
-      //     markers: false
-      //   }
-      // });
-  
-      // experiences3.fromTo(".c3", {x: "100vw"}, {x: "-480vw"})
-    }
-
-
-
-    gsap.set('.w1',{xPercent:-50,yPercent:-50})
-
-
-    var boxWidth = 400 + 8 * 5,
-        totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
-        time = 30,
-        no01 = document.querySelectorAll("#no01 .boxC"),
-        dirFromLeft = "+=" + totalWidth,
-        dirFromRight = "-=" + totalWidth;
-
-    var mod = gsap.utils.wrap(0, totalWidth);
-
-    gsap.set(no01, {
-      x:function(i) {
-        return i * boxWidth;
-      }
-    });
-
-    var action = gsap.timeline()
-    .to(no01,  {
-      x: dirFromRight,
-      modifiers: {
-        x: x => mod(parseFloat(x)) + "px"
-      },
-      duration:time, ease:'none',
-      repeat:-1,
-    });
-
-
-    gsap.set('.w2',{xPercent:-50,yPercent:-50})
-
-
-    var boxWidth = 400 + 8 * 5,
-        totalWidth = boxWidth * 8,  // * n of boxes + diff textBox + (n of boxes * margin right)
-        time = 30,
-        no01 = document.querySelectorAll("#no02 .boxC"),
-        dirFromLeft = "+=" + totalWidth,
-        dirFromRight = "-=" + totalWidth;
-
-    var mod = gsap.utils.wrap(0, totalWidth);
-
-    gsap.set(no01, {
-      x:function(i) {
-        return i * boxWidth;
-      }
-    });
-
-    var action = gsap.timeline()
-    .to(no01,  {
-      x: dirFromRight,
-      modifiers: {
-        x: x => mod(parseFloat(x)) + "px"
-      },
-      duration:time, ease:'none',
-      repeat:-1,
-    });
-
-
-    gsap.set('.w3',{xPercent:-50,yPercent:-50})
-
-
-    var boxWidth3 = 400 + 6 * 5,
-        totalWidth3 = boxWidth3 * 6,  // * n of boxes + diff textBox + (n of boxes * margin right)
-        time3 = 20,
-        no03 = document.querySelectorAll("#no03 .boxC"),
-        dirFromLeft = "+=" + totalWidth3,
-        dirFromRight3 = "-=" + totalWidth3;
-
-    var mod3 = gsap.utils.wrap(0, totalWidth3);
-
-    gsap.set(no03, {
-      x:function(i) {
-        return i * boxWidth3;
-      }
-    });
-
-    var action = gsap.timeline()
-    .to(no03,  {
-      x: dirFromRight3,
-      modifiers: {
-        x: x => mod3(parseFloat(x)) + "px"
-      },
-      duration:time3, ease:'none',
-      repeat:-1,
-    });
-
-
-
+      Array.from(document.getElementsByClassName('explay3')).forEach(element => {
+        element.addEventListener('mouseenter', function() {
+          action3.play()
+        }, false)
+      });
+    
+    }  
   }
 
 }

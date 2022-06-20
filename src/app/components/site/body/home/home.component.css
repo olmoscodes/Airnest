@@ -1,4 +1,11 @@
 @media (min-width: 600px) {
+
+    #carrousel {
+        position: absolute !important;
+        pointer-events: none !important; 
+        opacity: 0 !important;
+    }
+
     .cookies {
         position: fixed;
         bottom: 0;
@@ -132,6 +139,12 @@
 }
 
 @media (max-width: 600px) {
+
+    #no01 {
+        position: absolute !important;
+        pointer-events: none !important; 
+        opacity: 0 !important;
+    }
 
     .module2 .top {
         position: static;

@@ -10,6 +10,12 @@
         left: 90%;
         bottom: -26%;
     }
+
+    #no01, #no02, #no03 {
+        position: absolute !important;
+        pointer-events: none !important; 
+        opacity: 0 !important;
+    }
 }
 
 @media (min-width: 600px) {
@@ -20,6 +26,12 @@
     .w3 {
         left: 125%;
 
+    }
+
+    .carrousel {
+        position: absolute !important;
+        pointer-events: none !important; 
+        opacity: 0 !important;
     }
 }
 
