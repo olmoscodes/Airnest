@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TermsAndConditionsComponent } from './terms-and-conditions.component';
+import { CookiesPolicyComponent } from './cookies-policy.component';
 
-describe('TermsAndConditionsComponent', () => {
-  let component: TermsAndConditionsComponent;
-  let fixture: ComponentFixture<TermsAndConditionsComponent>;
+describe('CookiesPolicyComponent', () => {
+  let component: CookiesPolicyComponent;
+  let fixture: ComponentFixture<CookiesPolicyComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TermsAndConditionsComponent ]
+      declarations: [ CookiesPolicyComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TermsAndConditionsComponent);
+    fixture = TestBed.createComponent(CookiesPolicyComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-terms-and-conditions',
-  templateUrl: './terms-and-conditions.component.html',
-  styleUrls: ['./terms-and-conditions.component.css']
+  selector: 'app-cookies-policy',
+  templateUrl: './cookies-policy.component.html',
+  styleUrls: ['./cookies-policy.component.css']
 })
-export class TermsAndConditionsComponent implements OnInit {
+export class CookiesPolicyComponent implements OnInit {
 
   constructor() { }
 

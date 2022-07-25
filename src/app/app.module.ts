@@ -25,7 +25,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { environment } from 'src/environments/environment';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
-import { TermsAndConditionsComponent } from './components/site/body/terms-and-conditions/terms-and-conditions.component';
+import { CookiesPolicyComponent } from './components/site/body/cookies-policy/cookies-policy.component';
 import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
 import { BlogComponent } from './components/site/body/blog/blog.component';
 import { ArticleComponent } from './components/site/body/blog/article/article.component';
@@ -51,7 +51,7 @@ import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
     SiteComponent,
     BodyComponent,
     LoginComponent,
-    TermsAndConditionsComponent,
+    CookiesPolicyComponent,
     PrivacyPolicyComponent,
     BlogComponent,
     ArticleComponent,

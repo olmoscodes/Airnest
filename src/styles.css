@@ -9,10 +9,18 @@ app-blog {
 
 }
 
-app-terms-and-conditions {
+app-cookies-policy {
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display' !important;
+}
+
+app-cookies-policy .text {
+    line-height: 35px;
+}
+
+app-cookies-policy a {
+    text-decoration: underline;
 }
 
 app-privacy-policy {
@@ -23,6 +31,15 @@ app-privacy-policy {
 
 a {
     color: inherit;
+}
+
+ol > li::marker {
+    font-size: 31px;
+    font-weight: normal;
+}
+
+ol > li {
+    margin-bottom: 10px;
 }
 
 /* .home1 .pin-spacer {
