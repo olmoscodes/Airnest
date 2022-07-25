@@ -2872,7 +2872,7 @@ body {
         background-color: black;
         left: 0px;
         display: flex;
-        opacity: 0.1;
+        opacity: 0;
         pointer-events: none;
     }
 }
