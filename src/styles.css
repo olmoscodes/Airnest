@@ -15,15 +15,15 @@ app-cookies-policy {
     font-family: 'Playfair Display' !important;
 }
 
-app-cookies-policy .text {
+app-cookies-policy .text, app-legal-notice .text {
     line-height: 35px;
 }
 
-app-cookies-policy a {
+app-cookies-policy a, app-legal-notice a {
     text-decoration: underline;
 }
 
-app-privacy-policy {
+app-legal-notice {
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display' !important;

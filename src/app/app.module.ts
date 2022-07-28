@@ -26,7 +26,7 @@ import { environment } from 'src/environments/environment';
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/login/login.component';
 import { CookiesPolicyComponent } from './components/site/body/cookies-policy/cookies-policy.component';
-import { PrivacyPolicyComponent } from './components/site/body/privacy-policy/privacy-policy.component';
+import { LegalNoticeComponent } from './components/site/body/legal-notice/legal-notice.component';
 import { BlogComponent } from './components/site/body/blog/blog.component';
 import { ArticleComponent } from './components/site/body/blog/article/article.component';
 import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
@@ -52,7 +52,7 @@ import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
     BodyComponent,
     LoginComponent,
     CookiesPolicyComponent,
-    PrivacyPolicyComponent,
+    LegalNoticeComponent,
     BlogComponent,
     ArticleComponent,
   ],
